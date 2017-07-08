@@ -1,0 +1,2503 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>网上超市一号店</title>
+		<link href="//g.alicdn.com/mui/global/1.2.35/file/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/commes.css"/>
+		<link rel="stylesheet" type="text/css" href="css/HomePage.css"/>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/removeCookes.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/HomePage.js"></script>
+		<script type="text/javascript" src="js/publicJs.js"></script>
+	</head>
+	<body>
+		<!-----------------top---------------------->
+		<div class="top">
+			<div class="topinner">
+				<p class="top_left f12 fl"><span id="top_left_enter_state">Hi,请<a href="html/enter.html">登录</a>/<a href="html/register.html">注册</a></span><a href="#" id="city"><b>北京<span id="city_icon"></span></b><span id="icon_car"></span></a></p>
+				<ul class="top_right fr f12">
+					<li id="top_right_myshop">
+						<a href="#">我的1号店</a><span></span>
+						<div id="top_right_myshop_list">
+							<a href="#">我的订单</a>
+							<a href="#">我的积分</a>
+							<a href="#">我的红包</a>
+							<a href="#">我的抵用券</a>
+							<a href="#">我的评论</a>
+							<a href="#">会员专享</a>
+						</div>
+					</li>
+					<li id="top_right_collect">
+						<a href="#">收藏夹</a><span></span>
+						<div id="top_right_collect_list">
+							<a href="#">商品收藏</a>
+							<a href="#">店铺收藏</a>
+						</div>
+					</li>
+					<li id="top_right_phone">
+						<b></b><a href="#">掌上1号店</a><span></span>
+						<div id="top_right_phone_content">
+							<dl>
+								<dt class="fl"><img src="img/HomePage/icon/ChEbu1dyRciANS1GAAAmHg10Abs90200.jpg"/></dt>
+							<dd>
+								<h4>掌上1号店</h4>
+								<a href="#">手机购物更优惠</a>
+							</dd>	
+							</dl>
+						</div>
+					</li>
+					<li id="top_right_business">
+						<a href="#">企业采购</a><span></span>
+					    <div id="top_right_business_list">
+					    	<a href="#">礼品卡</a>
+					    	<a href="#">分销平台</a>
+					    </div>
+					</li>
+					<li id="top_right_client">
+						<a href="#">客户服务</a><span></span>
+						<div id="top_right_client_list">
+					    	<a href="#">包裹跟踪</a>
+					    	<a href="#">常见问题</a>
+					    	<a href="#">在线退换货</a>
+					    	<a href="#">配送范围</a>
+					   </div>
+					</li>
+					<li id="top_right_nav">
+						<a href="#">网站导航</a><span></span>
+						<div id="top_right_nav_list">
+							<p><a href="#">1号商城</a></p>
+							<p><a href="#">1号社区</a><a href="#">0元试用</a><a href="#">平安金卡</a><a href="#">分销平台</a></p>
+							<p><a href="#">网站联盟</a><a href="#">招商通道</a><a href="#">企业采购</a></p>
+						</div>
+					</li>
+					<li id="top_right_our">关注我们:<span class="top_right_our_sina"></span><span class="top_right_our_wx"></span></li>
+				</ul>
+			
+			<div id="city_list">
+				<dl class="city_list_hotcity">
+					<dt>热门城市</dt>
+					<dd>上海</dd>
+					<dd>北京</dd>
+					<dd>广东</dd>
+					<dd>湖北</dd>
+					<dd>四川</dd>
+				</dl>
+				<dl>
+					<dt>华北：</dt>
+					<dd>北京</dd>
+					<dd>河北</dd>
+					<dd>天津</dd>
+					<dd>山西</dd>
+					<dd>内蒙古</dd>
+				</dl>
+				<dl>
+					<dt>华东：</dt>
+					<dd>上海</dd>
+					<dd>江苏</dd>
+					<dd>浙江</dd>
+					<dd>安徽</dd>
+					<dd>福建</dd>
+					<dd>山东</dd>
+				</dl>
+				<dl>
+					<dt>华南：</dt>
+					<dd>广东</dd>
+					<dd>广西</dd>
+					<dd>海南</dd>
+				</dl>
+				<dl>
+					<dt>华中：</dt>
+					<dd>江西</dd>
+					<dd>河南</dd>
+					<dd>湖北</dd>
+					<dd>湖南</dd>
+				</dl>
+				<dl>
+					<dt>西南：</dt>
+					<dd>重庆</dd>
+					<dd>四川</dd>
+					<dd>贵州</dd>
+					<dd>云南</dd>
+					<dd>西藏</dd>
+				</dl>
+				<dl>
+					<dt>西北：</dt>
+					<dd>陕西</dd>
+					<dd>甘肃</dd>
+					<dd>青海</dd>
+					<dd>宁夏</dd>
+					<dd>新疆</dd>
+				</dl>
+				<dl>
+					<dt>东北：</dt>
+					<dd>辽宁</dd>
+					<dd>吉林</dd>
+					<dd>黑龙江</dd>
+				</dl>
+				</div>
+			</div>
+		</div>
+		<!-----------------header---------------------->
+		<div class="header" >
+			<div class="header_inner" >
+				<a href="#" class="header_inner_act"><img src="img/HomePage/ChEwolhI9CyAIULFAACkJXbi5eE46100.jpg"/ class="fl"></a>
+				<a href="HomePage.html"><img src="img/icon.jpg" class="fl"/></a>
+				<div id="search"><span id="search_span">商品</span><input type="text" id="search_txt" placeholder="请输入你想搜索的商品"/><input type="button" value="搜索" id="search_btn"/>
+				   <div id="search_prompt">
+				   	  <div id="search_prompt_history">
+				   	  	<h4>历史记录<span id="search_delete_history">删除历史记录</span></h4>
+				   	  	<ul id="search_prompt_history_list">
+				   	  	</ul>
+				   	  </div>
+				   	  <div id="search_prompt_hot">
+				   	  	 <h4>正在热搜中...</h4>
+				   	  	 <p><a href="#">海购</a><a href="#">牛奶</a><a href="#">购物卡</a></p>
+				   	  	 <p><a href="#">羽绒服</a><a href="#">大米</a></p>
+				   	  	 <p><a href="#">iphone</a><a href="#">牙膏</a><a href="#">华为</a></p>
+				   	  	 <p><a href="#">三只松鼠</a><a href="#">洗衣液</a></p>
+				   	  	 <p><a href="#">卫生巾</a><a href="#">纸巾</a></p>
+				   	  </div>
+				   </div>
+				
+				</div>
+			    <p class="f12" id="search_p">
+			    	<a href="#">"价"比黑五低</a>
+			    	<a href="#">洗洁精</a>
+			    	<a href="#">毛衣</a>
+			    	<a href="#">米</a>
+			    	<a href="#">mate9</a>
+			    	<a href="#">黄油</a>
+			    	<a href="#">保鲜袋</a>
+			    	<a href="#">海飞丝</a>
+			    	<a href="#">外套</a>
+			    	<a href="#">巧克力</a>
+			    	<a href="#">坚果</a>
+			    </p>
+			   <div id="shopcar">
+			   	<b></b><span><a href="html/buyCar.html">购物车</a></span>
+			   	<div id="shopcar_content">
+			   		<span></span>
+			   		<p>你的购物车里还没有1号店的商品哦~~</p>
+			   	</div>
+			   </div>
+			</div>
+		</div>
+		<!-----------------nav---------------------->
+		<div class="nav">
+			<div id="nav_inner" class="f12">
+				<ul id="nav_inner_ul">
+					<li id="all_goods"><a href="#" class="colorw"/>所有商品分类</a></li>
+					<li><a href="#">首页</a></li> 
+					<li><a href="#">自营超市</a></li>
+					<li><a href="#">1号团</a></li>	
+				    <li><a href="#">1号商城</a></li>
+				    <li><a href="html/fastbuy.html">闪购</a></li>
+				    <li><a href="#">活色生鲜</a></li>
+				    <li><a href="#">医药</a></li>
+					<li><a href="html/choujiang.html">抽奖</a></li>	
+				    <li><a href="html/dianqicheng.html">电器城</a></li>	
+				    <span class="fr"><a href="#"><img src="img/HomePage/icon/ChEiBVfGVIWANNwDAAAGY1qSOSA28600.png"/></a></span>
+				</ul>
+				
+			</div>
+		</div>
+		<!-----------------banner---------------------->
+<div class="banner" style="background: #f94d67;">
+	<div class="banner_inner">
+		<div id="all_goodslist">
+			<ul id="all_goodslist_ul">
+                <li><a href="#">进口食品、</a><a href="#">生鲜、</a><a href="#">海购</a></li>
+				<li><a href="#">食品、</a><a href="#">饮料、</a><a href="#">酒</a></li>
+				<li><a href="#">母婴、</a><a href="#">玩具、</a><a href="#">童装</a></li>
+				<li><a href="#">厨卫清洁、</a><a href="#">纸、</a><a href="#">清洁剂</a></li>
+				<li><a href="#">家居、</a><a href="#">家装、</a><a href="#">宠物</a></li>
+				<li><a href="#">美妆、</a><a href="#">个人护理、</a><a href="#">洗护</a></li>
+				<li><a href="#">女装内衣、</a><a href="#">男装、</a><a href="#">珠宝</a></li>
+				<li><a href="#">鞋靴、</a><a href="#">箱包、</a><a href="#">运动户外</a></li>
+				<li><a href="#">手机、</a><a href="#">数码、</a><a href="#">电脑办公</a></li>
+				<li><a href="#">大家电、</a><a href="#">小家电、</a><a href="#">汽车</a></li>
+				<li><a href="#">保健滋补、</a><a href="#">医药、</a><a href="#">成人</a></li>
+				<li><a href="#">礼品卡、</a><a href="#">旅游、</a><a href="#">图书</a></li>
+			</ul>
+		</div>
+		<div id="banner_lunbo">	
+				<a href="#"><img src="img/HomePage/lunbo/ChEi11hGbxKALiwBAAHIun_DxPE87700.jpg" style="display: block; "/></a>
+				<a href="#"><img src="img/HomePage/lunbo/ChEi11hH3USAQGWhAAIdwNY-kus40800.jpg" style="display: none;"/></a>
+				<a href="#"><img src="img/HomePage/lunbo/ChEi1lhJaEeAUthoAAF9MicRagg86400.jpg" style="display: none;"/></a>
+				<a href="#"><img src="img/HomePage/lunbo/ChEi1Vg85bGACarzAAHe8VpW8Dw10100.jpg" style="display: none;"/></a>
+				<a href="#"><img src="img/HomePage/lunbo/ChEi2FhHc0uANlQ8AAHn0s2eHYg86700.jpg" style="display: none;"/></a>
+				<a href="#"><img src="img/HomePage/lunbo/ChEi3FhBF9yAR3e2AAGb19I2BWg65100.jpg" style="display: none;"/></a>
+				<a href="#"><img src="img/HomePage/lunbo/ChEwoFhKTW2AD-cDAAIZ1XGhojk29700.jpg" style="display: none;"/></a>
+				<div id="banner_lunbo_btn">
+					<span style="background: red;"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+		</div>
+		<div id="banner_right">
+			<h3>快讯</h3>
+			<ul id="banner_right_news">
+				<li class="first"><a href="#"><span>【优选】</span>雾霾袭城 有我“罩你”</a></li>
+				<li><a href="#"><span>【优选】</span>魅族超级品牌日，最高直降500</a></li>
+				<li><a href="#"><span>【优选】</span>胃，让你感受暖暖的爱</a></li>
+				<li><a href="#"><span>【优选】</span>冬季不美白，夏天徒伤悲</a></li>
+				<li><a href="#"><span>【优选】</span>超火的大海传说，我要人鱼色</a></li>
+				<li><a href="#"><span>【优选】</span>把温暖带回家 取暖电器精选</a></li>
+			</ul>
+			<h4>1号专享</h4>
+			<div id="enjoy_content" class="f12">
+				<dl>
+					<dt><img src="img/HomePage/icon/1.jpg"/></dt>
+					<dd>0元试用</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/HomePage/icon/2.jpg"/></dt>
+					<dd>0元积分兑</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/HomePage/icon/3.jpg"/></dt>
+					<dd>新客专享</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/HomePage/icon/4.jpg"/></dt>
+					<dd>充值中心</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/HomePage/icon/5.jpg"/></dt>
+					<dd>网页游戏</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/HomePage/icon/6.jpg"/></dt>
+					<dd>1号钱包</dd>
+				</dl>
+				<div id="enjoy_content_inner" style="display: none;">
+					<p id="enjoy_content_inner_list" class="fl">
+						<a href="#">充值中心</a><a href="#">网页游戏</a><a href="#">1号钱包</a>
+					</p>
+					<div id="enjoy_content_inner_price" class="fl" style="display: none;">
+						<p id="enjoy_content_inner_price_list">
+							<a href="#">话费充值</a><a href="#">流量充值</a><a href="#">游戏点卡</a><span class="enjoy_content_inner_close">&times;</span>
+						</p>
+						<div id="price_phone" style="display: block;">
+							<p id="price_phone_card"><span>号码：</span><em><input type="text" placeholder="请输入手机号码" id="price_phone_txt"/><b></b></em><span id="price_phone_txt_prompt"></span></p>
+							<p id="price_phone_amount">
+								<span>面值：</span><em><input type="text" value="100" readonly id="price_phone_list"/><b></b></em>
+								<ul id="price_phone_amount_list" style="display: none;">
+									<li>10</li>
+									<li>20</li>
+									<li>30</li>
+									<li>50</li>
+									<li>100</li>
+									<li>200</li>
+									<li>300</li>
+									<li>500</li>
+								</ul>
+							</p>
+							<p id="price_phone_pay"><span>售价：</span><span id="price_phone_cost">￥98-100</span></p>
+							<p id="price_phone_btn"><input type="button" value="立即充值"/></p>
+						</div>
+						<div id="price_flow" style="display: none;">
+							<p id="price_flow_card"><span>号码：</span><em><input type="text" placeholder="请输入手机号码" id="price_flow_txt"/><b></b></em><span id="price_flow_txt_prompt"></span></p>
+							<p id="price_flow_amount"><span>流量：</span><em><input type="text" value="全国" readonly id="price_flow_city"/><b></b></em><i><input type="text" value="30M" readonly id="price_flow_list"/><b></b></i></p>
+							<p id="price_flow_pay"><span>售价：</span><span id="price_phone_cost">￥98-100</span></p>
+							<p id="price_flow_btn"><input type="button" value="立即充值"/></p>
+						</div>
+						<div id="price_gamecard" style="display: none;">
+							<p id="price_gamecard_card"><span>游戏：</span><em><input type="text" value="Q币" id="price_gamecard_txt" readonly/><b></b></em></p>
+							<p id="price_gamecard_amount"><span>面额：</span><em><input type="text" value="100个" readonly id="price_gamecard_list"/><b></b></em></p>
+							<p id="price_gamecard_pay"><span>售价：</span><span id="price_phone_cost">￥98-100</span></p>
+							<p id="price_gamecard_btn"><input type="button" value="立即充值"/></p>
+									
+						</div>
+						</div>
+						<div id="enjoy_content_inner_game" class="fl" >
+							<p><a href="#">游戏频道：精品页游</a><span class="enjoy_content_inner_close">&times;</span></p>
+							<div>
+								<a href="#"><img src="img/HomePage/icon/7.jpg"/></a>
+								<a href="#"><img src="img/HomePage/icon/8.jpg"/></a>
+							</div>
+						</div>
+						<div id="enjoy_content_inner_waller" style="display: none;" class="fl">
+							<p><a href="#">收益日结，收益赚high</a><span class="enjoy_content_inner_close">&times;</span></p>
+							<div>
+								<a href="#"><img src="img/HomePage/icon/9.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		
+	<!-----------------banner图右边的商品列表选项卡---------------------->
+	    	<div id="all_goods_content" style="display: none;">
+	    		<!--------------foods_goodslist----------------->
+		        <div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+					   	<h4>
+					   		<a href="#" class="red">为你优选</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">为你定制</a><a href="#">漂洋过海美食船</a>
+					   		<a href="#">浓情下午茶</a><a href="#">全球蜂蜜大赏</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">进口零食</a>/<a href="#">果干</a>/<a href="#">坚果</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">海苔</a><a href="#">肉干肉铺</a>
+					   		<a href="#" class="red">鱼类海味</a><a href="#">果冻布丁</a>
+					   		<a href="#">薯片</a><a href="#">膨化</a>
+                            <a href="#">坚果</a><a href="#">开心果</a>
+                            <a href="#">什锦坚果</a><a href="#">腰果</a>
+                            <a href="#">蜜饯</a><a href="#">芒果干</a>
+                            <a href="#">蔓越莓干</a><a href="#">榴莲干</a></p>
+                        <h4>
+                        	<a href="#">进口饼干</a>/<a href="#">糕点</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">饼干</a><a href="#">曲奇</a><a href="#">威化</a>
+                        	<a href="#">夹心饼干</a><a href="#">苏打饼干</a>
+                        	<a href="#">传统糕点</a><a href="#">西式糕点</a>
+                        	<a href="#">面包干</a><a href="#">饼干礼盒</a>
+                        </p>
+                        <h4>
+                        	<a href="#">进口糖果</a>/<a href="#">巧克力</a>
+                        </h4>
+                        <p>
+                        	<a href="#">巧克力</a><a href="#">牛奶巧克力</a>
+                        	<a href="#" class="red">黑巧克力</a><a href="#">松露糖</a>
+                        	<a href="#">硬糖</a><a href="#">软糖</a><a href="#">棉花糖</a>
+                        	<a href="#">婚庆装</a><a href="#">礼盒</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">进口牛奶</a>/<a href="#">奶粉</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" class="red">进口牛奶</a><a href="#">整箱牛奶</a>
+					   		<a href="#">全脂</a><a href="#">低脂</a><a href="#">脱脂</a>
+					   		<a href="#">德国牛奶</a><a href="#">香蕉牛奶</a>
+					   		<a href="#">成人奶粉</a><a href="#">酸奶</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">进口酒</a>/<a href="#">饮料</a>/<a href="#">水</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" class="red">葡萄酒</a><a href="#">啤酒</a>
+					   		<a href="#" class="red">洋酒</a><a href="#">起泡酒</a>
+					   		<a href="#">水</a><a href="#">碳酸饮料</a>
+                            <a href="#">果蔬汁</a><a href="#">咖啡</a>
+                            <a href="#">椰子水</a>
+                        <h4>
+                        	<a href="#">进口冲饮</a>/<a href="#">咖啡</a>/<a href="#">茶</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >早餐谷物</a><a href="#">蜂蜜</a><a href="#">柚子茶</a>
+                        	<a href="#">巧克力粉</a><a href="#">养生粉</a>
+                        	<a href="#">花果茶</a><a href="#">红茶</a>
+                        	<a href="#">绿茶</a><a href="#">白咖啡</a>
+                        	<a href="#">速溶</a><a href="#">咖啡豆</a>
+                        	<a href="#">咖啡粉</a><a href="#"class="red">咖啡胶囊</a>
+                        </p>
+                        <h4>
+                        	<a href="#">进口粮油</a>/<a href="#">速食</a>/<a href="#">调味</a>
+                        </h4>
+                        <p>
+                        	<a href="#">食用油</a><a href="#" class="red">橄榄油</a>
+                        	<a href="#" >大米</a><a href="#">意面</a>
+                        	<a href="#">果酱</a><a href="#">拉面</a><a href="#">方便面</a>
+                        	<a href="#">罐头</a><a href="#">调味料</a><a href="#">酱油</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">1号生鲜</a>/<a href="#">水果</a>/<a href="#">蔬菜</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">进口水果</a><a href="#">国产水果</a>
+					   		<a href="#">柑橘类</a><a href="#">根茎类</a><a href="#">猕猴桃</a>
+					   		<a href="#">牛油果</a><a href="#">柚子</a>
+					   		<a href="#" class="red">橙子</a><a href="#" class="red">车厘子</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">海鲜</a>/<a href="#">肉类</a>/<a href="#">禽蛋</a>/<a href="#">熏腊</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >鱼类</a><a href="#" class="red">虾/虾仁</a>
+					   		<a href="#" >鲟鱼</a><a href="#">三文鱼</a>
+					   		<a href="#">海参</a><a href="#">鸡翅</a>
+                            <a href="#">牛肉</a><a href="#">羊肉</a>
+                            <a href="#">猪肉</a><a href="#">培根</a> 
+                            <a href="#" class="red">老母鸡</a><a href="#">鸡蛋</a>
+                        <h4>
+                        	<a href="#">乳品烘焙</a>/<a href="#">火锅食材</a>/<a href="#">熟食</a>/<a href="#">票券</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">专用黄油</a><a href="#">奶酪</a><a href="#">鲜奶</a>
+                        	<a href="#">酸奶</a><a href="#">低温饮品</a>
+                        	<a href="#">蛋糕</a><a href="#">速食甜点</a>
+                        	<a href="#">面点类</a><a href="#">披萨</a>
+                        	<a href="#">半成品</a><a href="#" class="red">年货礼券</a>
+                        	<a href="#">面包甜点</a><a href="#"class="red">烘焙甜品</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">海购</a>
+                        </h4>
+                        <p>
+                        	<a href="#">食品</a><a href="#" class="red">保健滋补</a>
+                        	<a href="#" >母婴</a><a href="#">美容护理</a>
+                       
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------drink_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" class="red">为你优选</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">零食萌萌哒</a><a href="#">跟着明星吃坚果</a>
+					   		<a href="#">辣么好吃</a><a href="#">火锅蘸料任你选</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">饼干</a>/<a href="#">糕点</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" class="red">饼干</a><a href="#">曲奇</a><a href="#">威化</a>
+                        	<a href="#">夹心饼干</a><a href="#">蛋糕</a>
+                        	<a href="#">蛋卷</a><a href="#">肉松饼</a>
+                        	<a href="#">沙琪玛</a><a href="#">传统糕点</a>
+		
+					   	</p>
+                        <h4>
+                        	<a href="#">米</a>/<a href="#">油</a>/<a href="#">杂粮</a>/<a href="#">南北干货</a>
+                        </h4>
+                        <p>
+                        	<a href="#">食用油</a><a href="#" class="red">橄榄油</a>
+                        	<a href="#" >大米</a><a href="#">意面</a>
+                        	<a href="#">果酱</a><a href="#">拉面</a><a href="#">方便面</a>
+                        	<a href="#">罐头</a><a href="#">调味料</a><a href="#">酱油</a>
+                        	<a href="#">枸杞</a><a href="#">香菇</a><a href="#">黑木耳</a>
+                        	<a href="#">桂圆干</a><a href="#">干海产</a>
+                        </p>
+                        <h4>
+                        	<a href="#">方便速食</a>/<a href="#">罐头食品</a>
+                        </h4>
+                        <p>
+                        	<a href="#">方便面</a><a href="#">火腿肠</a>
+                        	<a href="#" class="red">八宝饭</a><a href="#">年糕</a>
+                        	<a href="#">腊制品</a><a href="#">水果罐头</a><a href="#">肉罐头</a>
+                        	<a href="#">水产罐头</a><a href="#">八宝粥</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">休闲零食</a>/<a href="#">坚果</a>/<a href="#">蜜饯</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">海苔</a><a href="#">肉干肉铺</a>
+					   		<a href="#" class="red">鱼类海味</a><a href="#">果冻布丁</a>
+					   		<a href="#">薯片</a><a href="#">膨化</a>
+                            <a href="#">坚果</a><a href="#">开心果</a>
+                            <a href="#">什锦坚果</a><a href="#">腰果</a>
+                            <a href="#">蜜饯</a><a href="#">芒果干</a>
+                            <a href="#">蔓越莓干</a><a href="#">榴莲干</a>
+                             <a href="#">鸭脖</a><a href="#">猪脯肉</a>  
+					   	</p>
+					   	<h4>
+					   		<a href="#">糖果</a>/<a href="#">巧克力</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" class="red">巧克力</a><a href="#">牛奶巧克力</a>
+					   		<a href="#" class="red">夹心巧克力</a><a href="#">喜糖</a>
+					   		<a href="#">水</a><a href="#">碳酸饮料</a>
+                            <a href="#">果蔬汁</a><a href="#">咖啡</a>
+                            <a href="#">椰子水</a>
+                        <h4>
+                        	<a href="#">进口冲饮</a>/<a href="#">咖啡</a>/<a href="#">茶</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >早餐谷物</a><a href="#">蜂蜜</a><a href="#">柚子茶</a>
+                        	<a href="#">巧克力粉</a><a href="#">养生粉</a>
+                        	<a href="#">花果茶</a><a href="#">红茶</a>
+                       
+                        </p>
+                        <h4>
+                        	<a href="#">进口粮油</a>/<a href="#">速食</a>/<a href="#">调味</a>
+                        </h4>
+                        <p>
+                        	<a href="#">食用油</a><a href="#" class="red">橄榄油</a>
+                        	<a href="#" >大米</a><a href="#">意面</a>
+                        	<a href="#">果酱</a><a href="#">拉面</a><a href="#">方便面</a>
+                        	<a href="#">罐头</a><a href="#">调味料</a><a href="#">酱油</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">1号生鲜</a>/<a href="#">水果</a>/<a href="#">蔬菜</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">进口水果</a><a href="#">国产水果</a>
+					   		<a href="#">柑橘类</a><a href="#">根茎类</a><a href="#">猕猴桃</a>
+					   		<a href="#">牛油果</a><a href="#">柚子</a>
+					   		<a href="#" class="red">橙子</a><a href="#" class="red">车厘子</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">海鲜</a>/<a href="#">肉类</a>/<a href="#">禽蛋</a>/<a href="#">熏腊</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >鱼类</a><a href="#" class="red">虾/虾仁</a>
+					   		<a href="#" >鲟鱼</a><a href="#">三文鱼</a>
+					   		<a href="#">海参</a><a href="#">鸡翅</a>
+                            <a href="#">牛肉</a><a href="#">羊肉</a>
+                            <a href="#">猪肉</a><a href="#">培根</a> 
+                            <a href="#" class="red">老母鸡</a><a href="#">鸡蛋</a>
+                        <h4>
+                        	<a href="#">乳品烘焙</a>/<a href="#">火锅食材</a>/<a href="#">熟食</a>/<a href="#">票券</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">专用黄油</a><a href="#">奶酪</a><a href="#">鲜奶</a>
+                        	<a href="#">酸奶</a><a href="#">低温饮品</a>
+                        	<a href="#">蛋糕</a><a href="#">速食甜点</a>
+                        	<a href="#">面点类</a><a href="#">披萨</a>
+                        	<a href="#">半成品</a><a href="#" class="red">年货礼券</a>
+                        	<a href="#">面包甜点</a><a href="#"class="red">烘焙甜品</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">海购</a>
+                        </h4>
+                        <p>
+                        	<a href="#">食品</a><a href="#" class="red">保健滋补</a>
+                        	<a href="#" >母婴</a><a href="#">美容护理</a>
+                       
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------baby_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" class="red">为你优选</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">送给宝宝全世界</a><a href="#">高逼格陪萌宝</a>
+					   		<a href="#">冬季孕妈好生活</a><a href="#">宝宝辅食怎么加</a>
+					   		<a href="#">萌宝餐具</a><a href="#">宝宝衣物健康洗</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">奶粉</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >1段</a><a href="#">2段</a><a href="#" class="red">3段</a>
+                        	<a href="#">4段</a><a href="#">特殊配方</a>
+                        	<a href="#">孕妈奶粉</a><a href="#">有机奶粉</a><a href="#">羊奶粉</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">尿裤</a>/<a href="#">湿巾</a>
+                        </h4>
+                        <p>
+                        	<a href="#">NB</a><a href="#" >S</a>
+                        	<a href="#" >M</a><a href="#">L</a>
+                        	<a href="#">XL</a><a href="#"class="red">纸尿裤</a><a href="#">拉拉裤</a>
+                        	<a href="#">成人纸尿裤</a><a href="#">尿垫</a><a href="#">婴儿湿巾</a>
+                        </p>
+                        <h4>
+                        	<a href="#">洗护清洁</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">宝宝洗浴</a><a href="#">婴儿护肤</a>
+                        	<a href="#" >洗衣液</a><a href="#">理发器</a>
+                        	<a href="#">奶瓶清洁</a><a href="#">日常护理</a><a href="#">坐便器</a>
+                        	<a href="#">口腔护理</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">进口母婴</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">1号海购</a><a href="#">尿裤</a>
+					   		<a href="#" class="red">奶粉</a><a href="#">辅食</a>
+					   		<a href="#">营养品</a><a href="#">奶瓶</a>
+                            <a href="#">吸奶器</a><a href="#">洗护</a>
+                            <a href="#">孕妈专区</a><a href="#">玩具</a>  
+					   	</p>
+					   	<h4>
+					   		<a href="#">婴幼儿食品</a>/<a href="#">营养品</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" class="red">米粉粥</a><a href="#">面条</a>
+					   		<a href="#" class="red">肉酥</a><a href="#">饼干</a>
+					   		<a href="#">果泥</a><a href="#">零食</a>
+                            <a href="#">钙锌铁</a><a href="#">DHA</a>
+                            <a href="#">益生菌</a><a href="#">维生素</a><a href="#">清火</a>
+                        <h4>
+                        	<a href="#">宝宝喂养</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >奶瓶奶嘴</a><a href="#">吸奶器</a><a href="#">暖奶消毒</a>
+                        	<a href="#">安抚奶嘴</a><a href="#">贝亲</a>
+                        	<a href="#">餐具水具</a><a href="#">鸭脚牙牙乐</a>
+                        	<a href="#">吸管杯</a>
+                       
+                        </p>
+                        <h4>
+                        	<a href="#">玩具</a>
+                        </h4>
+                        <p>
+                        	<a href="#">0-1岁</a><a href="#" class="red">1-3岁</a>
+                        	<a href="#" >3-6岁</a><a href="#">6岁以上</a>
+                        	<a href="#">益智玩具</a><a href="#">积木</a><a href="#">电动遥控</a>
+                        	<a href="#">费雪</a><a href="#">乐高</a><a href="#">模型</a>
+                        	<a href="#">户外玩耍</a><a href="#">动漫</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">孕妈专区</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">孕妈装</a><a href="#">防辐射服</a>
+					   		<a href="#">内衣裤</a><a href="#">孕妈洗护</a><a href="#">孕妈枕</a>
+					   		<a href="#">待产包</a><a href="#">产妇巾</a>
+					   		<a href="#" class="red">防溢乳垫</a><a href="#" class="red">储奶袋</a>
+					   		<a href="#" class="red">产后修复</a><a href="#" class="red">妈咪出行</a><a href="#" class="red">一次性</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">寝具</a>/<a href="#">肉类</a>/<a href="#">婴儿服饰</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >口水巾</a><a href="#" class="red">套件</a>
+					   		<a href="#" >睡袋</a><a href="#">婴儿枕</a>
+					   		<a href="#">浴巾</a><a href="#">婴儿鞋</a>
+                            <a href="#">婴儿礼盒</a><a href="#">连体衣</a>
+                            <a href="#">婴儿套装</a>
+                        <h4>
+                        	<a href="#">童装</a>/<a href="#">童鞋</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">毛衣</a><a href="#">外套</a><a href="#">羽绒服</a>
+                        	<a href="#">运动裤</a><a href="#">打底裤</a>
+                        	<a href="#">内衣</a><a href="#">套装</a>
+                        	<a href="#">运动鞋</a><a href="#">棉鞋</a>
+                        	<a href="#">童鞋</a><a href="#" class="red">雨鞋</a>
+                  
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">童车床</a>/<a href="#">安全防护</a>
+                        </h4>
+                        <p>
+                        	<a href="#">婴儿床</a><a href="#" class="red">婴儿手推车</a>
+                        	<a href="#" >餐椅</a><a href="#">学步车</a>
+                            <a href="#" >三轮车</a><a href="#">电动车</a>
+                            <a href="#" >安全座椅</a><a href="#">学步车</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+                </div>
+				</div>
+				<!--------------kitchen_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" class="red">为你优选</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">进口厨卫清洁</a><a href="#">纸好不坏</a>
+					   		<a href="#">厨房来点创意</a><a href="#">冬衣洗护</a>
+					   		<a href="#">洁癖星人神器</a><a href="#">沃尔玛生活馆</a>
+					   		<a href="#">家装污垢一扫光</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">衣物清洁护理</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >洗衣液</a><a href="#">洗衣粉</a><a href="#" class="red">洗衣皂</a>
+                        	<a href="#">衣领净</a><a href="#">去渍剂</a>
+                        	<a href="#">衣物除菌</a><a href="#">柔顺剂</a><a href="#">彩漂</a>
+                        	<a href="#">进口衣物清洁护理</a><a href="#">天然皂粉</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">清洁</a>/<a href="#">卫浴用具</a>
+                        </h4>
+                        <p>
+                        	<a href="#">拖把配件</a><a href="#" >抹布</a>
+                        	<a href="#" >百洁布</a><a href="#">家务手套</a>
+                        	<a href="#">擦窗器</a><a href="#"class="red">除尘工具</a><a href="#">垃圾桶</a>
+                        	<a href="#">钢丝球</a><a href="#">清洁刷</a><a href="#">脸盆水桶</a>
+                        	<a href="#">肥皂盒</a><a href="#">浴帘</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">纸品湿巾</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">软包抽纸</a><a href="#">盒装抽纸</a>
+					   		<a href="#" class="red">卷筒纸</a><a href="#">手帕纸</a>
+					   		<a href="#">厨房用纸</a><a href="#">湿巾纸</a>
+                            <a href="#">湿厕纸</a><a href="#">商务卫生纸</a>
+                            <a href="#">商务檫手纸</a><a href="#">商务餐巾纸</a>  
+					   	</p>
+					   	<h4>
+					   		<a href="#">厨房</a>/<a href="#">卫浴清洁</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" class="red">洗洁精</a><a href="#">蔬果精</a>
+					   		<a href="#" class="red">消毒液</a><a href="#">油污净</a>
+					   		<a href="#">清厕剂</a><a href="#">洁厕块</a>
+                            <a href="#">管道通</a><a href="#">浴室清洁</a>
+                            <a href="#">玻璃清洁</a><a href="#">多用途清洁</a><a href="#">除水垢</a>
+                        <h4>
+                        	<a href="#">居室清洁</a>/<a href="#">保养</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >防潮防住</a><a href="#">除甲醛</a><a href="#">空气清新</a>
+                        	<a href="#">鞋用品</a><a href="#">驱蚊驱虫</a>
+                        	<a href="#">地板清洁护理</a><a href="#">家私清洁护理</a>
+                        	<a href="#">家电清洁剂</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">一次性用品</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">垃圾袋</a><a href="#">保鲜袋</a>
+					   		<a href="#">保鲜膜</a><a href="#">密实袋</a><a href="#">纸杯</a>
+					   		<a href="#">塑料杯</a><a href="#">杯托</a>
+					   		<a href="#" class="red">一次性手套</a><a href="#" class="red">一次性餐具</a>
+					   		<a href="#" class="red">桌布围裙</a><a href="#" class="red">一次性鞋套</a><a href="#" class="red">一次性口罩</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">餐具水杯</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >水杯/壶</a><a href="#" class="red">保温杯</a>
+					   		<a href="#" >保温壶</a><a href="#">滤水壶</a>
+					   		<a href="#">茶具</a><a href="#">酒具</a>
+                            <a href="#">保鲜盒</a><a href="#">碟碗盘</a>
+                            <a href="#">密封罐</a><a href="#">套餐餐具</a>
+                            <a href="#">刀叉</a><a href="#">筷子</a>
+                        <h4>
+                        	<a href="#">厨具锅具</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">砂锅</a><a href="#">平底锅</a><a href="#">套装锅</a>
+                        	<a href="#">蒸锅</a><a href="#">汤锅</a>
+                        	<a href="#">刀具剪刀</a><a href="#">收纳</a>
+                        	<a href="#">厨房工具</a><a href="#">烘焙工具</a>
+                        	<a href="#">砧板</a><a href="#" class="red">火锅</a>
+                            <a href="#">米箱</a><a href="#" class="red">调味品</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------home_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" class="red">为你优选</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">打造小资卧室</a><a href="#">储物大作战</a>
+					   		<a href="#">筷子哲学</a><a href="#">圣诞节要来了</a>
+					   		<a href="#">沃尔玛生活馆</a><a href="#">防霾口罩</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">床上用品</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >四件套</a><a href="#">枕头枕芯</a><a href="#" class="red">毛毯</a>
+                        	<a href="#">冬被</a><a href="#">电热毯</a>
+                        	<a href="#">床单被罩</a><a href="#">床垫/被褥</a><a href="#">儿童床品</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">家纺布艺</a>
+                        </h4>
+                        <p>
+                        	<a href="#">毛巾浴巾</a><a href="#" >棉拖鞋</a>
+                        	<a href="#" >地垫</a><a href="#">地毯</a>
+                        	<a href="#">围裙</a><a href="#"class="red">桌布</a><a href="#">防尘罩</a>
+                        	<a href="#">窗帘</a><a href="#">靠垫座垫</a><a href="#">沙发垫</a>
+                        </p>
+                        <h4>
+                        	<a href="#">宠物用品</a>
+                        </h4>
+                        <p>
+                        	<a href="#">猫粮</a><a href="#" >狗粮</a>
+                        	<a href="#" >零食</a><a href="#">沐浴露</a>
+                        	<a href="#">猫砂</a><a href="#"class="red">宠物保健</a><a href="#">宠物服装</a>
+                        	<a href="#">出行装备</a><a href="#">尿片</a><a href="#">水族宠物</a>
+                        	<a href="#">玩具</a><a href="#">窝笼</a><a href="#">驱虫</a><a href="#">吹风机</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">餐具水具</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">保温杯</a><a href="#">保鲜盒</a>
+					   		<a href="#" class="red">滤水壶</a><a href="#">茶具</a>
+					   		<a href="#">酒具</a><a href="#">玻璃杯</a>
+                            <a href="#">碗/碟/盘</a><a href="#">密封罐</a>
+                            <a href="#">套装餐具</a>
+					   	</p>
+					   	<h4>
+                        	<a href="#">厨具锅具</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">砂锅</a><a href="#">平底锅</a><a href="#">套装锅</a>
+                        	<a href="#">蒸锅</a><a href="#">汤锅</a>
+                        	<a href="#">刀具剪刀</a><a href="#">收纳</a>
+                        	<a href="#">厨房工具</a><a href="#">烘焙工具</a><a href="#">砧板</a>
+                        </p>
+                        <h4>
+                        	<a href="#">收纳洗晒</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >收纳箱</a><a href="#">收纳柜</a><a href="#">压缩袋</a>
+                        	<a href="#">衣物收纳</a><a href="#">卫浴收纳</a>
+                        	<a href="#">杂物收纳</a><a href="#">旅行收纳</a>
+                        	<a href="#">晾晒衣架</a><a href="#">洗护袋</a><a href="#">洗衣袋</a>
+                        </p>
+                        <h4>
+                        	<a href="#">居家日用</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >口罩</a><a href="#">保暖贴</a><a href="#">热水袋</a>
+                        	<a href="#">炭包</a><a href="#">粘钩挂扣</a>
+                        	<a href="#">防潮垫</a><a href="#">隔热垫</a>
+                        	<a href="#">驱虫防虫</a><a href="#">雨伞雨具</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">家具</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">沙发</a><a href="#">床垫</a>
+					   		<a href="#">床</a><a href="#">柜子</a><a href="#">办公家具</a>
+					   		<a href="#">客厅家具</a><a href="#">卧室家具</a>
+					   		<a href="#" class="red">储物</a><a href="#" class="red">餐厅家具</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">家装建材</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >灯饰</a><a href="#" class="red">厨房</a>
+					   		<a href="#" >卫浴</a><a href="#">五金工具</a>
+					   		<a href="#">电子电工</a><a href="#">吸顶灯</a>
+                            <a href="#">开光</a><a href="#">浴霸</a>
+                            <a href="#">台灯</a><a href="#">花酒</a><a href="#">马桶</a>
+                        <h4>
+                        	<a href="#" class="red">智能家居</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">智能灯具</a><a href="#">智能马桶</a><a href="#">智能插座</a>
+                        	<a href="#">智能水杯</a><a href="#">智能锁</a>
+                        	<a href="#">创意礼品</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">家饰</a>/<a href="#" class="red">鲜花</a>/<a href="#" class="red">园艺</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">钟饰</a><a href="#">香薰/蜡烛</a><a href="#">装饰摆件</a>
+                        	<a href="#">圣诞新年</a><a href="#">照片墙</a><a href="#">装饰画</a>
+                        	<a href="#">装饰贴</a><a href="#">手工/十字绣</a>
+                        	<a href="#">鲜花</a><a href="#">玫瑰</a>
+                        	<a href="#">多肉</a><a href="#">盆栽</a><a href="#">园艺用品</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------nurse_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" class="red">为你优选</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">打造小资卧室</a><a href="#">储物大作战</a>
+					   		<a href="#">筷子哲学</a><a href="#">圣诞节要来了</a>
+					   		<a href="#">沃尔玛生活馆</a><a href="#">防霾口罩</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">床上用品</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >四件套</a><a href="#">枕头枕芯</a><a href="#" class="red">毛毯</a>
+                        	<a href="#">冬被</a><a href="#">电热毯</a>
+                        	<a href="#">床单被罩</a><a href="#">床垫/被褥</a><a href="#">儿童床品</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">家纺布艺</a>
+                        </h4>
+                        <p>
+                        	<a href="#">毛巾浴巾</a><a href="#" >棉拖鞋</a>
+                        	<a href="#" >地垫</a><a href="#">地毯</a>
+                        	<a href="#">围裙</a><a href="#"class="red">桌布</a><a href="#">防尘罩</a>
+                        	<a href="#">窗帘</a><a href="#">靠垫座垫</a><a href="#">沙发垫</a>
+                        </p>
+                        <h4>
+                        	<a href="#">宠物用品</a>
+                        </h4>
+                        <p>
+                        	<a href="#">猫粮</a><a href="#" >狗粮</a>
+                        	<a href="#" >零食</a><a href="#">沐浴露</a>
+                        	<a href="#">猫砂</a><a href="#"class="red">宠物保健</a><a href="#">宠物服装</a>
+                        	<a href="#">出行装备</a><a href="#">尿片</a><a href="#">水族宠物</a>
+                        	<a href="#">玩具</a><a href="#">窝笼</a><a href="#">驱虫</a><a href="#">吹风机</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">餐具水具</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">保温杯</a><a href="#">保鲜盒</a>
+					   		<a href="#" class="red">滤水壶</a><a href="#">茶具</a>
+					   		<a href="#">酒具</a><a href="#">玻璃杯</a>
+                            <a href="#">碗/碟/盘</a><a href="#">密封罐</a>
+                            <a href="#">套装餐具</a>
+					   	</p>
+					   	<h4>
+                        	<a href="#">厨具锅具</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">砂锅</a><a href="#">平底锅</a><a href="#">套装锅</a>
+                        	<a href="#">蒸锅</a><a href="#">汤锅</a>
+                        	<a href="#">刀具剪刀</a><a href="#">收纳</a>
+                        	<a href="#">厨房工具</a><a href="#">烘焙工具</a><a href="#">砧板</a>
+                        </p>
+                        <h4>
+                        	<a href="#">收纳洗晒</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >收纳箱</a><a href="#">收纳柜</a><a href="#">压缩袋</a>
+                        	<a href="#">衣物收纳</a><a href="#">卫浴收纳</a>
+                        	<a href="#">杂物收纳</a><a href="#">旅行收纳</a>
+                        	<a href="#">晾晒衣架</a><a href="#">洗护袋</a><a href="#">洗衣袋</a>
+                        </p>
+                        <h4>
+                        	<a href="#">居家日用</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >口罩</a><a href="#">保暖贴</a><a href="#">热水袋</a>
+                        	<a href="#">炭包</a><a href="#">粘钩挂扣</a>
+                        	<a href="#">防潮垫</a><a href="#">隔热垫</a>
+                        	<a href="#">驱虫防虫</a><a href="#">雨伞雨具</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">家具</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">沙发</a><a href="#">床垫</a>
+					   		<a href="#">床</a><a href="#">柜子</a><a href="#">办公家具</a>
+					   		<a href="#">客厅家具</a><a href="#">卧室家具</a>
+					   		<a href="#" class="red">储物</a><a href="#" class="red">餐厅家具</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">家装建材</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >灯饰</a><a href="#" class="red">厨房</a>
+					   		<a href="#" >卫浴</a><a href="#">五金工具</a>
+					   		<a href="#">电子电工</a><a href="#">吸顶灯</a>
+                            <a href="#">开光</a><a href="#">浴霸</a>
+                            <a href="#">台灯</a><a href="#">花酒</a><a href="#">马桶</a>
+                        <h4>
+                        	<a href="#" class="red">智能家居</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">智能灯具</a><a href="#">智能马桶</a><a href="#">智能插座</a>
+                        	<a href="#">智能水杯</a><a href="#">智能锁</a>
+                        	<a href="#">创意礼品</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">家饰</a>/<a href="#" class="red">鲜花</a>/<a href="#" class="red">园艺</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">钟饰</a><a href="#">香薰/蜡烛</a><a href="#">装饰摆件</a>
+                        	<a href="#">圣诞新年</a><a href="#">照片墙</a><a href="#">装饰画</a>
+                        	<a href="#">装饰贴</a><a href="#">手工/十字绣</a>
+                        	<a href="#">鲜花</a><a href="#">玫瑰</a>
+                        	<a href="#">多肉</a><a href="#">盆栽</a><a href="#">园艺用品</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------dress_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+				    <div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" class="red">为你推荐</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">女装内衣馆</a><a href="#">男装馆</a>
+					   		<a href="#">配饰管</a><a href="#">大卖特卖</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">精选品牌</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >波司登</a><a href="#">AMII</a><a href="#" class="red">韩都衣舍</a>
+                        	<a href="#">艾格</a><a href="#">茵曼</a>
+                        	<a href="#">三枪</a><a href="#">曼妮芬</a><a href="#">北极绒</a>
+                        	<a href="#" >浪莎</a><a href="#">雅戈尔</a><a href="#" class="red">森马</a>
+                        	<a href="#">真维斯</a><a href="#">马克华菲</a>
+                        	<a href="#">周大福</a><a href="#">周生生</a><a href="#">钻石小鸟</a>
+                        	<a href="#">海鸥</a><a href="#">天王表</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">女士内衣</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">文胸</a><a href="#" >聚拢</a>
+                        	<a href="#" >无钢圈</a><a href="#">少女文胸</a>
+                        	<a href="#">塑身衣</a><a href="#"class="red">女士内裤</a><a href="#">全面内裤</a>
+                        	<a href="#">睡衣</a><a href="#">纯棉睡衣</a><a href="#">女袜</a>
+                        	<a href="#">丝袜</a><a href="#">毛巾</a><a href="#">帽子</a>
+                        </p>
+                        <h4>
+                        	<a href="#">男士内衣</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">男士内裤</a><a href="#" >平角</a>
+                        	<a href="#" >男袜</a><a href="#" class="red">男士睡衣</a><a href="#">背心</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">女装推荐</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">冬季新品</a><a href="#">爆款推荐</a>
+					   		<a href="#" class="red">毛呢外套</a><a href="#">针织衫</a>
+					   		<a href="#">中长羽绒服</a><a href="#">连衣裙</a>
+                            <a href="#">短外套</a><a href="#">打底衫</a>
+                            <a href="#">毛衣</a><a href="#">卫衣</a><a href="#">衬衫</a>
+                            <a href="#">风衣</a><a href="#">牛仔裤</a>
+					   	</p>
+					   	<h4>
+                        	<a href="#">潮流女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">冬季连衣裙</a><a href="#">针织连衣裙</a><a href="#">套装群</a>
+                        	<a href="#">小西装</a><a href="#">皮衣</a>
+                        	<a href="#">棉服</a><a href="#">短款羽绒服</a>
+                        	<a href="#">羽绒服</a><a href="#">打底裤</a><a href="#">牛仔裤</a>
+                        </p>
+                        <h4>
+                        	<a href="#">特色女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >大码女装</a><a href="#">中老年女装</a>
+                        	<a href="#">旗袍</a><a href="#">礼服</a>
+                        </p>
+                        <h4>
+                        	<a href="#">知名女装品牌</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >鸭鸭</a><a href="#">亦谷</a><a href="#">雅鹿</a>
+                        	<a href="#">初语</a><a href="#">ONEBUYE</a>
+                        	<a href="#">香影</a><a href="#">裂帛</a>
+                        	<a href="#">sainty</a><a href="#">秋壳</a><a href="#">初棉</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">精品男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">男装馆</a><a href="#">卫衣</a>
+					   		<a href="#">羽绒服</a><a href="#">衬衫</a><a href="#">外套</a>
+					   		<a href="#">牛仔裤</a><a href="#">夹克</a>
+					   		<a href="#" class="red">休闲裤</a><a href="#" class="red">长袖T恤</a>
+					   		<a href="#">毛衣</a><a href="#">皮衣</a>
+					   		<a href="#" class="red">风衣</a><a href="#" class="red">西装</a>
+					   		<a href="#" class="red">针织衫</a><a href="#" class="red">马甲</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">推荐男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >秋冬上新</a><a href="#" class="red">热卖爆款</a>
+					   		<a href="#" >品牌特卖</a><a href="#">潮牌集结</a>
+					   		<a href="#">商务男装</a><a href="#">青春休闲</a>
+					   	</p>	
+                        <h4>
+                        	<a href="#" class="red">珠宝饰品</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">金条</a><a href="#">黄金</a><a href="#">钻戒</a>
+                        	<a href="#">翡翠玉石</a><a href="#">珍珠</a>
+                        	<a href="#">流行饰品</a><a href="#">手链</a><a href="#">戒指</a>
+                        	<a href="#">项链</a><a href="#">耳饰</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">腕表眼镜</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">国表</a><a href="#">瑞表</a><a href="#">时尚表</a>
+                        	<a href="#">男表</a><a href="#">女表</a><a href="#">石英表</a>
+                        	<a href="#">框架镜</a><a href="#">大牌眼镜</a>
+                        	<a href="#">墨镜</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------shoes_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" >为你推荐</a>/<a href="#" class="red">黑五返场 全场0.1折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">靴鞋馆</a><a href="#">箱包馆</a>
+					   		<a href="#">运动户外馆</a><a href="#">箱包特卖</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">品牌推荐</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >汤姆斯</a><a href="#" class="red">奥卡索</a><a href="#" >索菲亚</a>
+                        	<a href="#" class="red">Everugg</a><a href="#" class="red">耐克</a>
+                        	<a href="#">Adidas</a><a href="#" class="red">NB</a><a href="#">ASICS</a>
+                        	<a href="#" >探路者</a><a href="#">歌莉娅</a><a href="#" class="red">ELLE</a>
+                        	<a href="#">瑞士军刀</a><a href="#">七匹狼</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">女鞋</a>/<a href="#" class="red">奥卡索0.7折起第二件再半价</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">女鞋特卖</a><a href="#" >新品上市</a>
+                        	<a href="#" >今日必团</a><a href="#">爆款</a>
+                        	<a href="#">短鞋</a><a href="#"class="red">乐福鞋</a><a href="#">雪地靴</a>
+                        	<a href="#">帆布鞋</a><a href="#">豆豆鞋</a><a href="#">裸鞋</a>
+                        	<a href="#">平底鞋</a><a href="#">高更鞋</a><a href="#">小白鞋</a><a href="#">妈妈鞋</a>
+                        </p>
+                        <h4>
+                        	<a href="#">男鞋</a>/<a href="#" class="red">鳄鱼恤 专柜场1.8折起再满减</a> 
+                        </h4>
+                        <p>
+                        	<a href="#" >男鞋特卖</a><a href="#" >户外鞋</a>
+                        	<a href="#" class="red">休闲鞋</a><a href="#" class="red">商务休闲</a><a href="#">皮鞋</a>
+                        	<a href="#" >运动风</a><a href="#" class="red">男靴</a>
+                        	<a href="#" class="red">正装鞋</a><a href="#">帆布鞋</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">运动鞋服</a>/<a href="#" class="red">adidas特卖3.5折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">热销新品</a><a href="#">跑步鞋</a>
+					   		<a href="#" class="red">篮球鞋</a><a href="#">针织衫</a>
+					   		<a href="#">中长羽绒服</a><a href="#">连衣裙</a>
+                            <a href="#">短外套</a><a href="#">打底衫</a>
+                            <a href="#">毛衣</a><a href="#">卫衣</a><a href="#">衬衫</a>
+                            <a href="#">风衣</a><a href="#">牛仔裤</a>
+					   	</p>
+					   	<h4>
+                        	<a href="#">潮流女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">冬季连衣裙</a><a href="#">针织连衣裙</a><a href="#">套装群</a>
+                        	<a href="#">小西装</a><a href="#">皮衣</a>
+                        	<a href="#">棉服</a><a href="#">短款羽绒服</a>
+                        	<a href="#">羽绒服</a><a href="#">打底裤</a><a href="#">牛仔裤</a>
+                        </p>
+                        <h4>
+                        	<a href="#">特色女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >大码女装</a><a href="#">中老年女装</a>
+                        	<a href="#">旗袍</a><a href="#">礼服</a>
+                        </p>
+                        <h4>
+                        	<a href="#">知名女装品牌</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >鸭鸭</a><a href="#">亦谷</a><a href="#">雅鹿</a>
+                        	<a href="#">初语</a><a href="#">ONEBUYE</a>
+                        	<a href="#">香影</a><a href="#">裂帛</a>
+                        	<a href="#">sainty</a><a href="#">秋壳</a><a href="#">初棉</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">精品男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">男装馆</a><a href="#">卫衣</a>
+					   		<a href="#">羽绒服</a><a href="#">衬衫</a><a href="#">外套</a>
+					   		<a href="#">牛仔裤</a><a href="#">夹克</a>
+					   		<a href="#" class="red">休闲裤</a><a href="#" class="red">长袖T恤</a>
+					   		<a href="#">毛衣</a><a href="#">皮衣</a>
+					   		<a href="#" class="red">风衣</a><a href="#" class="red">西装</a>
+					   		<a href="#" class="red">针织衫</a><a href="#" class="red">马甲</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">推荐男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >秋冬上新</a><a href="#" class="red">热卖爆款</a>
+					   		<a href="#" >品牌特卖</a><a href="#">潮牌集结</a>
+					   		<a href="#">商务男装</a><a href="#">青春休闲</a>
+					   	</p>	
+                        <h4>
+                        	<a href="#" class="red">珠宝饰品</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">金条</a><a href="#">黄金</a><a href="#">钻戒</a>
+                        	<a href="#">翡翠玉石</a><a href="#">珍珠</a>
+                        	<a href="#">流行饰品</a><a href="#">手链</a><a href="#">戒指</a>
+                        	<a href="#">项链</a><a href="#">耳饰</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">腕表眼镜</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">国表</a><a href="#">瑞表</a><a href="#">时尚表</a>
+                        	<a href="#">男表</a><a href="#">女表</a><a href="#">石英表</a>
+                        	<a href="#">框架镜</a><a href="#">大牌眼镜</a>
+                        	<a href="#">墨镜</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------phone_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" >为你推荐</a>/<a href="#" class="red">黑五返场 全场0.1折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">靴鞋馆</a><a href="#">箱包馆</a>
+					   		<a href="#">运动户外馆</a><a href="#">箱包特卖</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">品牌推荐</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >汤姆斯</a><a href="#" class="red">奥卡索</a><a href="#" >索菲亚</a>
+                        	<a href="#" class="red">Everugg</a><a href="#" class="red">耐克</a>
+                        	<a href="#">Adidas</a><a href="#" class="red">NB</a><a href="#">ASICS</a>
+                        	<a href="#" >探路者</a><a href="#">歌莉娅</a><a href="#" class="red">ELLE</a>
+                        	<a href="#">瑞士军刀</a><a href="#">七匹狼</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">女鞋</a>/<a href="#" class="red">奥卡索0.7折起第二件再半价</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">女鞋特卖</a><a href="#" >新品上市</a>
+                        	<a href="#" >今日必团</a><a href="#">爆款</a>
+                        	<a href="#">短鞋</a><a href="#"class="red">乐福鞋</a><a href="#">雪地靴</a>
+                        	<a href="#">帆布鞋</a><a href="#">豆豆鞋</a><a href="#">裸鞋</a>
+                        	<a href="#">平底鞋</a><a href="#">高更鞋</a><a href="#">小白鞋</a><a href="#">妈妈鞋</a>
+                        </p>
+                        <h4>
+                        	<a href="#">男鞋</a>/<a href="#" class="red">鳄鱼恤 专柜场1.8折起再满减</a> 
+                        </h4>
+                        <p>
+                        	<a href="#" >男鞋特卖</a><a href="#" >户外鞋</a>
+                        	<a href="#" class="red">休闲鞋</a><a href="#" class="red">商务休闲</a><a href="#">皮鞋</a>
+                        	<a href="#" >运动风</a><a href="#" class="red">男靴</a>
+                        	<a href="#" class="red">正装鞋</a><a href="#">帆布鞋</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">运动鞋服</a>/<a href="#" class="red">adidas特卖3.5折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">热销新品</a><a href="#">跑步鞋</a>
+					   		<a href="#" class="red">篮球鞋</a><a href="#">针织衫</a>
+					   		<a href="#">中长羽绒服</a><a href="#">连衣裙</a>
+                            <a href="#">短外套</a><a href="#">打底衫</a>
+                            <a href="#">毛衣</a><a href="#">卫衣</a><a href="#">衬衫</a>
+                            <a href="#">风衣</a><a href="#">牛仔裤</a>
+					   	</p>
+					   	<h4>
+                        	<a href="#">潮流女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">冬季连衣裙</a><a href="#">针织连衣裙</a><a href="#">套装群</a>
+                        	<a href="#">小西装</a><a href="#">皮衣</a>
+                        	<a href="#">棉服</a><a href="#">短款羽绒服</a>
+                        	<a href="#">羽绒服</a><a href="#">打底裤</a><a href="#">牛仔裤</a>
+                        </p>
+                        <h4>
+                        	<a href="#">特色女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >大码女装</a><a href="#">中老年女装</a>
+                        	<a href="#">旗袍</a><a href="#">礼服</a>
+                        </p>
+                        <h4>
+                        	<a href="#">知名女装品牌</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >鸭鸭</a><a href="#">亦谷</a><a href="#">雅鹿</a>
+                        	<a href="#">初语</a><a href="#">ONEBUYE</a>
+                        	<a href="#">香影</a><a href="#">裂帛</a>
+                        	<a href="#">sainty</a><a href="#">秋壳</a><a href="#">初棉</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">精品男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">男装馆</a><a href="#">卫衣</a>
+					   		<a href="#">羽绒服</a><a href="#">衬衫</a><a href="#">外套</a>
+					   		<a href="#">牛仔裤</a><a href="#">夹克</a>
+					   		<a href="#" class="red">休闲裤</a><a href="#" class="red">长袖T恤</a>
+					   		<a href="#">毛衣</a><a href="#">皮衣</a>
+					   		<a href="#" class="red">风衣</a><a href="#" class="red">西装</a>
+					   		<a href="#" class="red">针织衫</a><a href="#" class="red">马甲</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">推荐男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >秋冬上新</a><a href="#" class="red">热卖爆款</a>
+					   		<a href="#" >品牌特卖</a><a href="#">潮牌集结</a>
+					   		<a href="#">商务男装</a><a href="#">青春休闲</a>
+					   	</p>	
+                        <h4>
+                        	<a href="#" class="red">珠宝饰品</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">金条</a><a href="#">黄金</a><a href="#">钻戒</a>
+                        	<a href="#">翡翠玉石</a><a href="#">珍珠</a>
+                        	<a href="#">流行饰品</a><a href="#">手链</a><a href="#">戒指</a>
+                        	<a href="#">项链</a><a href="#">耳饰</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">腕表眼镜</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">国表</a><a href="#">瑞表</a><a href="#">时尚表</a>
+                        	<a href="#">男表</a><a href="#">女表</a><a href="#">石英表</a>
+                        	<a href="#">框架镜</a><a href="#">大牌眼镜</a>
+                        	<a href="#">墨镜</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------car_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" >为你推荐</a>/<a href="#" class="red">黑五返场 全场0.1折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">靴鞋馆</a><a href="#">箱包馆</a>
+					   		<a href="#">运动户外馆</a><a href="#">箱包特卖</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">品牌推荐</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >汤姆斯</a><a href="#" class="red">奥卡索</a><a href="#" >索菲亚</a>
+                        	<a href="#" class="red">Everugg</a><a href="#" class="red">耐克</a>
+                        	<a href="#">Adidas</a><a href="#" class="red">NB</a><a href="#">ASICS</a>
+                        	<a href="#" >探路者</a><a href="#">歌莉娅</a><a href="#" class="red">ELLE</a>
+                        	<a href="#">瑞士军刀</a><a href="#">七匹狼</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">女鞋</a>/<a href="#" class="red">奥卡索0.7折起第二件再半价</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">女鞋特卖</a><a href="#" >新品上市</a>
+                        	<a href="#" >今日必团</a><a href="#">爆款</a>
+                        	<a href="#">短鞋</a><a href="#"class="red">乐福鞋</a><a href="#">雪地靴</a>
+                        	<a href="#">帆布鞋</a><a href="#">豆豆鞋</a><a href="#">裸鞋</a>
+                        	<a href="#">平底鞋</a><a href="#">高更鞋</a><a href="#">小白鞋</a><a href="#">妈妈鞋</a>
+                        </p>
+                        <h4>
+                        	<a href="#">男鞋</a>/<a href="#" class="red">鳄鱼恤 专柜场1.8折起再满减</a> 
+                        </h4>
+                        <p>
+                        	<a href="#" >男鞋特卖</a><a href="#" >户外鞋</a>
+                        	<a href="#" class="red">休闲鞋</a><a href="#" class="red">商务休闲</a><a href="#">皮鞋</a>
+                        	<a href="#" >运动风</a><a href="#" class="red">男靴</a>
+                        	<a href="#" class="red">正装鞋</a><a href="#">帆布鞋</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">运动鞋服</a>/<a href="#" class="red">adidas特卖3.5折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">热销新品</a><a href="#">跑步鞋</a>
+					   		<a href="#" class="red">篮球鞋</a><a href="#">针织衫</a>
+					   		<a href="#">中长羽绒服</a><a href="#">连衣裙</a>
+                            <a href="#">短外套</a><a href="#">打底衫</a>
+                            <a href="#">毛衣</a><a href="#">卫衣</a><a href="#">衬衫</a>
+                            <a href="#">风衣</a><a href="#">牛仔裤</a>
+					   	</p>
+					   	<h4>
+                        	<a href="#">潮流女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">冬季连衣裙</a><a href="#">针织连衣裙</a><a href="#">套装群</a>
+                        	<a href="#">小西装</a><a href="#">皮衣</a>
+                        	<a href="#">棉服</a><a href="#">短款羽绒服</a>
+                        	<a href="#">羽绒服</a><a href="#">打底裤</a><a href="#">牛仔裤</a>
+                        </p>
+                        <h4>
+                        	<a href="#">特色女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >大码女装</a><a href="#">中老年女装</a>
+                        	<a href="#">旗袍</a><a href="#">礼服</a>
+                        </p>
+                        <h4>
+                        	<a href="#">知名女装品牌</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >鸭鸭</a><a href="#">亦谷</a><a href="#">雅鹿</a>
+                        	<a href="#">初语</a><a href="#">ONEBUYE</a>
+                        	<a href="#">香影</a><a href="#">裂帛</a>
+                        	<a href="#">sainty</a><a href="#">秋壳</a><a href="#">初棉</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">精品男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">男装馆</a><a href="#">卫衣</a>
+					   		<a href="#">羽绒服</a><a href="#">衬衫</a><a href="#">外套</a>
+					   		<a href="#">牛仔裤</a><a href="#">夹克</a>
+					   		<a href="#" class="red">休闲裤</a><a href="#" class="red">长袖T恤</a>
+					   		<a href="#">毛衣</a><a href="#">皮衣</a>
+					   		<a href="#" class="red">风衣</a><a href="#" class="red">西装</a>
+					   		<a href="#" class="red">针织衫</a><a href="#" class="red">马甲</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">推荐男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >秋冬上新</a><a href="#" class="red">热卖爆款</a>
+					   		<a href="#" >品牌特卖</a><a href="#">潮牌集结</a>
+					   		<a href="#">商务男装</a><a href="#">青春休闲</a>
+					   	</p>	
+                        <h4>
+                        	<a href="#" class="red">珠宝饰品</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">金条</a><a href="#">黄金</a><a href="#">钻戒</a>
+                        	<a href="#">翡翠玉石</a><a href="#">珍珠</a>
+                        	<a href="#">流行饰品</a><a href="#">手链</a><a href="#">戒指</a>
+                        	<a href="#">项链</a><a href="#">耳饰</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">腕表眼镜</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">国表</a><a href="#">瑞表</a><a href="#">时尚表</a>
+                        	<a href="#">男表</a><a href="#">女表</a><a href="#">石英表</a>
+                        	<a href="#">框架镜</a><a href="#">大牌眼镜</a>
+                        	<a href="#">墨镜</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------duags_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" >为你推荐</a>/<a href="#" class="red">黑五返场 全场0.1折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">靴鞋馆</a><a href="#">箱包馆</a>
+					   		<a href="#">运动户外馆</a><a href="#">箱包特卖</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">品牌推荐</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >汤姆斯</a><a href="#" class="red">奥卡索</a><a href="#" >索菲亚</a>
+                        	<a href="#" class="red">Everugg</a><a href="#" class="red">耐克</a>
+                        	<a href="#">Adidas</a><a href="#" class="red">NB</a><a href="#">ASICS</a>
+                        	<a href="#" >探路者</a><a href="#">歌莉娅</a><a href="#" class="red">ELLE</a>
+                        	<a href="#">瑞士军刀</a><a href="#">七匹狼</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">女鞋</a>/<a href="#" class="red">奥卡索0.7折起第二件再半价</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">女鞋特卖</a><a href="#" >新品上市</a>
+                        	<a href="#" >今日必团</a><a href="#">爆款</a>
+                        	<a href="#">短鞋</a><a href="#"class="red">乐福鞋</a><a href="#">雪地靴</a>
+                        	<a href="#">帆布鞋</a><a href="#">豆豆鞋</a><a href="#">裸鞋</a>
+                        	<a href="#">平底鞋</a><a href="#">高更鞋</a><a href="#">小白鞋</a><a href="#">妈妈鞋</a>
+                        </p>
+                        <h4>
+                        	<a href="#">男鞋</a>/<a href="#" class="red">鳄鱼恤 专柜场1.8折起再满减</a> 
+                        </h4>
+                        <p>
+                        	<a href="#" >男鞋特卖</a><a href="#" >户外鞋</a>
+                        	<a href="#" class="red">休闲鞋</a><a href="#" class="red">商务休闲</a><a href="#">皮鞋</a>
+                        	<a href="#" >运动风</a><a href="#" class="red">男靴</a>
+                        	<a href="#" class="red">正装鞋</a><a href="#">帆布鞋</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">运动鞋服</a>/<a href="#" class="red">adidas特卖3.5折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">热销新品</a><a href="#">跑步鞋</a>
+					   		<a href="#" class="red">篮球鞋</a><a href="#">针织衫</a>
+					   		<a href="#">中长羽绒服</a><a href="#">连衣裙</a>
+                            <a href="#">短外套</a><a href="#">打底衫</a>
+                            <a href="#">毛衣</a><a href="#">卫衣</a><a href="#">衬衫</a>
+                            <a href="#">风衣</a><a href="#">牛仔裤</a>
+					   	</p>
+					   	<h4>
+                        	<a href="#">潮流女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">冬季连衣裙</a><a href="#">针织连衣裙</a><a href="#">套装群</a>
+                        	<a href="#">小西装</a><a href="#">皮衣</a>
+                        	<a href="#">棉服</a><a href="#">短款羽绒服</a>
+                        	<a href="#">羽绒服</a><a href="#">打底裤</a><a href="#">牛仔裤</a>
+                        </p>
+                        <h4>
+                        	<a href="#">特色女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >大码女装</a><a href="#">中老年女装</a>
+                        	<a href="#">旗袍</a><a href="#">礼服</a>
+                        </p>
+                        <h4>
+                        	<a href="#">知名女装品牌</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >鸭鸭</a><a href="#">亦谷</a><a href="#">雅鹿</a>
+                        	<a href="#">初语</a><a href="#">ONEBUYE</a>
+                        	<a href="#">香影</a><a href="#">裂帛</a>
+                        	<a href="#">sainty</a><a href="#">秋壳</a><a href="#">初棉</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">精品男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">男装馆</a><a href="#">卫衣</a>
+					   		<a href="#">羽绒服</a><a href="#">衬衫</a><a href="#">外套</a>
+					   		<a href="#">牛仔裤</a><a href="#">夹克</a>
+					   		<a href="#" class="red">休闲裤</a><a href="#" class="red">长袖T恤</a>
+					   		<a href="#">毛衣</a><a href="#">皮衣</a>
+					   		<a href="#" class="red">风衣</a><a href="#" class="red">西装</a>
+					   		<a href="#" class="red">针织衫</a><a href="#" class="red">马甲</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">推荐男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >秋冬上新</a><a href="#" class="red">热卖爆款</a>
+					   		<a href="#" >品牌特卖</a><a href="#">潮牌集结</a>
+					   		<a href="#">商务男装</a><a href="#">青春休闲</a>
+					   	</p>	
+                        <h4>
+                        	<a href="#" class="red">珠宝饰品</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">金条</a><a href="#">黄金</a><a href="#">钻戒</a>
+                        	<a href="#">翡翠玉石</a><a href="#">珍珠</a>
+                        	<a href="#">流行饰品</a><a href="#">手链</a><a href="#">戒指</a>
+                        	<a href="#">项链</a><a href="#">耳饰</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">腕表眼镜</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">国表</a><a href="#">瑞表</a><a href="#">时尚表</a>
+                        	<a href="#">男表</a><a href="#">女表</a><a href="#">石英表</a>
+                        	<a href="#">框架镜</a><a href="#">大牌眼镜</a>
+                        	<a href="#">墨镜</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				<!--------------giftcard_goodslist----------------->
+				<div class="now_goodslist" style="display: none;">
+					<div class="now_goodslist_left f12 fl">
+						<h4>
+					   		<a href="#" >为你推荐</a>/<a href="#" class="red">黑五返场 全场0.1折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">靴鞋馆</a><a href="#">箱包馆</a>
+					   		<a href="#">运动户外馆</a><a href="#">箱包特卖</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">品牌推荐</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >汤姆斯</a><a href="#" class="red">奥卡索</a><a href="#" >索菲亚</a>
+                        	<a href="#" class="red">Everugg</a><a href="#" class="red">耐克</a>
+                        	<a href="#">Adidas</a><a href="#" class="red">NB</a><a href="#">ASICS</a>
+                        	<a href="#" >探路者</a><a href="#">歌莉娅</a><a href="#" class="red">ELLE</a>
+                        	<a href="#">瑞士军刀</a><a href="#">七匹狼</a>
+					   	</p>
+                        <h4>
+                        	<a href="#">女鞋</a>/<a href="#" class="red">奥卡索0.7折起第二件再半价</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">女鞋特卖</a><a href="#" >新品上市</a>
+                        	<a href="#" >今日必团</a><a href="#">爆款</a>
+                        	<a href="#">短鞋</a><a href="#"class="red">乐福鞋</a><a href="#">雪地靴</a>
+                        	<a href="#">帆布鞋</a><a href="#">豆豆鞋</a><a href="#">裸鞋</a>
+                        	<a href="#">平底鞋</a><a href="#">高更鞋</a><a href="#">小白鞋</a><a href="#">妈妈鞋</a>
+                        </p>
+                        <h4>
+                        	<a href="#">男鞋</a>/<a href="#" class="red">鳄鱼恤 专柜场1.8折起再满减</a> 
+                        </h4>
+                        <p>
+                        	<a href="#" >男鞋特卖</a><a href="#" >户外鞋</a>
+                        	<a href="#" class="red">休闲鞋</a><a href="#" class="red">商务休闲</a><a href="#">皮鞋</a>
+                        	<a href="#" >运动风</a><a href="#" class="red">男靴</a>
+                        	<a href="#" class="red">正装鞋</a><a href="#">帆布鞋</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_middle fl f12">
+						<h4>
+					   		<a href="#">运动鞋服</a>/<a href="#" class="red">adidas特卖3.5折起</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">热销新品</a><a href="#">跑步鞋</a>
+					   		<a href="#" class="red">篮球鞋</a><a href="#">针织衫</a>
+					   		<a href="#">中长羽绒服</a><a href="#">连衣裙</a>
+                            <a href="#">短外套</a><a href="#">打底衫</a>
+                            <a href="#">毛衣</a><a href="#">卫衣</a><a href="#">衬衫</a>
+                            <a href="#">风衣</a><a href="#">牛仔裤</a>
+					   	</p>
+					   	<h4>
+                        	<a href="#">潮流女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">冬季连衣裙</a><a href="#">针织连衣裙</a><a href="#">套装群</a>
+                        	<a href="#">小西装</a><a href="#">皮衣</a>
+                        	<a href="#">棉服</a><a href="#">短款羽绒服</a>
+                        	<a href="#">羽绒服</a><a href="#">打底裤</a><a href="#">牛仔裤</a>
+                        </p>
+                        <h4>
+                        	<a href="#">特色女装</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >大码女装</a><a href="#">中老年女装</a>
+                        	<a href="#">旗袍</a><a href="#">礼服</a>
+                        </p>
+                        <h4>
+                        	<a href="#">知名女装品牌</a>
+                        </h4>
+                        <p>
+                        	<a href="#" >鸭鸭</a><a href="#">亦谷</a><a href="#">雅鹿</a>
+                        	<a href="#">初语</a><a href="#">ONEBUYE</a>
+                        	<a href="#">香影</a><a href="#">裂帛</a>
+                        	<a href="#">sainty</a><a href="#">秋壳</a><a href="#">初棉</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_right fl f12">
+						<h4>
+					   		<a href="#">精品男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#">男装馆</a><a href="#">卫衣</a>
+					   		<a href="#">羽绒服</a><a href="#">衬衫</a><a href="#">外套</a>
+					   		<a href="#">牛仔裤</a><a href="#">夹克</a>
+					   		<a href="#" class="red">休闲裤</a><a href="#" class="red">长袖T恤</a>
+					   		<a href="#">毛衣</a><a href="#">皮衣</a>
+					   		<a href="#" class="red">风衣</a><a href="#" class="red">西装</a>
+					   		<a href="#" class="red">针织衫</a><a href="#" class="red">马甲</a>
+					   	</p>
+					   	<h4>
+					   		<a href="#">推荐男装</a>
+					   	</h4>
+					   	<p>
+					   		<a href="#" >秋冬上新</a><a href="#" class="red">热卖爆款</a>
+					   		<a href="#" >品牌特卖</a><a href="#">潮牌集结</a>
+					   		<a href="#">商务男装</a><a href="#">青春休闲</a>
+					   	</p>	
+                        <h4>
+                        	<a href="#" class="red">珠宝饰品</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">金条</a><a href="#">黄金</a><a href="#">钻戒</a>
+                        	<a href="#">翡翠玉石</a><a href="#">珍珠</a>
+                        	<a href="#">流行饰品</a><a href="#">手链</a><a href="#">戒指</a>
+                        	<a href="#">项链</a><a href="#">耳饰</a>
+                        </p>
+                        <h4>
+                        	<a href="#" class="red">腕表眼镜</a>
+                        </h4>
+                        <p>
+                        	<a href="#" class="red">国表</a><a href="#">瑞表</a><a href="#">时尚表</a>
+                        	<a href="#">男表</a><a href="#">女表</a><a href="#">石英表</a>
+                        	<a href="#">框架镜</a><a href="#">大牌眼镜</a>
+                        	<a href="#">墨镜</a>
+                        </p>
+					</div>
+					<div class="now_goodslist_ad fl">
+					</div>
+				</div>
+				</div>
+			</div>
+	    </div>
+		
+		<!-----------------楼梯---------------------->
+		<div id="floor" style="display: none;">
+			<span>进口海购</span>
+			<span>活色生鲜</span>	
+			<span>食品饮料</span>
+			<span>个性厨卫</span>
+			<span>母婴玩具</span>
+			<span>精品家具</span>
+			<span>流行百货</span>
+			<span>手机家电</span>
+			<span>团购</span>
+			<span>闪购</span>
+		</div>
+		<!-----------------poster---------------------->
+		<div class="poster">
+			<div class="poster_inner">
+				<div class="poster_top"><a href="#"><img src="img/HomePage/ChEi3Fg-UgaANqi3AAED1ERDUjE87100.jpg"/></a></div>
+				<div class="poster_content">
+					<div class="poster_content_first fl">
+						<a href="#"><img src="img/HomePage/ChEwoFhH2FCAWjl1AAB-Nf9Xbfk37000.jpg"/></a>
+					</div>
+					<div class="poster_content_secand fl">
+						<a href="#"><img src="img/HomePage/1492505844_0ac8edc9b7b81096l4blbichah12a_640x900.jpg_224x340.jpg"/></a>
+						<a href="#"><img src="img/HomePage/1492505844_0e41ac345l0fdjif1hdll2hdcc57k_640x900.jpg_224x340.jpg"/></a>
+					</div>
+					<div class="poster_content_third fl">
+						<a href="#"><img src="img/HomePage/ChEi3FhKENeAWWunAACwuiqJxZk70200.jpg"/></a>
+					</div>
+					<div class="poster_content_four fl">
+						<a href="#"><img src="img/HomePage/1492505844_2d3jbb35k2b7i032614dad24ai47g_640x900.jpg_224x340.jpg"/></a>
+					</div>
+				</div>
+				<div class="poster_end"><a href="#"><img src="img/HomePage/ChEi1VhA8SGAe0PEAAH527Vm_N878700.jpg"/></a></div>
+			</div>
+		</div>
+		<!-----------------food---------------------->
+		<div class="food">
+			<div class="food_inner">
+				<div class="food_title">
+				<h3><a href="#">进口·食品</a></h3>
+				<ul class="fr">
+					<li><a href="#">进口酒</a></li>
+					<li><a href="#">进口冲饮</a></li>
+					<li><a href="#">进口直采</a></li>
+					<li><a href="#">进口茶</a></li>
+					<li><a href="#">方便面</a></li>
+					<li><a href="#">进口零食</a></li>
+				</ul>
+				</div>
+			<div class="food_content">
+				<div class="food_content_list fl">
+					<p>
+					<a href="#">进口牛奶</a>
+					<a href="#">进口饼干</a>
+					<a href="#">进口巧克力</a>
+					<a href="#">进口坚果</a>
+					<a href="#">进口咖啡</a>
+					<a href="#">进口粮油</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="food_content_lunbo fl" id="food_lunbo">	
+				</div> 
+					<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#" target="_blank"><img src="img/goodsimg/goods_1.jpg"/></a>
+							    <h4></h4>
+							    <p></p>
+							</li>
+							<li>
+								<a href="#" target="_blank"><img src="img/goodsimg/goods_2.jpg"/></a>
+							    <h4></h4>
+							    <p></p>
+							</li>
+							<li>
+								<a href="#" target="_blank"><img src="img/goodsimg/goods_3.jpg"/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+				<!--<a href="html/goodsdetains.html?" name="00002" target="_blank"><img src="img/goodsimg/goods_1.jpg"/></a>
+			    <a href="html/goodsdetains.html?" name="00003" target="_blank"><img src="img/goodsimg/goods_2.jpg"/></a>-->
+				</div>
+			</div>	
+		</div>
+		<!-----------------icefood---------------------->
+		<div class="icefood">
+			<div class="icefood_inner">
+				<div class="icefood_title">
+				<h3><a href="#">活色生鲜</a></h3>
+				<ul class="fr">
+					<li><a href="#">票卷礼券</a></li>
+					<li><a href="#">肉类熏腊</a></li>
+					<li><a href="#">速冻食品</a></li>
+					<li><a href="#">低温乳品</a></li>
+					<li><a href="#">冷面熟食</a></li>
+					<li><a href="#">烘焙甜品</a></li>
+				</ul>
+				</div>
+				<div class="icefood_content">
+				<div class="icefood_content_list fl">
+					<p>
+					<a href="#">车厘子</a>
+					<a href="#">新鲜水果</a>
+					<a href="#">速冻点心</a>
+					<a href="#">海鲜水产</a>
+					<a href="#">品质肉类</a>
+					<a href="#">鲜活蛋类</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="icefood_content_lunbo fl" id="icefood_lunbo">
+					
+				</div>
+				<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#" target="_blank"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#" target="_blank"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#" target="_blank"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+			</div>	
+			</div>
+		</div>
+		<!-----------------drink---------------------->
+		<div class="drink">
+			<div class="drink_inner">
+				<div class="drink_title">
+				<h3><a href="#">食品饮料</a></h3>
+				<ul class="fr">
+					<li><a href="#">厨房调料</a></li>
+					<li><a href="#">牛奶</a></li>
+					<li><a href="#">白酒</a></li>
+					<li><a href="#">方便速食</a></li>
+					<li><a href="#">饮料</a></li>
+					<li><a href="#">糖果巧克力</a></li>
+				</ul>
+				</div>
+				<div class="drink_content">
+				<div class="drink_content_list fl">
+					<p>
+					<a href="#">粮油</a>
+					<a href="#">休闲零食</a>
+					<a href="#">饼干糕点</a>
+					<a href="#">水&饮料</a>
+					<a href="#">牛奶乳品</a>
+					<a href="#">保健滋补</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="drink_content_lunbo fl" id="drink_lunbo">
+				</div>
+				<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		</div>
+		<!-----------------kitchen---------------------->
+		   <div class="kitchen">
+			<div class="kitchen_inner">
+				<div class="kitchen_title">
+				<h3><a href="#">个护厨卫</a></h3>
+				<ul class="fr">
+					<li><a href="#">护手霜</a></li>
+					<li><a href="#">冬季护品</a></li>
+					<li><a href="#">纸品</a></li>
+					<li><a href="#">换季衣物洗护</a></li>
+					<li><a href="#">滋润面膜</a></li>
+					<li><a href="#">驱蚊驱虫</a></li>
+				</ul>
+				</div>
+				<div class="kitchen_content">
+				<div class="kitchen_content_list fl">
+					<p>
+					<a href="#">发水沐浴</a>
+					<a href="#">女性护理</a>
+					<a href="#">口腔护理</a>
+					<a href="#">纸品湿巾</a>
+					<a href="#">衣物护洗</a>
+					<a href="#">家庭清洁</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="kitchen_content_lunbo fl" id="kitchen_lunbo">
+					
+				</div>
+				<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+			</div>
+			</div>
+		</div>
+		<!-----------------baby---------------------->
+		<div class="baby">
+			<div class="baby_inner">
+				<div class="baby_title">
+				<h3><a href="#">母婴玩具</a></h3>
+				<ul class="fr">
+					<li><a href="#">大王</a></li>
+					<li><a href="#">营养米粉</a></li>
+					<li><a href="#">奶瓶奶嘴</a></li>
+					<li><a href="#">秋冬护理</a></li>
+					<li><a href="#">拉拉裤</a></li>
+					<li><a href="#">妈咪护理</a></li>
+				</ul>
+				</div>
+				<div class="baby_content">
+				<div class="baby_content_list fl">
+					<p>
+					<a href="#">洗护清洁</a>
+					<a href="#">哺育喂养</a>
+					<a href="#">孕妈用品</a>
+					<a href="#">玩具天地</a>
+					<a href="#">婴幼儿用品</a>
+					<a href="#">新客福利</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="baby_content_lunbo fl" id="baby_lunbo">
+					
+				</div>
+				<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+			</div>
+			</div>
+		</div>
+		<!-----------------home---------------------->
+		<div class="home">
+			<div class="home_inner">
+			    <div class="home_title">
+				<h3><a href="#">家居馆</a></h3>
+				<ul class="fr">
+					<li><a href="#">居家拖鞋</a></li>
+					<li><a href="#">口罩</a></li>
+					<li><a href="#">暖宝宝</a></li>
+					<li><a href="#">保温杯</a></li>
+					<li><a href="#">秋冬被</a></li>
+					<li><a href="#">居家收纳</a></li>
+				</ul>
+				</div>
+				<div class="home_content">
+				<div class="home_content_list fl">
+					<p>
+					<a href="#">餐具水具</a>
+					<a href="#">厨具锅具</a>
+					<a href="#">床上用品</a>
+					<a href="#">家纺布艺</a>
+					<a href="#">家装建材</a>
+					<a href="#">宠物用品</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="home_content_lunbo fl" id="home_lunbo">
+				</div>
+				<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+			</div>
+			</div>
+		</div>
+		<!-----------------popshop---------------------->
+		<div class="popshop">
+			<div class="popshop_inner">
+				<div class="popshop_title">
+				<h3><a href="#">流行百货</a></h3>
+				<ul class="fr">
+					<li><a href="#">秋连衣裙</a></li>
+					<li><a href="#">羽绒服男</a></li>
+					<li><a href="#">大牌腕表</a></li>
+					<li><a href="#">秋冬短靴</a></li>
+					<li><a href="#">女包新品</a></li>
+					<li><a href="#">冲锋衣裤</a></li>
+				</ul>
+				</div>
+				<div class="popshop_content">
+				<div class="popshop_content_list fl">
+					<p>
+					<a href="#">女装新品</a>
+					<a href="#">品质男装</a>
+					<a href="#">大牌包箱</a>
+					<a href="#">运动户外</a>
+					<a href="#">珠宝饰品</a>
+					<a href="#">男女鞋靴</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="popshop_content_lunbo fl" id="popshop_lunbo">
+					
+				</div>
+				<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+			</div>
+			</div>
+		</div>
+		<!-----------------phone---------------------->
+		<div class="phone">
+			<div class="phone_inner">
+				<div class="phone_title">
+				<h3><a href="#">手机家电</a></h3>
+				<ul class="fr">
+					<li><a href="#">iPhone7</a></li>
+					<li><a href="#">360N4S</a></li>
+					<li><a href="#">iPad</a></li>
+					<li><a href="#">Kindle</a></li>
+					<li><a href="#">家电特惠直降</a></li>
+					<li><a href="#">特价大家电</a></li>
+				</ul>
+				</div>
+				<div class="phone_content">
+				<div class="phone_content_list fl">
+					<p>
+					<a href="#">手机</a>
+					<a href="#">办流量办套餐</a>
+					<a href="#">平板电脑</a>
+					<a href="#">小米手环2</a>
+					<a href="#">空气净化器</a>
+					<a href="#">平板电脑</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="phone_content_lunbo fl" id="phone_lunbo">	      
+				</div>
+				<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+			</div>
+			</div>
+		</div>
+		<!-----------------firstday---------------------->
+		<div class="firstday">
+			<div class="firstday_inner">
+				<div class="firstday_title">
+				<h3><a href="#">1号团</a></h3>
+				<ul class="fr">
+					<li><a href="#">大牌纸尿裤</a></li>
+					<li><a href="#">新鲜牛奶</a></li>
+					<li><a href="#">进口牛奶</a></li>
+					<li><a href="#">iPhone疯抢</a></li>
+					<li><a href="#">个人护理</a></li>
+					<li><a href="#">生活电器</a></li>
+				</ul>
+				</div>
+				<div class="firstday_content">
+				<div class="firstday_content_list fl">
+					<p>
+					<a href="#">手机</a>
+					<a href="#">办流量办套餐</a>
+					<a href="#">平板电脑</a>
+					<a href="#">小米手环2</a>
+					<a href="#">空气净化器</a>
+					<a href="#">平板电脑</a>
+					</p>
+					<a href="#">
+						<img src="img/HomePage/food/food1.jpg" />
+					</a>
+				</div>
+				<div class="firstday_content_lunbo fl">
+					<a href="#"><img src="img/HomePage/food/ChEi2lgSwCiACjG2AAB0EfUpFcM95400.jpg"/></a>
+				</div>
+				<div class="goodsshow">
+						<ul>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+							<li>
+								<a href="#"><img src=""/></a>
+							    <h4></h4>
+							    <p> </p>
+							</li>
+						</ul>
+					</div>
+			</div>
+			</div>
+		</div>
+		<!-----------------fastbuy---------------------->
+		<div class="fastbuy">
+			<div class="fastbuy_inner">
+				<div class="fastbuy_title">
+					<h3><a href="#">闪购</a></h3>
+					<ul>
+						<li><a href="#" style="color: red;">大牌推荐</a></li>
+						<li><a href="#">销售排行</a></li>
+						<li><a href="#">最后疯抢</a></li>
+						<li class="last"><a href="#">品牌点亮生活，每天十点上新</a></li>
+					</ul>
+				</div>
+				<div class="fastbuy_list_div">
+					<ul class="fastbuy_list_ul">
+						<li class="first"><a href="#"><img src="img/HomePage/fastbuy/ChEi11hGky6ABkDyAACFtMhBAIw66800.jpg"/></a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi1FhGkN-AVus7AADZD3epJaM56200.jpg"/></a><span><span>3</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi1lhGdRqAYMZqAACOCKHhYts15900.jpg"/></a><span><span>3.6</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi1lhI8uqAM5IHAACpOUN7HDk49800.jpg"/></a><span><span>0.8</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi1VhGkYiAIzJmAABbXMZvgs865500.jpg"/></a><span><span>4.9</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+					</ul>
+					<ul class="fastbuy_list_ul" style="display: none;">
+						<li class="first"><a href="#"><img src="img/HomePage/fastbuy/ChEi2lhJAHiANZRBAADUi-pNcmY63900.jpg"/></a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi21hGdJiAZC4UAABzSAS08dQ96000.jpg"/></a><span><span>3</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi21hH2G6AXRiHAABqUv628VA91100.jpg"/></a><span><span>3.6</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi21hJCBqARgLgAAC9SUf4eAc26900.jpg"/></a><span><span>0.8</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi2FhGlQGAW6YZAAB7sWHnOFY28600.jpg"/></a><span><span>4.9</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+					</ul>
+					<ul class="fastbuy_list_ul" style="display: none;">
+						<li class="first"><a href="#"><img src="img/HomePage/fastbuy/ChEwoFhJQI-AXDhEAACIV7em6RY72700.jpg"/></a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi3FhGV4CAGeSOAACoXObc-kc34900.jpg"/></a><span><span>3</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEi3FhJKseAJhiTAAAz7IVcknQ64600.jpg"/></a><span><span>3.6</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEwolhJMayAOnjnAAAncOOrnXE00100.jpg"/></a><span><span>0.8</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+						<li><a href="#"><img src="img/HomePage/fastbuy/ChEwolhJQEqACiMKAACdvohiSUw80400.jpg"/></a><span><span>4.9</span><b>折起</b></span>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+						</li>
+					</ul>
+				</div>
+				</div>
+		</div>
+		<!-----------------service---------------------->
+		<div class="service">
+			<div class="service_inner">
+				<div class="service_top">
+					<dl>
+						<dt><a href="#"><img src="img/HomePage/icon/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">正品保障</a></h4>
+							<a href="">正品行货 放心选购</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="img/HomePage/icon/ChEbulWsk4iADa_aAAAM544hHN818600.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">满68包邮</a></h4>
+							<a href="">满68元 免运费</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="img/HomePage/icon/ChEi11WsyiyALBbiAAAN9lEEK5M33200.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">售后无忧</a></h4>
+							<a href="">7天无理由退货</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="img/HomePage/icon/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">准时送达</a></h4>
+							<a href="">收货时间由你做主</a>
+						</dd>
+					</dl>
+					
+				</div>
+				<div class="service_content">
+					<dl>
+						<dt>新手入门</dt>
+						<dd><a href="#">购物流程</a></dd>
+						<dd><a href="#">会员制度</a></dd>
+						<dd><a href="#">订单查询</a></dd>
+						<dd><a href="#">发票制度</a></dd>
+						<dd><a href="#">常见问题</a></dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd><a href="#">货到付款</a></dd>
+						<dd><a href="#">网上支付</a></dd>
+						<dd><a href="#">银行转账</a></dd>
+						<dd><a href="#">礼品卡支付</a></dd>
+						<dd><a href="#">其他支付</a></dd>
+					</dl>
+					<dl>
+						<dt>配送服务</dt>
+						<dd><a href="#">配送范围及运费</a></dd>
+						<dd><a href="#">配送进度查询</a></dd>
+						<dd><a href="#">自提服务</a></dd>
+						<dd><a href="#">商品签收及验货</a></dd>
+					</dl>
+					<dl>
+						<dt>售后保障</dt>
+						<dd><a href="#">退换货政策</a></dd>
+						<dd><a href="#">退换货流程</a></dd>
+						<dd><a href="#">退款说明</a></dd>
+						<dd><a href="#">延保说明页面</a></dd>
+						<dd><a href="#">联系客服</a></dd>
+					</dl>
+					<dl>
+						<dt>商家合作</dt>
+						<dd><a href="#">商家入驻</a></dd>
+						<dd><a href="#">商必赢</a></dd>
+						<dd><a href="#">平台规则</a></dd>
+						<dd><a href="#">企业采购</a></dd>
+					</dl>
+					<div>
+						<div class="app">
+							<h4>APP更优惠</h4>
+							<img src="img/HomePage/icon/10.jpg"/>
+						</div>
+						<div class="weix">
+							<h4>加微信查订单</h4>
+							<img src="img/HomePage/icon/ChEbu1dyRciANS1GAAAmHg10Abs90200.jpg"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-----------------end---------------------->
+		<div class="end">
+			<div class="end_inner">
+				<p class="end_first">
+					<a href="#">关于1号店</a>
+					<a href="#">我们的团队</a>
+					<a href="#">网站联盟</a>
+					<a href="#">热门搜索</a>
+					<a href="#">友情链接</a>
+					<a href="#">1号店社区</a>
+					<a href="#">诚征英才</a>
+					<a href="#">商家登陆</a>
+					<a href="#">供应商登录</a>
+					<a href="#">放心搜</a>
+					<a href="#">1号店新品</a>
+					<a href="#">开放平台</a>
+					<a href="#" class="last">沃尔玛</a>
+				</p>
+				<p class="end_secand">
+					<a href="#">沪ICP备14050023号</a>
+					<a href="#">合字B1.B2-20130004</a>
+					<a href="#">营业执照</a>
+					<a href="#">互联网药品信息服务资格证</a>
+					<a href="#" class="last">互联网药品交易服务资格证</a>
+				</p>
+				<p class="end_third">Copyright &copy; 1号店网上超市 2007-2016，All Rights Reserved</p>
+				<p class="end_four">
+					<a href="#"><img src="img/HomePage/icon/CgMBmVDzwyaAaIMBAAAJZgSEr6I65200.jpg"/></a>
+					<a href="#"><img src="img/HomePage/icon/CgMBmVLfYZGALWNHAAAOxFbda9472600.gif"/></a>
+					<a href="#"><img src="img/HomePage/icon/CgQCr1Dzwj2AVUL0AAA-ic2BxNw39500.jpg"/></a>
+					<a href="#"><img src="img/HomePage/icon/CgQCr1PQy1CAF7vaAABDexsiEYM24800.jpg"/></a>
+					<a href="#"><img src="img/HomePage/icon/CgQCrlPYTqCASlHXAAAd82JE0eA31000.png"/></a>
+					<a href="#"><img src="img/HomePage/icon/CgQCrlDzwnKAUkfSAAAIPrrML6M92400.jpg"/></a>
+					<a href="#"><img src="img/HomePage/icon/CgQCsVDzw0GABUElAADHlvRfNUk94600.jpg"/></a>
+					<a href="#"><img src="img/HomePage/icon/ChEi1FYXHcOAVk_WAAAL2r2-yfo10200.jpg"/></a>
+					<a href="#"><img src="img/HomePage/icon/ChEi1VcfPl2AC1T8AAANFrEfJlw97300.jpg"/></a>
+				</p>
+			</div>
+		</div>
+		<!-------------------body_right_box--------------------------->
+		<div id="body_right_box">
+		<div id="body_right_nav">
+			<div id="body_right_nav_car">
+			 	 购物车
+			 </div>
+			 <div id="body_right_nav_middle" >
+			 	<span id="body_right_nav_middle_one">订单</span>
+			 	<span id="body_right_nav_middle_two">金券</span>
+			 	<span id="body_right_nav_middle_three">收藏</span>
+			 </div>
+			 <div id="body_right_nav_end">
+			 	<span id="body_right_nav_end_one">反馈</span>
+			 	<span id="body_right_nav_end_two">掌上</span>
+			 	<span id="body_right_nav_end_three">顶部</span>
+			 </div>
+		</div>
+		</div>
+		<!-------------------游戏入口--------------------------->
+		<div id="startgame" style="left: 10px; top: 10px;">
+			<p>点我</p>
+			<p>进入1号店</p>
+			<p>游戏专栏</p>
+		</div>
+	</body>
+</html>

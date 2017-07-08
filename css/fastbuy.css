@@ -1,0 +1,133 @@
+
+
+/*****************banner*********************/
+.banner{height: 352px; width: 100%;}
+.banner img{height: 352px; width: 100%;}
+.banner .banner_inner{height: 352px; width: 100%; margin: 0 auto;overflow: hidden; position: relative;}
+.banner .banner_inner ul{width: 6000px; height: 352px; position: absolute;  cursor: pointer;}
+.banner .banner_inner ul li{float: left;}
+#banner_btn{position: absolute; bottom: 15px; left: 50%; margin-left: -152px;}
+#banner_btn span{height: 36px; width:36px; display: inline-block; float: left; margin:0 20px; border-radius: 50%;
+background: #ccc; }
+/*****************famous*********************/
+.famous{height: 446px; width: 100%; background: #ededed;}
+.famous .famous_inner{width: 1200px; height: 446px; margin: 0 auto;}
+.famous .famous_inner h3{text-align: center; line-height: 140px; font-size: 28px; font-weight: normal;}
+.famous .famous_inner dl{float: left; height: 280px;  width: 369px; border: 10px solid #fff; background: #fff;}
+.famous .famous_inner dt{height: 230px; width: 366px; overflow: hidden;}
+.famous .famous_inner dd img{height: 40px; padding-top: 9px;}
+.famous .famous_inner dd span{float: right; line-height: 49px; font-size: 24px; color:#ff4600;}
+.famous .famous_inner dd span b{font-size: 12px; color:#666;}
+.famous .famous_inner .first{margin-right: 16px;}
+.famous .famous_inner .secand{margin-right: 16px;}
+
+/*****************everyday*********************/
+.everyday{height:100%; width: 100%; background: #ededed;}
+.everyday .everyday_inner{width: 1200px; min-height: 446px; height: auto; margin: 0 auto;}
+.everyday .everyday_inner .everyday_inner_title h3,h6{text-align:center;}
+.everyday .everyday_inner .everyday_inner_title h3{padding-top: 100px; font-size: 28px; font-weight: normal;}
+.everyday .everyday_inner .everyday_inner_title h6{padding:20px 0 33px 0; font-size: 12px;}
+.everyday .everyday_inner .everyday_inner_title h6 span{color:#ff4600;}
+.everyday .everyday_inner .everyday_inner_goods{width: 776px; height: 232px; margin-bottom: 20px; background: #fff;
+border: 10px solid #FFF; position: relative;}
+.everyday .everyday_inner .everyday_inner_goods .goodscontent_left{width: 220px; height:232px;}
+.everyday .everyday_inner .everyday_inner_goods .img{height: 230px; width: 552px; overflow: hidden;}
+.everyday .everyday_inner .everyday_inner_goods .icon img{height: 78px;}
+.everyday .everyday_inner .everyday_inner_goods p{text-align: center;}
+.everyday .everyday_inner .everyday_inner_goods .one_p{padding-top: 10px; font-size: 14px;}
+.everyday .everyday_inner .everyday_inner_goods .two_p{padding-top: 10px; font-size: 12px; color:#999 ;}
+.everyday .everyday_inner .everyday_inner_goods .three_p{padding-top: 37px;}
+.everyday .everyday_inner .everyday_inner_goods .three_p span{font-size: 28px; color:#ff4600;}
+.everyday .everyday_inner .everyday_inner_goods .three_p span b{font-size: 12px; color:#666;}
+.everyday .everyday_inner .everyday_inner_goods .four_p{padding-top: 6px; color: #999;}
+.everyday .everyday_inner .everyday_inner_goods .time{position: absolute; right: 0; bottom: 3px; 
+color: #fff; background: #37333b; width: 165px; line-height: 24px; text-align: center;}
+
+/*****************over*********************/
+.over{height:100%; width: 100%; background: #2e2f2f; padding-bottom: 50px;}
+.over .over_inner{width: 1200px; min-height: 473px; height: auto; margin: 0 auto;}
+.over .over_inner .over_title{color:#fff; padding:70px 0 15px 0;}
+.over .over_inner .over_title h3{text-align: center; font-size: 28px; font-weight: normal;}
+.over_inner .over_goodscontent{height: 290px; width: 550px; float:left; border:20px solid #fff; background: #fff; margin-top: 20px;}
+.over_inner .over_goodscontent .over_img{position: relative; height:230px; width: 550px; overflow: hidden;}
+.over_inner .over_goodscontent .over_describe dt img{height: 60px;}
+.over_inner .over_goodscontent .over_describe dt{float:left;}
+.over_inner .over_goodscontent .over_describe .one_dd{line-height: 42px;}
+.over_inner .over_goodscontent .over_describe .one_dd span{float: right; font-size: 28px;color:#ff4600;}
+.over_inner .over_goodscontent .over_describe .one_dd span b{font-size: 12px; color:#666;}
+.over_inner .over_goodscontent .over_describe .two_dd{padding-top: 10px; color: #999;}
+.over_inner .over_goodscontent .over_describe .two_dd span{float: right; color: #999;}
+.over_inner .over_goodscontent .time{position: absolute; right: 0; bottom: 0; background: #37333b; color: #fff;
+width: 165px; line-height: 24px; text-align: center;}
+
+
+
+
+
+
+.popup_enter{height: 358px; width: 785px; border: 8px solid #aaaaaa; position: absolute;
+left: 50%; top: 0; border-top:none; background: #fff; margin-left: -400px;}
+
+.popup_enter #close_popup_enter{line-height: 24px; font-size: 24px; height: 24px; width: 100%;}
+.popup_enter #close_popup_enter span{float:right; padding-right: 20px; cursor: pointer;}
+
+
+.popup_enter b{background-image:url(../img/enter/icon/login_popup.png);}
+.popup_enter .middle_inner_header{line-height: 31px;}
+.popup_enter .middle_inner_header span{color:#666; font-size: 12px;}
+.popup_enter .middle_inner_header a{float: right; color: #6689e9; font-size: 12px; padding-right: 37px;}
+
+
+.popup_enter #usernumber{position: relative;}
+.popup_enter #usernumber .popup_enter_left{height: 100%; width: 355px; float: left; padding-left: 70px;
+padding-right: 20px; border-right:1px solid #e5e5e5 ;}
+.popup_enter #usernumber .username_div{height: 50px; width: 330px; border: 1px solid #dedede;}
+.popup_enter #usernumber .username_div #username{border: none; height: 50px; width: 270px;}
+.popup_enter #usernumber .username_div b{height: 50px; width: 56px; display: inline-block; 
+float: left; background-position: -38px 17px;}
+
+.popup_enter #usernumber .password_div{height: 50px; width: 330px; border: 1px solid #dedede; margin-top: 10px;}
+.popup_enter #usernumber .password_div #password{border: none; height: 50px; width: 270px;}
+.popup_enter #usernumber .password_div b{height: 50px; width: 56px; display: inline-block; 
+float: left; background-position: -138px 17px;}
+
+
+.popup_enter #usernumber .keepmsg{line-height: 44px;}
+.popup_enter #usernumber .keepmsg span{line-height: 44px; color: red; font-size: 12px;padding-left: 5px; display: none;}
+.popup_enter #usernumber .keepmsg #keepmsg_enter #keepmsg_one{height: 13px; width: 13px;display: inline-block;
+ margin-right:10px; background-position: -338px -270px;}
+.popup_enter #usernumber .keepmsg #keepmsg_enter{font-size: 12px; color: #aaa;}
+.popup_enter #usernumber .keepmsg #forget{float: right; font-size: 12px; padding-right: 38px; color: #aaa;}
+
+.popup_enter #usernumber  #enter_btn_div{height: 52px;  width: 330px;}
+.popup_enter #usernumber  #enter_btn_div #enter_btn{border: none; height: 52px;  width: 330px;
+border-radius: 5px; background: #ff3c3c; font-size: 16px; color: #fff; cursor: pointer;}
+
+.popup_enter #usernumber  #moreweb{height: 100%; width: 300px; float: right;}
+.popup_enter #usernumber  #moreweb h4{color: #666; font-size: 12px; padding-top: 16px; padding-bottom: 16px;}
+
+.popup_enter #usernumber  #moreweb a{background-image:url(../img/enter/icon/login_popup.png) ;}
+.popup_enter #usernumber  #moreweb .moreweb_one{height: 33px;}
+.popup_enter #usernumber  #moreweb .moreweb_one a{width: 33px; height: 33px; display: inline-block;
+float: left; margin-right: 20px;}
+
+#buycar{height: 36px; width: 82px; background: red; color: #fff; float: right; text-align: center; line-height: 36px;
+cursor: pointer; margin-top: 30px; border: 3px solid #333385;}
+
+.moreweb_one .qq{background-position:0 -150px ;}
+.moreweb_one .sina{background-position:-50px -150px ;}
+.moreweb_one .zhifubao{background-position:-100px -150px ;}
+.moreweb_one .weixin{background-position:-250px -150px ;}
+
+.popup_enter #usernumber #moreweb .moreweb_two{height: 16px; margin-top: 12px; padding-left: 10px;}
+.popup_enter #usernumber #moreweb .moreweb_two a{height: 16px; width: 16px; display: inline-block;
+float: left; margin-right: 10px;}
+
+.moreweb_two .wangyi{background-position:-150px -150px;}
+.moreweb_two .baidu{background-position:-200px -150px;}  
+.moreweb_two .yidong{background-position:0px -200px;}
+.moreweb_two .renren{background-position:-50px -200px;} 
+.moreweb_two .pinan{background-position:-150px -200px;}
+.moreweb_two .mogu{background-position:-200px -200px;}   
+
+

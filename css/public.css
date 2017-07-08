@@ -1,0 +1,173 @@
+/*****************top*********************/
+.top{height: 36px; width: 100%; border: 1px solid #dbdbdb; background: #fafafa;}
+.top .topinner{height:36px; width: 1200px; margin: 0 auto; background: #fafafa; position: relative;}
+.topinner span{background-image: url(../img/HomePage/indexhead_sprite_new.png);}
+.topinner #city_list{position:absolute; left: 93px; top: 27px; height: 300px; width: 358px;
+ border: 1px solid #cccccc; background: #fff; z-index:2; font-size:12px ; display: none;}
+.topinner #city_list dl{background: #fff; height: 20px; line-height: 20px; margin:16px 0 0 13px ;}
+.topinner #city_list dd {float:left; padding:0  10px ; cursor: pointer;}
+.topinner #city_list dt {float:left; margin-right:10px ; color: #999999;}
+.topinner #city_list .city_list_hotcity{border-bottom: 2px solid #e5e5e5;}
+.topinner #city_list .city_list_hotcity dt{font-weight: 700; color: #000;}
+.top_left {line-height: 36px; margin-left:8px; color: #333385;}
+.top_left #top_left_enter_state{background-position:-1000px -1000px ;}
+.top_left #exit{background-position: -1000px -1000px; margin-left: 5px; cursor: pointer;
+color: red;}
+.top_left a{color:#0066cc;}
+.top_left a:hover{color:red;}
+.top_left #city b{ border: 1px solid #dbdbdb; display: inline-block; 
+line-height: 18px; text-indent: 5px; margin-left:5px ; cursor:pointer;}
+.top_left #city b span{height:18px; width:13px; display: inline-block; background-position:-316px 5px ;}
+.top_left #icon_car{height: 19px; width: 43px;display: inline-block; background-position:-269px 0 ;}
+
+
+.top_right li{float: left; line-height: 14px; height:14px; border-right: 1px solid #dbdbdb;
+ margin-top:15px ; padding-left:14px ; cursor: pointer; }
+.top_right li a{color:#666666;}
+.top_right li span{height:12px; width: 13px; display: inline-block; margin: 0 9px 0 6px;}
+.top_right #top_right_myshop{position: relative; padding-left:0 ;}
+.top_right #top_right_myshop span{background-position:-190px 0px ; }
+.top_right #top_right_myshop  #top_right_myshop_list{position: absolute; width: 75px;
+ z-index: 2; background: #fff; display: none; border: 1px solid #ccc; padding-left: 8px;}
+.top_right #top_right_myshop  #top_right_myshop_list a{display: inline-block; 
+line-height: 16px; margin-top: 8px; }
+
+.top_right #top_right_collect{position: relative; padding-left:0 ;padding-left:15px;}
+.top_right #top_right_collect span{background-position:-190px 0px ;}
+.top_right #top_right_collect  #top_right_collect_list{position: absolute; width: 70px;display: none;
+ z-index: 2; background: #fff; border: 1px solid #ccc; left:0px; padding-left: 10px;}
+.top_right #top_right_collect  #top_right_collect_list a{display: inline-block; 
+line-height: 16px; margin-top: 8px; }
+
+.top_right #top_right_phone{padding: 0px 0px 0  25px; position: relative;}
+.top_right #top_right_phone b{height:19px; width: 12px; display: inline-block; 
+position: absolute; left:8px;top:-4px;background:url(../img/HomePage/indexhead_sprite_new.png) -375px 2px; ;}
+.top_right #top_right_our{ text-align:left;position: relative; width: 118px;}
+.top_right #top_right_phone span{background-position:-190px 0px ;}
+.top_right #top_right_phone #top_right_phone_content{height:105px; width: 265px; position: absolute; display: none;
+ border:1px solid #cccccc; left:-60px; background: #fff; z-index: 2; padding-left: 35px; padding-top: 35px;} 
+.top_right #top_right_phone #top_right_phone_content dd{width:185px; font-size: 16px; padding-left: 108px;}
+.top_right #top_right_phone #top_right_phone_content dd h4{padding:0 0 15px 0;}
+.top_right #top_right_phone #top_right_phone_content dd a:hover{color:red;}
+
+
+.top_right #top_right_business span{background-position:-190px 0px ;}
+.top_right #top_right_business{position: relative; padding-left:0 ;padding-left:15px;}
+.top_right #top_right_business span{background-position:-190px 0px ;}
+.top_right #top_right_business  #top_right_business_list{position: absolute; width: 70px; 
+ z-index: 2; background: #fff; border: 1px solid #ccc; left:5px; padding-left: 10px; display: none;}
+.top_right #top_right_business #top_right_business_list a{display: inline-block; 
+line-height: 16px; margin-top: 8px; }
+
+
+
+.top_right #top_right_client span{background-position:-190px 0px ;}
+.top_right #top_right_client{position: relative; padding-left:0 ;padding-left:15px;}
+.top_right #top_right_client span{background-position:-190px 0px ;}
+.top_right #top_right_client  #top_right_client_list{position: absolute; width: 70px; height: 118px; 
+ z-index: 2; background: #fff; border: 1px solid #ccc; left:5px; padding-left: 10px; display: none; }
+.top_right #top_right_client #top_right_client_list a{display: inline-block; 
+line-height: 16px; margin-top: 8px; }
+
+.top_right #top_right_nav span{background-position:-190px 0px ;}
+.top_right #top_right_nav{position: relative;padding-left:15px;}
+.top_right #top_right_nav  #top_right_nav_list{position: absolute; width: 210px; height: 108px;
+ z-index: 2; background: #fff; border: 1px solid #ccc; left:-60px; padding-left: 12px; padding-right: 12px; display: none;}
+ .top_right #top_right_nav #top_right_nav_list p{border-bottom: 1px solid #ccc; line-height: 27px;}
+.top_right #top_right_nav #top_right_nav_list p a{display: inline-block; padding: 0 11px;
+  }
+
+.top_right #top_right_our .top_right_our_sina{ height:16px; width:16px;position: absolute; left:67px;cursor: pointer;
+background-position: -350px 0;}
+.top_right #top_right_our .top_right_our_wx{height:16px; width:16px;position: absolute; left:95px;cursor: pointer; 
+background-position: -425px 0;}
+
+/*****************header*********************/
+.header{height:110px; width: 100%;}
+.header .header_inner{height:110px; width: 1200px; margin: 0 auto; position: relative;}
+.header #search{width:528px; margin: 26px 0 0 324px; border: 2px solid #ff3c3c; height: 28px; position: relative;}
+.header #search #search_span{width: 68px; height: 28px; text-align: center; display: inline-block;cursor: pointer;
+line-height: 28px ; border-left:1px solid #e1e1e1; border-right: 1px solid #e1e1e1; background:#f8f8f8;}
+.header #search #search_txt{height:23px; border:none; width:356px; font-size:12px; text-indent: 8px;;}
+.header #search #search_btn{height:30px; border: none; width: 102px; background:#ff3c3c;
+ cursor: pointer;color:#fff; position: absolute; right: 0; top: 0;}
+.header #search_p{width:528px; margin: 8px 0 0 324px; }
+.header #search_p a{color:#999999; padding-right:4px;}
+.header #search_p a:hover{color:#006400;}
+.header #search #search_prompt{height: 228px; width: 458px; position: absolute;
+ border: 2px solid #e5e5e5; background: #fff; z-index: 2; top:30px; left: 69px; display: none;}
+.header #search #search_prompt #search_prompt_history{height: 100%; width: 250px; float: left;
+ border-right: 1px solid #e5e5e5 ; overflow-y: auto;}
+ #search #search_prompt h4{padding-top:6px; text-indent: 10px; font-weight: normal; 
+ color: #999999; font-size: 12px;}
+ #search #search_prompt h4 span{color:#999999;font-size: 12px; float: right; cursor: pointer; padding-right: 5px; }
+ #search #search_prompt  #search_prompt_history_list li{line-height: 22px; font-size: 12px; padding-left: 12px; 
+cursor: pointer;}
+
+.header #search #search_prompt #search_prompt_hot{height:100%; width:190px; float: right; padding-left: 14px;}
+.header #search #search_prompt #search_prompt_hot p{margin-top: 12px;}
+.header #search #search_prompt #search_prompt_hot a{display: inline-block; line-height: 22px;
+ padding: 0 10px; cursor:pointer; font-size: 12px; border: 1px solid #e1e1e1; margin-left: 8px;color: #333333;}
+
+.header #shopcar{height:34px; width: 88px; position: absolute; right: 0; top:45px; border:2px solid #e5e5e5;
+ background: #f7f7f7; color:#666666; text-align: center; padding-top:12px; cursor:pointer;}
+.header #shopcar #shopcar_content{height:265px; width: 360px; position: absolute;
+ border: 2px solid #e5e5e5; z-index: 2; background: #fff; top: 46px;left:-274px; display: none;}
+.header #shopcar #shopcar_content span{height:77px; width: 120px; margin-top:60px; 
+  background: url(../img/HomePage/indexhead_sprite_new.png) no-repeat -50px -160px; display: inline-block;}
+.header #shopcar #shopcar_content p{font-size: 12px; padding-top: 12px;}
+ 
+
+
+/*****************service*********************/
+.service{height: 345px; width: 100%;}
+.service .service_inner{height: 345px; width: 1200px; margin: 0 auto; background: #fff;}
+.service .service_top{height:127px; width: 100%; border-bottom: 1px solid #ebebeb;}
+.service .service_top dl{height: 126px; width: 255px; float: left; padding-left: 45px; }
+.service .service_top dl dt{float: left; padding-top: 25px; padding-right: 15px;}
+.service .service_top dl dd{padding-top: 40px;}
+.service .service_top dl dd h4 a{color:#333333;}
+.service .service_top dl dd>a{color:#999; font-size: 12px;}
+
+.service .service_content{height:170px ; width: 1155px; padding-left: 45px;}
+.service .service_content a:hover{color: red;;}
+.service .service_content dl{width: 168px; height: 140px; float: left; padding-top: 30px;}
+.service .service_content dl dt{font-size: 14px; color: #666; padding-bottom: 16px;}
+.service .service_content dl dd {padding-bottom: 12px; font-size: 12px; }
+.service .service_content dl dd  a{color: #666;}
+
+.service .service_content>div{float:right;}
+.service .service_content>div div{float: left; padding-top: 30px;}
+.service .service_content>div div h4{padding-bottom: 15px; color: #666666; font-size: 14px;}
+.service .service_content>div .weix{padding-right: 60px;}
+.service .service_content>div .app{padding-right: 60px;}
+/*****************end*********************/
+.end{height: 160px; width: 100%;}
+.end .end_inner{height: 160px; width: 1200px; margin: 0 auto; background: #fff;}
+.end p{text-align: center;}
+.end p a{font-size: 12px;display: inline-block; padding: 0 11px 0 11px; border-right:1px solid #666; color: #666666;}
+.end p a:hover{color:mediumvioletred;}
+.end .end_first{margin-top: 18px;}
+.end .end_first .last{border:none;}
+.end .end_secand{margin-top: 15px;}
+.end .end_secand .last{border:none;}
+.end .end_third{margin-top: 16px; font-size: 12px; color: #666;}
+.end .end_four{margin-top: 25px;}
+.end .end_four a{border:none;}
+
+/*****************body右侧导航栏*********************/
+#body_right_box{height: 100%; width:34px; position: fixed;position: fixed; top: 0; right: 0;
+background: #fff;}
+
+#body_right_nav{width: 34px; height: 100%; background: #3f3c3c; padding-top: 120px;}
+#body_right_nav #body_right_nav_car{height:76px; width: 14px; color:#ffa89a; padding: 0 10px;
+ font-size: 12px; background: #322f2f; cursor: pointer; padding-top: 30px;}
+
+#body_right_nav #body_right_nav_middle{padding-top: 25px;}
+#body_right_nav #body_right_nav_middle span{height: 35px; width: 34px; display: inline-block;cursor: pointer;
+background:#ffa89a ; margin-top: 5px; font-size: 12px; text-align: center; line-height: 35px;color: red;}
+
+
+#body_right_nav #body_right_nav_end{padding-top: 80px;}
+#body_right_nav #body_right_nav_end span{height: 35px; width: 34px; display: inline-block;cursor: pointer;
+background:#ffa89a ; margin-top: 5px; font-size: 12px; text-align: center; line-height: 35px;color: red;}

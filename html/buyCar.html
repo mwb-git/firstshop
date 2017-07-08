@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>1号店——我的购物车</title>
+		<link href="//g.alicdn.com/mui/global/1.2.35/file/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/buyCar.js"></script>
+		<script type="text/javascript" src="../js/removeCookes.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/commes.css" />
+		<link rel="stylesheet"  type="text/css" href="../css/buyCar.css" />
+	</head>
+	<body>
+		<!------------------top--------------------->
+		<div class="top f12">
+			<div class="top_inner">
+				<p class="fl"><span id="enter_state">Hi,请 <a href="enter.html" id="enter">登录</a>/<a href="register.html" id="register">注册</a></span>
+				<!--<span id="exit" style="display: none;">退出</span>-->
+				</p>
+			    <ul id="help" class="fr">
+			    	<li id="help_first"><b id="help_first_one"></b><a href="#">帮助中心</a><b id="help_first_two"></b></li>
+			    	<!--<li><a href="#">包裹跟踪</a></li>
+			    	<li><a href="#">常见问题</a></li>
+			    	<li><a href="#">在线退换货</a></li>
+			    	<li><a href="#">配送范围</a></li>-->
+			    </ul> 
+			</div>
+		</div>
+		<!--购物车内的商品详情列表-->
+		<script type="text/plain" id="goodstext">
+			<dl class="goodsdl">
+			  	<dt class="goodsimg"><a href="#" name=""><img src=""/></a></dt>
+			  	<dd class="goodsname"></dd>
+			</dl>
+			<ul class="goodsul">
+			  	<li class="goodsprice"></li>
+			  	<li class="goodscount"><span class="add">+</span><span class="shuliang"></span><span class="reduce">－</span></li>
+			  	<li class="goodsallprice"></li>
+			  	<li class="goodsweight"></li>
+			  	<li class="deletegoods">删除</li>
+			 </ul>
+		</script>
+		<!------------------middle--------------------->
+		<div class="middle">
+				<div class="middle_inner">
+					<div class="middle_inner_search">
+						<div class="fr"><b id="search_icon"></b><input type="text" placeholder="请输入关键字" id="search"/><input type="button" id="search_btn" value="搜索"/></div>
+					</div>
+					<div class="goodsmessage" style="display: none;">
+			  	        <div class="goodsmessage_top">
+			  	   	         <p>
+			  	   				<span>配送至</span>
+			  	   				<select id="parvS">
+		                		</select>
+		                		<select id="cityS">
+		                		</select>
+			  	   	         </p>
+		                		<ul>
+		                			<li>单价（元）</li>
+		                			<li>数量</li>
+		                			<li>合计（元）</li>
+		                			<li>重量(kg)</li>
+		                			<li>操作</li>
+		                		</ul>
+			  	      	</div>
+					</div>
+			  	  <div class="goodsmessage_content" style="display: none;">
+			  	  </div>                                                                                                                           	
+					<div class="middle_inner_content">
+						<dl class="now_enter_dl">
+							<dt><img src="../img/buyCar/icon_tips2.png"/></dt>
+							<dd class="first">您的1号店购物车还是空的</dd>
+							<dd class="second">请立即登录查看</dd>
+							<dd id="now_enter">立即登录</dd>
+						</dl>
+						<dl class="enter_success" style="display: none;">
+							<dt><img src="../img/buyCar/icon_tips2.png"/></dt>
+							<dd class="first">您的1号店购物车还是空的</dd>
+							<dd id="enter_success_btn"><a href="../HomePage.html">去逛逛</a></dd>
+						</dl>
+					</div>
+				   <div class="pay_goods_div">
+				   	   <ul class="pay_goods">
+				   	   	<li class="goods_price">商品总计：<span>￥</span><span class="allgoodsprice"></span></li>
+				   	   	<li class="go_pay">去结算</li>
+				   	   </ul>
+				   </div>
+				</div>
+					<div style="clear: both;"></div>
+		</div>
+	
+		<!------------------end--------------------->
+		<div class="end">
+			<div class="end_inner">
+				<div class="end_inner">
+				<p><a href="#">沪ICP备13044278号</a>|<a href="#">合字B1.B2-20130004</a>|<a href="#">营业执照</a></p>
+				<p>Copyright © 1号店网上超市 2007-2016，All Rights Reserved</p>
+			</div>
+			</div>
+		</div>
+		<div class="popup_enter" style="display: none;">
+			<div id="usernumber">
+				<div id="close_popup_enter">
+					<span>&times;</span>
+				</div>
+				<div class="popup_enter_left">
+					<p class="middle_inner_header"><span>1号店用户登录</span><a href="register.html">注册新账号</a></p>
+					<div class="username_div">
+						<b></b><input type="text" value="study" id="username"/>
+					</div>
+					<div class="password_div">
+						<b></b><input  type="password" placeholder="密码" id="password" value="a764790954"/>
+					</div>
+                    <p class="keepmsg"><a href="#" id="keepmsg_enter"><b id="keepmsg_one"></b>自动登录</a><span>请勿在公共电脑上使用</span><a href="#" id="forget">忘记密码?</a></p>
+                    <div id="enter_btn_div"><input type="button" id="enter_btn" value="登录"/></div>
+                </div>
+                    <div id="moreweb">
+                    	<h4>更多合作网站账号登录</h4>
+                    	<p class="moreweb_one">
+                    		<a href="#" class="qq"></a>
+                    		<a href="#" class="sina"></a>
+                    		<a href="#" class="zhifubao"></a>
+                    		<a href="#" class="weixin"></a>
+                    	</p>
+                    	<p class="moreweb_two">	
+                    		<a href="#" class="wangyi"></a>
+                    		<a href="#" class="baidu"></a>
+                    		<a href="#" class="yidong"></a>
+                    		<a href="#" class="renren"></a>
+                    		<a href="#" class="pinan"></a>
+                    		<a href="#" class="mogu"></a>
+                    	</p>
+                    </div>
+                  </div>
+		</div>
+	</body>
+</html>

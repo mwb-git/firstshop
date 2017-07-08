@@ -1,0 +1,69 @@
+
+/*****************nav*********************/
+.nav{height: 36px; width: 100%;}
+#nav_inner{height:34px; width: 1200px; margin: 0 auto; border-bottom:2px solid #fd3f49;}
+#nav_inner ul{height:34px; line-height: 34px; width: 100%;}
+#nav_inner ul li{float:left; margin-right:32px;}
+#nav_inner ul li a{color:#ff3c3c; font-weight: bold;}
+#nav_inner ul #all_goods{width: 168px; background: #ff3c3c;padding-left:42px; color:#fff;margin-right:13px;}
+#nav_inner ul #all_goods a{color:#fff;}
+#nav_inner ul span{color:#968d8b;}
+
+#nav_inner #all_goodslist{height:398px; width:210px; background:#c23131;float:left;}
+#nav_inner #all_goodslist ul{border-top:3px solid #b01d1d;}
+#nav_inner #all_goodslist ul li{line-height: 31px; text-indent: 42px; cursor:pointer;}
+#nav_inner #all_goodslist ul li a{font-size:12px; color:#fff;}
+
+
+
+
+
+
+/*****************goods*********************/
+.goods{width: 100%; height: 585px;}
+.goods .goods_inner{height: 585px; width: 1200px; margin: 0 auto;}
+.goods .goods_inner .goods_img{height: 400px; width: 400px; border: 1px solid #ddd; margin-top: 50px;}
+.goods .goods_inner .goods_img img{height: 400px; width: 400px;}
+.goods .goods_inner .goods_content{height: 400px; width: 600px; margin-top: 50px; margin-left: 40px;}
+.goods .goods_inner .goods_content .goodsname{line-height: 40px;}
+.goods .goods_inner .goods_content .goodscontent{line-height: 32px; color: #999;}
+.goods .goods_inner .goods_content .goods_price_content{height: 108px; background: #fde5e0;
+border-top:1px solid #ffcbc4 ; border-bottom:1px solid #ffcbc4 ;}
+.goods_content .goods_price_content .goodsprice_p{height:22px; padding-top: 15px;}
+.goods_content .goods_price_content .goodsprice_p .price_icon{font-size: 16px; color: red; padding-left: 30px;}
+.goods_content .goods_price_content .goodsprice_p .goodsprice{color: red; font-size: 22px;}
+.goods_content .goods_price_content .goodsnote{ line-height: 31px; color:#f0a8af; padding-left: 60px;}
+.goods_content .goods_price_content .pay{padding-left: 60px;}
+.goods_content .add_reduce{height: 46px; width: 69px; border: 1px solid #ccc; margin: 50px 0 0 100px;}
+.goods_content .add_reduce .goodscount{height: 46px; width: 46px; border-right: 1px solid #ccc;
+text-align: center; line-height: 46px; }
+.goods_content .add_reduce span{display:block; height:22px; width: 22px; text-align: center; 
+line-height: 22px; cursor: pointer; font-size: 22px; border-bottom: 1px solid #ccc;}
+.goods_content #buy{width: 180px; height: 42px; color: #fff; background:orangered;
+font-size: 24px; line-height: 42px; text-align: center; border-radius: 10px;margin:50px 0 0 50px;
+cursor: pointer;}
+.goods_content #add_shopcar{width: 180px; height: 42px; color: #fff; background:orangered;
+font-size: 24px; line-height: 42px; text-align: center; border-radius: 10px;margin:50px 0 0 100px;
+cursor: pointer;}
+.goods .goods_inner .address{height:46px; width: 800px;  float: right; line-height: 46px;}
+.goods .goods_inner .address #map{cursor: pointer; background:darkgoldenrod; display:inline-block; padding: 0 10px; color: #fff;}
+
+#map_box{height: 500px; width: 800px; position: fixed; left: 50%; top: 50%; margin-left: -400px;
+ margin-top: -250px; background: #ccc; }
+#big_box{ width: 100%; position: fixed; opacity: 0.6; background: #666; left: 0; top: 0;}
+#map_box #map_div{height: 50px; width: 800px; line-height: 50px; text-align: center;}
+#map_box #map_div #map_txt{border: none; height: 36px; width: 220px; border: 2px solid red; text-indent: 20px;}
+#map_box #map_div #map_search{height: 36px; width: 60px; margin-left: 20px; background: red; color: #fff;
+ border: 3px solid red; cursor: pointer;}
+#map_box #map_div #map_close{height: 50px; width: 50px; float: right; font-size: 36px; cursor: 
+pointer; background: #666; color: #fff;}
+
+#map_box #map_show{height: 450px; width: 800px;}
+
+
+
+
+
+
+
+

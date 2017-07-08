@@ -1,0 +1,166 @@
+/*****************top*********************/
+.top{height: 36px; width: 100%; border: 1px solid #dbdbdb; background: #fafafa;}
+.top .topinner{height:36px; width: 1200px; margin: 0 auto; background: #fafafa; position: relative;}
+.topinner span{background-image: url(../img/HomePage/indexhead_sprite_new.png);}
+.topinner #city_list{position:absolute; left: 93px; top: 27px; height: 300px; width: 358px;
+ border: 1px solid #cccccc; background: #fff; z-index:2; font-size:12px ; display: none;}
+.topinner #city_list dl{background: #fff; height: 20px; line-height: 20px; margin:16px 0 0 13px ;}
+.topinner #city_list dd {float:left; padding:0  10px ; cursor: pointer;}
+.topinner #city_list dt {float:left; margin-right:10px ; color: #999999;}
+.topinner #city_list .city_list_hotcity{border-bottom: 2px solid #e5e5e5;}
+.topinner #city_list .city_list_hotcity dt{font-weight: 700; color: #000;}
+.top_left {line-height: 36px; margin-left:8px; color: #333385;}
+.top_left #top_left_enter_state{background-position:-1000px -1000px ;}
+.top_left #exit{background-position: -1000px -1000px; margin-left: 5px; cursor: pointer;
+color: red;}
+.top_left a{color:#0066cc;}
+.top_left a:hover{color:red;}
+.top_left #city b{ border: 1px solid #dbdbdb; display: inline-block; 
+line-height: 18px; text-indent: 5px; margin-left:5px ; cursor:pointer;}
+.top_left #city b span{height:18px; width:13px; display: inline-block; background-position:-316px 5px ;}
+.top_left #icon_car{height: 19px; width: 43px;display: inline-block; background-position:-269px 0 ;}
+
+
+.top_right li{float: left; line-height: 14px; height:14px; border-right: 1px solid #dbdbdb;
+ margin-top:15px ; padding-left:14px ; cursor: pointer; }
+.top_right li a{color:#666666;}
+.top_right li span{height:12px; width: 13px; display: inline-block; margin: 0 9px 0 6px;}
+.top_right #top_right_myshop{position: relative; padding-left:0 ;}
+.top_right #top_right_myshop span{background-position:-190px 0px ; }
+.top_right #top_right_myshop  #top_right_myshop_list{position: absolute; width: 75px;
+ z-index: 2; background: #fff; display: none; border: 1px solid #ccc; padding-left: 8px;}
+.top_right #top_right_myshop  #top_right_myshop_list a{display: inline-block; 
+line-height: 16px; margin-top: 8px; }
+
+.top_right #top_right_collect{position: relative; padding-left:0 ;padding-left:15px;}
+.top_right #top_right_collect span{background-position:-190px 0px ;}
+.top_right #top_right_collect  #top_right_collect_list{position: absolute; width: 70px;display: none;
+ z-index: 2; background: #fff; border: 1px solid #ccc; left:0px; padding-left: 10px;}
+.top_right #top_right_collect  #top_right_collect_list a{display: inline-block; 
+line-height: 16px; margin-top: 8px; }
+
+.top_right #top_right_phone{padding: 0px 0px 0  25px; position: relative;}
+.top_right #top_right_phone b{height:19px; width: 12px; display: inline-block; 
+position: absolute; left:8px;top:-4px;background:url(../img/HomePage/indexhead_sprite_new.png) -375px 2px; ;}
+.top_right #top_right_our{ text-align:left;position: relative; width: 118px;}
+.top_right #top_right_phone span{background-position:-190px 0px ;}
+.top_right #top_right_phone #top_right_phone_content{height:105px; width: 265px; position: absolute; display: none;
+ border:1px solid #cccccc; left:-60px; background: #fff; z-index: 2; padding-left: 35px; padding-top: 35px;} 
+.top_right #top_right_phone #top_right_phone_content dd{width:185px; font-size: 16px; padding-left: 108px;}
+.top_right #top_right_phone #top_right_phone_content dd h4{padding:0 0 15px 0;}
+.top_right #top_right_phone #top_right_phone_content dd a:hover{color:red;}
+
+
+.top_right #top_right_business span{background-position:-190px 0px ;}
+.top_right #top_right_business{position: relative; padding-left:0 ;padding-left:15px;}
+.top_right #top_right_business span{background-position:-190px 0px ;}
+.top_right #top_right_business  #top_right_business_list{position: absolute; width: 70px; 
+ z-index: 2; background: #fff; border: 1px solid #ccc; left:5px; padding-left: 10px; display: none;}
+.top_right #top_right_business #top_right_business_list a{display: inline-block; 
+line-height: 16px; margin-top: 8px; }
+
+
+
+.top_right #top_right_client span{background-position:-190px 0px ;}
+.top_right #top_right_client{position: relative; padding-left:0 ;padding-left:15px;}
+.top_right #top_right_client span{background-position:-190px 0px ;}
+.top_right #top_right_client  #top_right_client_list{position: absolute; width: 70px; height: 118px; 
+ z-index: 2; background: #fff; border: 1px solid #ccc; left:5px; padding-left: 10px; display: none; }
+.top_right #top_right_client #top_right_client_list a{display: inline-block; 
+line-height: 16px; margin-top: 8px; }
+
+.top_right #top_right_nav span{background-position:-190px 0px ;}
+.top_right #top_right_nav{position: relative;padding-left:15px;}
+.top_right #top_right_nav  #top_right_nav_list{position: absolute; width: 210px; height: 108px;
+ z-index: 2; background: #fff; border: 1px solid #ccc; left:-60px; padding-left: 12px; padding-right: 12px; display: none;}
+ .top_right #top_right_nav #top_right_nav_list p{border-bottom: 1px solid #ccc; line-height: 27px;}
+.top_right #top_right_nav #top_right_nav_list p a{display: inline-block; padding: 0 11px;
+  }
+
+.top_right #top_right_our .top_right_our_sina{ height:16px; width:16px;position: absolute; left:67px;cursor: pointer;
+background-position: -350px 0;}
+.top_right #top_right_our .top_right_our_wx{height:16px; width:16px;position: absolute; left:95px;cursor: pointer; 
+background-position: -425px 0;}
+
+/*****************nav*********************/
+.nav{height:96px; width: 100%;}
+.nav .nav_inner{height: 96px; width: 1200px; margin: 0 auto;}
+.nav .nav_inner .logo{height: 96px; width: 236px; float: left;}
+.nav .nav_inner .logo dt{float: left; padding-top: 22px; padding-left: 13px;}
+.nav .nav_inner .logo dd{padding-top: 35px; margin-left: 120px;}
+.nav .nav_inner .logo dd h3{font-size: 24px;}
+.nav .nav_inner .logo dd h4{font-size: 12px; font-weight: normal; color: #a3a3a3;}
+.nav .nav_inner ul{float:left;}
+.nav .nav_inner ul li{float: left; width: 115px; text-align: center; line-height: 36px; padding-top: 42px;}
+.nav .nav_inner ul li a{color:#333; padding-bottom:5px ; }
+.nav .nav_inner ul li a:hover{border-bottom: 3px solid #e50012;}
+
+/*****************banner*********************/
+.banner{height: 400px;  width: 100%; position: relative;}
+.banner img{width:100%; height: 400px;}
+.banner .banner_lunbo{height: 400px;position: absolute;}
+.banner .banner_lunbo li{float:left; }
+#banner_btn{position: absolute; bottom: 15px; left: 50%; margin-left: -152px;}
+#banner_btn span{height: 36px; width:36px; display: inline-block; float: left; margin:0 20px; border-radius: 50%;
+background: #ccc; }
+
+/*****************hotgame*********************/
+.hot_game{height: 460px; width: 100%;}
+.hot_game .hot_game_inner{height: 460px; width: 1200px; margin: 0 auto;}
+.hot_game .hot_game_inner h3{padding: 50px 0 20px 0; font-weight: normal; font-size: 20px;}
+.hot_game .hot_game_inner h3 a{color: #333;}
+.hot_game .hot_game_inner dl{float: left; height:240px; width: 390px;}
+.hot_game .hot_game_inner dl img{opacity: 0.8;}
+.hot_game .hot_game_inner dl .one{font-size: 18px; font-weight:700; color: #000; padding-top: 20px;}
+.hot_game .hot_game_inner dl .one span{float: right; color: #999; font-size: 12px;}
+.hot_game .hot_game_inner dl .two{font-size: 14px; color:#999 ;}
+
+/*****************allgame*********************/
+.allgame{height: 460px; width: 100%;}
+.allgame .allgame_inner{min-height: 460px; height: auto; width: 1200px; margin: 0 auto;}
+.allgame .allgame_inner h3{padding: 50px 0 20px 0; font-weight: normal; font-size: 20px;}
+.allgame .allgame_inner h3 a{color: #333;}
+.allgame .allgame_inner dl{float: left; height:360px; width: 388px; margin-bottom: 15px; border: 1px solid #ccc;position: relative;}
+.allgame .allgame_inner dl .one{font-size: 18px; font-weight:700; color: #000; padding-top: 20px; padding-left:12px;}
+.allgame .allgame_inner dl .one span{float: right; color: #999; font-size: 12px; padding-right: 10px;}
+.allgame .allgame_inner dl .two{font-size: 14px; color:#999 ; padding-left: 10px;}
+.allgame .allgame_inner dl input{border: none; height: 36px; width: 100px; background: orangered; color: #fff;
+ position: absolute;left:145px;top:157px; display: none; cursor: pointer;}
+
+.propmt{line-height: 64px; width:100%; padding-bottom: 30px;}
+.propmt p{ width:1200px; line-height: 64px; margin: 0 auto; text-align: center; color: red; font-size: 20px;}
+/*****************service*********************/
+.service{height: 345px; width: 100%;}
+.service .service_inner{height: 345px; width: 1200px; margin: 0 auto; background: #fff;}
+.service .service_top{height:127px; width: 100%; border-bottom: 1px solid #ebebeb;}
+.service .service_top dl{height: 126px; width: 255px; float: left; padding-left: 45px; }
+.service .service_top dl dt{float: left; padding-top: 25px; padding-right: 15px;}
+.service .service_top dl dd{padding-top: 40px;}
+.service .service_top dl dd h4 a{color:#333333;}
+.service .service_top dl dd>a{color:#999; font-size: 12px;}
+
+.service .service_content{height:170px ; width: 1155px; padding-left: 45px;}
+.service .service_content a:hover{color: red;;}
+.service .service_content dl{width: 168px; height: 140px; float: left; padding-top: 30px;}
+.service .service_content dl dt{font-size: 14px; color: #666; padding-bottom: 16px;}
+.service .service_content dl dd {padding-bottom: 12px; font-size: 12px; }
+.service .service_content dl dd  a{color: #666;}
+
+.service .service_content>div{float:right;}
+.service .service_content>div div{float: left; padding-top: 30px;}
+.service .service_content>div div h4{padding-bottom: 15px; color: #666666; font-size: 14px;}
+.service .service_content>div .weix{padding-right: 60px;}
+.service .service_content>div .app{padding-right: 60px;}
+/*****************end*********************/
+.end{height: 160px; width: 100%;}
+.end .end_inner{height: 160px; width: 1200px; margin: 0 auto; background: #fff;}
+.end p{text-align: center;}
+.end p a{font-size: 12px;display: inline-block; padding: 0 11px 0 11px; border-right:1px solid #666; color: #666666;}
+.end p a:hover{color:mediumvioletred;}
+.end .end_first{margin-top: 18px;}
+.end .end_first .last{border:none;}
+.end .end_secand{margin-top: 15px;}
+.end .end_secand .last{border:none;}
+.end .end_third{margin-top: 16px; font-size: 12px; color: #666;}
+.end .end_four{margin-top: 25px;}
+.end .end_four a{border:none;}

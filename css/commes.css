@@ -1,0 +1,10 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,input{padding: 0; margin: 0;}
+.f12{font-size: 12px;}
+.fl{float: left;}
+.fr{float: right;}
+li{list-style: none;}
+a{text-decoration: none;}
+.colorw{color:white;}
+img{vertical-align: bottom;}
+.red{color:#e90012 !important;}
+.ml{margin-left:20px;}

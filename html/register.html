@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>1号店——注册</title>
+		<link href="//g.alicdn.com/mui/global/1.2.35/file/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="../js/register.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/commes.css" />
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_inner">
+				<p class="f12 fr"><span>您好，欢迎光临一号店！</span><a href="enter.html"  class="header_inner_enter">请登录</a><a href="#" class="header_inner_help"><em class="help_one"></em>帮助中心<em class="help_two"></em></a></p>
+			</div>
+		</div>
+		<div class="middle">
+			<div class="middle_inner">
+				<div class="form_div">
+					<h3>1号店注册</h3>
+					<div class="form_register_usernanme">
+						<input  type="text" id="username"/>
+					    <span id="username_span">用户名</span>
+					    <i id="username_layout" style="display: none;">
+					    	数字不能开头，4-20位字符，由英文数字"_"组成
+					    </i>
+					    <strong id="username_prompt" style="display: none;">
+					    	用户名不能为空
+					    </strong>
+					</div>
+					<div class="form_register_phonenumber">
+						<input  type="text" id="phonenumber"/>
+						<span id="phonenumber_span">手机号</span>
+						<i id="phonenumber_layout" style="display: none;" >
+					    	请填写正确的手机号，以便接收订单通知，找回密码等
+					    </i>
+					    <strong id="phonenumber_prompt" style="display: none;">
+					    	手机号不能为空
+					    </strong>
+					</div>
+					<div class="form_register_authcoder">
+						<input  type="text" id="authcode"/>
+						<div class="gain_authcoder">获取验证码</div>
+						<span id="authcode_span">短信验证码</span>
+					</div>
+					<div class="form_register_password">
+						<input type="password" id="setpassword"/>
+						<span id="setpassword_span">设置密码</span>
+						<i id="setpassword_layout" style="display: none;" >
+					    	6-20位大小写英文字母，数字或特殊字符"_"组成
+					    </i>
+					    <strong id="setpassword_prompt" style="display: none;">
+					    	密码不能为空
+					    </strong>
+					</div>
+					<div class="form_register_check">
+						<input type="password" id="checkpassword"/>
+						<span id="checkpassword_span">确认密码</span>
+						<strong id="checkpassword_prompt" style="display: none;">
+					    	确认密码不能为空
+					    </strong>
+					</div>
+					<div class="form_register_mail">
+						<input type="text" id="mail"/>
+						<span id="mail_span">邮箱</span>
+						<i id="mail_layout" style="display: none;" >
+					    	邮箱@前字符数不能小于5个，必须以.com或.cn结尾
+					    </i>
+					    <strong id="mail_prompt" style="display: none;">
+					    	邮箱不能为空
+					    </strong>
+					</div>
+					<p class="deal f12"><b>点击注册，表示您同意1号店</b><a href="#">《服务协议》</a></p>
+					<div class="form_register_btn">
+						<input type="button" id="register_btn" value="同意协议并注册"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="end">
+			<div class="end_inner">
+				<p><a href="#">沪ICP备13044278号</a>|<a href="#">合字B1.B2-20130004</a>|<a href="#">营业执照</a></p>
+				<p>Copyright © 1号店网上超市 2007-2016，All Rights Reserved</p>
+			</div>
+		</div>
+	</body>
+</html>

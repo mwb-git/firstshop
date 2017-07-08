@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>1号店游戏</title>
+		<link href="//g.alicdn.com/mui/global/1.2.35/file/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="../css/commes.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/game.css"/>
+		<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="../js/removeCookes.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/game.js"></script>
+		<script type="text/javascript" src="../js/publicJs.js"></script>
+	</head>
+	<body>
+		<!-----------------top---------------------->
+		<div class="top">
+			<div class="topinner">
+				<p class="top_left f12 fl"><span id="top_left_enter_state">Hi,请<a href="enter.html">登录</a>/<a href="register.html">注册</a></span><a href="#" id="city"><b>北京<span id="city_icon"></span></b><span id="icon_car"></span></a></p>
+				<ul class="top_right fr f12">
+					<li id="top_right_myshop">
+						<a href="#">我的1号店</a><span></span>
+						<div id="top_right_myshop_list">
+							<a href="#">我的订单</a>
+							<a href="#">我的积分</a>
+							<a href="#">我的红包</a>
+							<a href="#">我的抵用券</a>
+							<a href="#">我的评论</a>
+							<a href="#">会员专享</a>
+						</div>
+					</li>
+					<li id="top_right_collect">
+						<a href="#">收藏夹</a><span></span>
+						<div id="top_right_collect_list">
+							<a href="#">商品收藏</a>
+							<a href="#">店铺收藏</a>
+						</div>
+					</li>
+					<li id="top_right_phone">
+						<b></b><a href="#">掌上1号店</a><span></span>
+						<div id="top_right_phone_content">
+							<dl>
+								<dt class="fl"><img src="../img/HomePage/icon/ChEbu1dyRciANS1GAAAmHg10Abs90200.jpg"/></dt>
+							<dd>
+								<h4>掌上1号店</h4>
+								<a href="#">手机购物更优惠</a>
+							</dd>	
+							</dl>
+						</div>
+					</li>
+					<li id="top_right_business">
+						<a href="#">企业采购</a><span></span>
+					    <div id="top_right_business_list">
+					    	<a href="#">礼品卡</a>
+					    	<a href="#">分销平台</a>
+					    </div>
+					</li>
+					<li id="top_right_client">
+						<a href="#">客户服务</a><span></span>
+						<div id="top_right_client_list">
+					    	<a href="#">包裹跟踪</a>
+					    	<a href="#">常见问题</a>
+					    	<a href="#">在线退换货</a>
+					    	<a href="#">配送范围</a>
+					   </div>
+					</li>
+					<li id="top_right_nav">
+						<a href="#">网站导航</a><span></span>
+						<div id="top_right_nav_list">
+							<p><a href="#">1号商城</a></p>
+							<p><a href="#">1号社区</a><a href="#">0元试用</a><a href="#">平安金卡</a><a href="#">分销平台</a></p>
+							<p><a href="#">网站联盟</a><a href="#">招商通道</a><a href="#">企业采购</a></p>
+						</div>
+					</li>
+					<li id="top_right_our">关注我们:<span class="top_right_our_sina"></span><span class="top_right_our_wx"></span></li>
+				</ul>
+			
+			<div id="city_list">
+				<dl class="city_list_hotcity">
+					<dt>热门城市</dt>
+					<dd>上海</dd>
+					<dd>北京</dd>
+					<dd>广东</dd>
+					<dd>湖北</dd>
+					<dd>四川</dd>
+				</dl>
+				<dl>
+					<dt>华北：</dt>
+					<dd>北京</dd>
+					<dd>河北</dd>
+					<dd>天津</dd>
+					<dd>山西</dd>
+					<dd>内蒙古</dd>
+				</dl>
+				<dl>
+					<dt>华东：</dt>
+					<dd>上海</dd>
+					<dd>江苏</dd>
+					<dd>浙江</dd>
+					<dd>安徽</dd>
+					<dd>福建</dd>
+					<dd>山东</dd>
+				</dl>
+				<dl>
+					<dt>华南：</dt>
+					<dd>广东</dd>
+					<dd>广西</dd>
+					<dd>海南</dd>
+				</dl>
+				<dl>
+					<dt>华中：</dt>
+					<dd>江西</dd>
+					<dd>河南</dd>
+					<dd>湖北</dd>
+					<dd>湖南</dd>
+				</dl>
+				<dl>
+					<dt>西南：</dt>
+					<dd>重庆</dd>
+					<dd>四川</dd>
+					<dd>贵州</dd>
+					<dd>云南</dd>
+					<dd>西藏</dd>
+				</dl>
+				<dl>
+					<dt>西北：</dt>
+					<dd>陕西</dd>
+					<dd>甘肃</dd>
+					<dd>青海</dd>
+					<dd>宁夏</dd>
+					<dd>新疆</dd>
+				</dl>
+				<dl>
+					<dt>东北：</dt>
+					<dd>辽宁</dd>
+					<dd>吉林</dd>
+					<dd>黑龙江</dd>
+				</dl>
+				</div>
+			</div>
+		</div>
+		<!-----------------nav---------------------->
+		<div class="nav">
+			<div class="nav_inner">
+				<div class="logo">
+					<dl>
+						<dt><a href="../HomePage.html"><img src="../img/game/icon/logo.png"/></a></dt>
+						<dd>
+							<h3>游戏频道</h3>
+							<h4>game.yhd.com</h4>
+						</dd>
+					</dl>
+				</div>
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">角色扮演</a></li>
+					<li><a href="#">休闲娱乐</a></li>
+					<li><a href="#">棋牌</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-----------------nav--------------------------->
+		<div class="banner" style="overflow: hidden;">
+			<ul class="banner_lunbo fl">
+				<li><a href="#"><img src="../img/game/CgQI0lcz4l-ADt-8AAH-b--Zxkk93400.jpg"/></a></li>
+				<li><a href="#"><img src="../img/game/CgQIz1dNLpmAaw8xAAHMS0kUN9o90000.jpg"/></a></li>
+				<li><a href="#"><img src="../img/game/ChEbulczD42AHWcVAAIpzmc71-868300.jpg"/></a></li>
+				<li><a href="#"><img src="../img/game/ChEi2lczD8CAHk7kAAGXEBxl_IE68700.jpg"/></a></li>
+				<li><a href="#"><img src="../img/game/CgQI0lcz4l-ADt-8AAH-b--Zxkk93400.jpg"/></a></li>
+			</ul>
+			<div id="banner_btn"><span style="background: hotpink;"></span><span></span><span></span><span></span></div>
+		</div>
+		<!-----------------hotgame--------------------------->
+		<div class="hot_game">
+			<div class="hot_game_inner">
+			<h3><a href="#">热门游戏</a></h3>
+			<dl style="margin-right:15px ;">
+				<dt><a href="#"><img src="../img/game/hotgame/lyb_390x240.jpg"/></a></dt>
+				<dd class="one">琅琊榜 <span>角色扮演</span></dd>
+				<dd class="two">武侠ARPG游戏,获得电视剧琅琊榜IP授权,为玩家呈现驰骋沙场的原始快感!</dd>
+			</dl>
+			<dl style="margin-right:15px ;">
+				<dt><a href="#"><img src="../img/game/hotgame/ChEi2VdNLJqAPz0IAABsQ8_s04o79600_390x240.jpg"/></a></dt>
+				<dd class="one">传奇霸业<span>角色扮演</span></dd>
+				<dd class="two">《传奇霸业》是一款获得盛大正版授权的传奇题材ARPG网页游戏.</dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="../img/game/hotgame/ec284fd42cea88dce7a3d0b83d5823a5.jpg"/></a></dt>
+				<dd class="one">剑雨江湖<span>角色扮演</span></dd>
+				<dd class="two">《剑雨江湖》是一款以吴宇森电影《剑雨》经典剧情为蓝本改编的ARPG网页游戏。</dd>
+			</dl>
+			</div>
+		</div>
+		<!-----------------allgame--------------------------->
+		<div class="allgame">
+			<div class="allgame_inner">
+				<h3><a href="#">所有游戏</a></h3>
+			<dl style="margin-right:15px ;">
+				<dt><a href="#"><img src="../img/game/allgame/9dad5ff2cbed4f34e794885b0b5c11e0.jpg"/></a></dt>
+				<dd class="one">蜀山战纪 <span>角色扮演</span></dd>
+				<dd class="two">Q版人物+唯美画面，同名电视剧改编网游，和陈伟霆一起斩妖除魔!</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			<dl style="margin-right:15px ;">
+				<dt><a href="#"><img src="../img/game/allgame/23e026cb9cf026f699c473b80645444a.jpg"/></a></dt>
+				<dd class="one">村长打天下<span>角色扮演</span></dd>
+				<dd class="two">是一款卡通风格的历史题材策略经营+战斗类游戏，建立一个属于自己横跨欧亚的帝国！</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="../img/game/allgame/banner390x240.jpg"/></a></dt>
+				<dd class="one">边锋斗地主 <span>棋牌</span></dd>
+				<dd class="two">边锋斗地主是一款让你玩得爽的斗地主游戏</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			<dl style="margin-right:15px ;">
+				<dt><a href="#"><img src="../img/game/allgame/4d28085eac8e611d60b782274e075c5a.jpg"/></a></dt>
+				<dd class="one">萌将 <span>休闲娱乐</span></dd>
+				<dd class="two">《萌将》是一款无需下载的东方穿越与学院题材并行的角色扮演游戏。</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			<dl style="margin-right:15px ;">
+				<dt><a href="#"><img src="../img/game/allgame/ec284fd42cea88dce7a3d0b83d5823a5.jpg"/></a></dt>
+				<dd class="one">剑雨江湖 <span>角色扮演</span></dd>
+				<dd class="two">《剑雨江湖》是一款以吴宇森电影《剑雨》经典剧情为蓝本改编的ARPG网页游戏。</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="../img/game/allgame/ChEi2VdNLJqAPz0IAABsQ8_s04o79600_390x240.jpg"/></a></dt>
+				<dd class="one">传奇霸业 <span>角色扮演</span></dd>
+				<dd class="two">《传奇霸业》是一款获得盛大正版授权的传奇题材ARPG网页游戏。</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			<dl style="margin-right:15px ;">
+				<dt><a href="#"><img src="../img/game/allgame/d7b4c7758531546e810977824cfde340.jpg"/></a></dt>
+				<dd class="one">女神联盟2 <span>角色扮演</span></dd>
+				<dd class="two">女神联盟 以西方神话为背景，描述了7大种族在这篇魔幻大陆的奇妙之旅。</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			<dl style="margin-right:15px ;">
+				<dt><a href="#"><img src="../img/game/allgame/7d4580ff09484a1385ac39abcaa07fe6.jpg"/></a></dt>
+				<dd class="one">传奇盛世 <span>角色扮演</span></dd>
+				<dd class="two">《传奇盛世》是一款东方魔幻风格的即时战斗类页游大作。</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="../img/game/allgame/lyb_390x240.jpg"/></a></dt>
+				<dd class="one">琅琊榜 <span>角色扮演</span></dd>
+				<dd class="two">武侠ARPG游戏,获得电视剧琅琊榜IP授权,为玩家呈现驰骋沙场的原始快感!</dd>
+				<input type="button" value="进入游戏"/>
+			</dl>
+			</div>
+		</div>
+        <div class="propmt fl">
+        	<p>抵制不良网页游戏，拒绝盗版游戏。 注意自我保护，谨防受骗上当。 适度游戏益脑，沉迷游戏伤身。 合理安排时间，享受健康生活。</p>
+        </div>
+		<!-----------------service---------------------->
+		<div class="service fl">
+			<div class="service_inner">
+				<div class="service_top">
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">正品保障</a></h4>
+							<a href="">正品行货 放心选购</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/ChEbulWsk4iADa_aAAAM544hHN818600.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">满68包邮</a></h4>
+							<a href="">满68元 免运费</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/ChEi11WsyiyALBbiAAAN9lEEK5M33200.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">售后无忧</a></h4>
+							<a href="">7天无理由退货</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">准时送达</a></h4>
+							<a href="">收货时间由你做主</a>
+						</dd>
+					</dl>
+					
+				</div>
+				<div class="service_content">
+					<dl>
+						<dt>新手入门</dt>
+						<dd><a href="#">购物流程</a></dd>
+						<dd><a href="#">会员制度</a></dd>
+						<dd><a href="#">订单查询</a></dd>
+						<dd><a href="#">发票制度</a></dd>
+						<dd><a href="#">常见问题</a></dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd><a href="#">货到付款</a></dd>
+						<dd><a href="#">网上支付</a></dd>
+						<dd><a href="#">银行转账</a></dd>
+						<dd><a href="#">礼品卡支付</a></dd>
+						<dd><a href="#">其他支付</a></dd>
+					</dl>
+					<dl>
+						<dt>配送服务</dt>
+						<dd><a href="#">配送范围及运费</a></dd>
+						<dd><a href="#">配送进度查询</a></dd>
+						<dd><a href="#">自提服务</a></dd>
+						<dd><a href="#">商品签收及验货</a></dd>
+					</dl>
+					<dl>
+						<dt>售后保障</dt>
+						<dd><a href="#">退换货政策</a></dd>
+						<dd><a href="#">退换货流程</a></dd>
+						<dd><a href="#">退款说明</a></dd>
+						<dd><a href="#">延保说明页面</a></dd>
+						<dd><a href="#">联系客服</a></dd>
+					</dl>
+					<dl>
+						<dt>商家合作</dt>
+						<dd><a href="#">商家入驻</a></dd>
+						<dd><a href="#">商必赢</a></dd>
+						<dd><a href="#">平台规则</a></dd>
+						<dd><a href="#">企业采购</a></dd>
+					</dl>
+					<div>
+						<div class="app">
+							<h4>APP更优惠</h4>
+							<img src="../img/HomePage/icon/10.jpg"/>
+						</div>
+						<div class="weix">
+							<h4>加微信查订单</h4>
+							<img src="../img/HomePage/icon/ChEbu1dyRciANS1GAAAmHg10Abs90200.jpg"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-----------------end---------------------->
+		<div class="end fl">
+			<div class="end_inner">
+				<p class="end_first">
+					<a href="#">关于1号店</a>
+					<a href="#">我们的团队</a>
+					<a href="#">网站联盟</a>
+					<a href="#">热门搜索</a>
+					<a href="#">友情链接</a>
+					<a href="#">1号店社区</a>
+					<a href="#">诚征英才</a>
+					<a href="#">商家登陆</a>
+					<a href="#">供应商登录</a>
+					<a href="#">放心搜</a>
+					<a href="#">1号店新品</a>
+					<a href="#">开放平台</a>
+					<a href="#" class="last">沃尔玛</a>
+				</p>
+				<p class="end_secand">
+					<a href="#">沪ICP备14050023号</a>
+					<a href="#">合字B1.B2-20130004</a>
+					<a href="#">营业执照</a>
+					<a href="#">互联网药品信息服务资格证</a>
+					<a href="#" class="last">互联网药品交易服务资格证</a>
+				</p>
+				<p class="end_third">Copyright &copy; 1号店网上超市 2007-2016，All Rights Reserved</p>
+				<p class="end_four">
+					<a href="#"><img src="../img/HomePage/icon/CgMBmVDzwyaAaIMBAAAJZgSEr6I65200.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgMBmVLfYZGALWNHAAAOxFbda9472600.gif"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCr1Dzwj2AVUL0AAA-ic2BxNw39500.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCr1PQy1CAF7vaAABDexsiEYM24800.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCrlPYTqCASlHXAAAd82JE0eA31000.png"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCrlDzwnKAUkfSAAAIPrrML6M92400.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCsVDzw0GABUElAADHlvRfNUk94600.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/ChEi1FYXHcOAVk_WAAAL2r2-yfo10200.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/ChEi1VcfPl2AC1T8AAANFrEfJlw97300.jpg"/></a>
+				</p>
+			</div>
+		</div>
+</body>
+</html>

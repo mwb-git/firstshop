@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>闪购——就来1号店</title>
+		<link href="//g.alicdn.com/mui/global/1.2.35/file/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/fastbuy.js"></script>
+		<script type="text/javascript" src="../js/removeCookes.js"></script>
+		<script type="text/javascript" src="../js/publicJs.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/commes.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/fastbuy.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+	</head>
+	<body>
+		<div class="top">
+			<div class="topinner">
+				<p class="top_left f12 fl"><span id="top_left_enter_state">Hi,请<a href="enter.html">登录</a>/<a href="register.html">注册</a></span><a href="#" id="city"><b>北京<span id="city_icon"></span></b><span id="icon_car"></span></a></p>
+				<ul class="top_right fr f12">
+					<li id="top_right_myshop">
+						<a href="#">我的1号店</a><span></span>
+						<div id="top_right_myshop_list">
+							<a href="#">我的订单</a>
+							<a href="#">我的积分</a>
+							<a href="#">我的红包</a>
+							<a href="#">我的抵用券</a>
+							<a href="#">我的评论</a>
+							<a href="#">会员专享</a>
+						</div>
+					</li>
+					<li id="top_right_collect">
+						<a href="#">收藏夹</a><span></span>
+						<div id="top_right_collect_list">
+							<a href="#">商品收藏</a>
+							<a href="#">店铺收藏</a>
+						</div>
+					</li>
+					<li id="top_right_phone">
+						<b></b><a href="#">掌上1号店</a><span></span>
+						<div id="top_right_phone_content">
+							<dl>
+								<dt class="fl"><img src="../img/HomePage/icon/ChEbu1dyRciANS1GAAAmHg10Abs90200.jpg"/></dt>
+							<dd>
+								<h4>掌上1号店</h4>
+								<a href="#">手机购物更优惠</a>
+							</dd>	
+							</dl>
+						</div>
+					</li>
+					<li id="top_right_business">
+						<a href="#">企业采购</a><span></span>
+					    <div id="top_right_business_list">
+					    	<a href="#">礼品卡</a>
+					    	<a href="#">分销平台</a>
+					    </div>
+					</li>
+					<li id="top_right_client">
+						<a href="#">客户服务</a><span></span>
+						<div id="top_right_client_list">
+					    	<a href="#">包裹跟踪</a>
+					    	<a href="#">常见问题</a>
+					    	<a href="#">在线退换货</a>
+					    	<a href="#">配送范围</a>
+					   </div>
+					</li>
+					<li id="top_right_nav">
+						<a href="#">网站导航</a><span></span>
+						<div id="top_right_nav_list">
+							<p><a href="#">1号商城</a></p>
+							<p><a href="#">1号社区</a><a href="#">0元试用</a><a href="#">平安金卡</a><a href="#">分销平台</a></p>
+							<p><a href="#">网站联盟</a><a href="#">招商通道</a><a href="#">企业采购</a></p>
+						</div>
+					</li>
+					<li id="top_right_our">关注我们:<span class="top_right_our_sina"></span><span class="top_right_our_wx"></span></li>
+				</ul>
+			
+			<div id="city_list">
+				<dl class="city_list_hotcity">
+					<dt>热门城市</dt>
+					<dd>上海</dd>
+					<dd>北京</dd>
+					<dd>广东</dd>
+					<dd>湖北</dd>
+					<dd>四川</dd>
+				</dl>
+				<dl>
+					<dt>华北：</dt>
+					<dd>北京</dd>
+					<dd>河北</dd>
+					<dd>天津</dd>
+					<dd>山西</dd>
+					<dd>内蒙古</dd>
+				</dl>
+				<dl>
+					<dt>华东：</dt>
+					<dd>上海</dd>
+					<dd>江苏</dd>
+					<dd>浙江</dd>
+					<dd>安徽</dd>
+					<dd>福建</dd>
+					<dd>山东</dd>
+				</dl>
+				<dl>
+					<dt>华南：</dt>
+					<dd>广东</dd>
+					<dd>广西</dd>
+					<dd>海南</dd>
+				</dl>
+				<dl>
+					<dt>华中：</dt>
+					<dd>江西</dd>
+					<dd>河南</dd>
+					<dd>湖北</dd>
+					<dd>湖南</dd>
+				</dl>
+				<dl>
+					<dt>西南：</dt>
+					<dd>重庆</dd>
+					<dd>四川</dd>
+					<dd>贵州</dd>
+					<dd>云南</dd>
+					<dd>西藏</dd>
+				</dl>
+				<dl>
+					<dt>西北：</dt>
+					<dd>陕西</dd>
+					<dd>甘肃</dd>
+					<dd>青海</dd>
+					<dd>宁夏</dd>
+					<dd>新疆</dd>
+				</dl>
+				<dl>
+					<dt>东北：</dt>
+					<dd>辽宁</dd>
+					<dd>吉林</dd>
+					<dd>黑龙江</dd>
+				</dl>
+				</div>
+			</div>
+		</div>
+		<!-----------------header---------------------->
+		<div class="header" style="height: 170px;">
+			<div class="header_inner">
+				<a href="#" class="header_inner_act"><img src="../img/HomePage/ChEwolhI9CyAIULFAACkJXbi5eE46100.jpg"/ class="fl"></a>
+				<a href="../HomePage.html" class="fl"><img src="../img/fastbuy/4.jpg"/></a>
+				<div id="buycar">
+					购物车
+				</div>
+			</div>
+		</div>
+		<!-----------------banner---------------------->
+		<div class="banner">
+			<div class="banner_inner">
+				<ul class="banner_lunbo">
+                    <li><img src="../img/fastbuy/lunbotu/1.jpg"></li>
+                	<li><img src="../img/fastbuy/lunbotu/2.jpg"></li>
+     				<li><img src="../img/fastbuy/lunbotu/3.jpg"></li>
+     				<li><img src="../img/fastbuy/lunbotu/4.jpg"></li>
+     				<li><img src="../img/fastbuy/lunbotu/1.jpg"></li>
+  				</ul>
+  				<div id="banner_btn"><span style="background: hotpink;"></span><span></span><span></span><span></span></div>
+			</div>
+		</div>
+		<!----------------famous----------------------->
+		<div class="famous">
+			<div class="famous_inner">
+				<h3>今日大牌 TOP PICKS</h3>
+				<dl class="first">
+					<dt><a href="#"><img src="../img/fastbuy/1.jpg"/></a></dt>
+					<dd><a href="#"><img src="../img/fastbuy/icon/1.jpg"/></a><span>0.3<b>折起</b></span></dd>
+				</dl>
+				<dl class="secand">
+					<dt><a href="#"><img src="../img/fastbuy/2.jpg"/></a></dt>
+					<dd><a href="#"><img src="../img/fastbuy/icon/2.jpg"/></a><span>1.1<b>折起</b></span></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="../img/fastbuy/3.jpg"/></a></dt>
+					<dd><a href="#"><img src="../img/fastbuy/icon/3.jpg"/></a><span>0.8<b>折起</b></span></dd>
+				</dl>
+			</div>
+		</div>
+		<!----------------everyday----------------------->
+		<div class="everyday">
+			<div class="everyday_inner">
+				<div class="everyday_inner_title">
+					<h3>每日上新 NEW BRANDS</h3>
+					<h6>每天<span>10:00</span>准时上新</h6>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/4.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/1.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/5.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/2.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/6.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/3.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/7.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/4.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/14.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/11.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/9.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/6.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/10.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/7.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/11.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/8.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/12.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/9.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+				<div class="everyday_inner_goods" style="margin-bottom: 0;">
+					<div class="goodscontent">
+						<div class="goodscontent_left fl">
+						<a href="#" class="icon"><img src="../img/fastbuy/icon/13.jpg"/></a>
+						<p class="one_p">三枪内衣年末特卖</p>
+						<p class="two_p">全场0.1元起</p>
+						<p class="three_p"><span>0.8<b>折起</b></span></p>
+						<p class="four_p f12">3104人喜欢</p>
+						</div>
+					</div>
+					<div class="img fr"><a href="#"><img src="../img/fastbuy/everyday/10.jpg"/></a></div>
+					<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+				</div>
+			</div>
+		</div>
+		<!----------------over----------------------->
+		<div class="over">
+			<div class="over_inner">
+				<div class="over_title">
+					<h3>即将结束 LAST SAIE</h3>
+				</div>
+				<div class="over_goodscontent">
+					<div class="over_img">
+						<a href="#"><img src="../img/fastbuy/over/1.jpg"</a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+					</div>	
+					<div class="over_describe">
+						<dl>
+							<dt><a href="#"><img src="../img/fastbuy/icon/15.jpg"/></a></dt>
+							<dd class="one_dd f12">冬至养养生，饮酒御寒<span>0.7<b>折起</b></span></dd>
+							<dd class="two_dd f12">联合卖场，多种特接名酒<span>3047人喜欢</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="over_goodscontent ml">
+					<div class="over_img">
+						<a href="#"><img src="../img/fastbuy/over/2.jpg"</a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+					</div>	
+					<div class="over_describe">
+						<dl>
+							<dt><a href="#"><img src="../img/fastbuy/icon/16.jpg"/></a></dt>
+							<dd class="one_dd f12">冬至养养生，饮酒御寒<span>0.7<b>折起</b></span></dd>
+							<dd class="two_dd f12">联合卖场，多种特接名酒<span>3047人喜欢</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="over_goodscontent ">
+					<div class="over_img">
+						<a href="#"><img src="../img/fastbuy/over/3.jpg"</a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+					</div>	
+					<div class="over_describe">
+						<dl>
+							<dt><a href="#"><img src="../img/fastbuy/icon/17.jpg"/></a></dt>
+							<dd class="one_dd f12">冬至养养生，饮酒御寒<span>0.7<b>折起</b></span></dd>
+							<dd class="two_dd f12">联合卖场，多种特接名酒<span>3047人喜欢</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="over_goodscontent ml">
+					<div class="over_img">
+						<a href="#"><img src="../img/fastbuy/over/4.jpg"</a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+					</div>	
+					<div class="over_describe">
+						<dl>
+							<dt><a href="#"><img src="../img/fastbuy/icon/18.jpg"/></a></dt>
+							<dd class="one_dd f12">冬至养养生，饮酒御寒<span>0.7<b>折起</b></span></dd>
+							<dd class="two_dd f12">联合卖场，多种特接名酒<span>3047人喜欢</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="over_goodscontent ">
+					<div class="over_img">
+						<a href="#"><img src="../img/fastbuy/over/8.jpg"</a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+					</div>	
+					<div class="over_describe">
+						<dl>
+							<dt><a href="#"><img src="../img/fastbuy/icon/22.jpg"/></a></dt>
+							<dd class="one_dd f12">冬至养养生，饮酒御寒<span>0.7<b>折起</b></span></dd>
+							<dd class="two_dd f12">联合卖场，多种特接名酒<span>3047人喜欢</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="over_goodscontent ml">
+					<div class="over_img">
+						<a href="#"><img src="../img/fastbuy/over/5.jpg"</a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+					</div>	
+					<div class="over_describe">
+						<dl>
+							<dt><a href="#"><img src="../img/fastbuy/icon/19.jpg"/></a></dt>
+							<dd class="one_dd f12">冬至养养生，饮酒御寒<span>0.7<b>折起</b></span></dd>
+							<dd class="two_dd f12">联合卖场，多种特接名酒<span>3047人喜欢</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="over_goodscontent ">
+					<div class="over_img">
+						<a href="#"><img src="../img/fastbuy/over/6.jpg"</a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+					</div>	
+					<div class="over_describe">
+						<dl>
+							<dt><a href="#"><img src="../img/fastbuy/icon/20.jpg"/></a></dt>
+							<dd class="one_dd f12">冬至养养生，饮酒御寒<span>0.7<b>折起</b></span></dd>
+							<dd class="two_dd f12">联合卖场，多种特接名酒<span>3047人喜欢</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="over_goodscontent ml">
+					<div class="over_img">
+						<a href="#"><img src="../img/fastbuy/over/7.jpg"</a>
+						<div class="time f12">剩余<span></span>天<span></span>时<span></span>分<span></span>秒</div>
+					</div>	
+					<div class="over_describe">
+						<dl>
+							<dt><a href="#"><img src="../img/fastbuy/icon/21.jpg"/></a></dt>
+							<dd class="one_dd f12">冬至养养生，饮酒御寒<span>0.7<b>折起</b></span></dd>
+							<dd class="two_dd f12">联合卖场，多种特接名酒<span>3047人喜欢</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		
+		
+		<!----------------service----------------------->
+		<div class="service">
+			<div class="service_inner">
+				<div class="service_top">
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">正品保障</a></h4>
+							<a href="">正品行货 放心选购</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/ChEbulWsk4iADa_aAAAM544hHN818600.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">满68包邮</a></h4>
+							<a href="">满68元 免运费</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/ChEi11WsyiyALBbiAAAN9lEEK5M33200.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">售后无忧</a></h4>
+							<a href="">7天无理由退货</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">准时送达</a></h4>
+							<a href="">收货时间由你做主</a>
+						</dd>
+					</dl>
+					
+				</div>
+				<div class="service_content">
+					<dl>
+						<dt>新手入门</dt>
+						<dd><a href="#">购物流程</a></dd>
+						<dd><a href="#">会员制度</a></dd>
+						<dd><a href="#">订单查询</a></dd>
+						<dd><a href="#">发票制度</a></dd>
+						<dd><a href="#">常见问题</a></dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd><a href="#">货到付款</a></dd>
+						<dd><a href="#">网上支付</a></dd>
+						<dd><a href="#">银行转账</a></dd>
+						<dd><a href="#">礼品卡支付</a></dd>
+						<dd><a href="#">其他支付</a></dd>
+					</dl>
+					<dl>
+						<dt>配送服务</dt>
+						<dd><a href="#">配送范围及运费</a></dd>
+						<dd><a href="#">配送进度查询</a></dd>
+						<dd><a href="#">自提服务</a></dd>
+						<dd><a href="#">商品签收及验货</a></dd>
+					</dl>
+					<dl>
+						<dt>售后保障</dt>
+						<dd><a href="#">退换货政策</a></dd>
+						<dd><a href="#">退换货流程</a></dd>
+						<dd><a href="#">退款说明</a></dd>
+						<dd><a href="#">延保说明页面</a></dd>
+						<dd><a href="#">联系客服</a></dd>
+					</dl>
+					<dl>
+						<dt>商家合作</dt>
+						<dd><a href="#">商家入驻</a></dd>
+						<dd><a href="#">商必赢</a></dd>
+						<dd><a href="#">平台规则</a></dd>
+						<dd><a href="#">企业采购</a></dd>
+					</dl>
+					<div>
+						<div class="app">
+							<h4>APP更优惠</h4>
+							<img src="../img/HomePage/icon/10.jpg"/>
+						</div>
+						<div class="weix">
+							<h4>加微信查订单</h4>
+							<img src="../img/HomePage/icon/ChEbu1dyRciANS1GAAAmHg10Abs90200.jpg"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-----------------end---------------------->
+		<div class="end">
+			<div class="end_inner">
+				<p class="end_first">
+					<a href="#">关于1号店</a>
+					<a href="#">我们的团队</a>
+					<a href="#">网站联盟</a>
+					<a href="#">热门搜索</a>
+					<a href="#">友情链接</a>
+					<a href="#">1号店社区</a>
+					<a href="#">诚征英才</a>
+					<a href="#">商家登陆</a>
+					<a href="#">供应商登录</a>
+					<a href="#">放心搜</a>
+					<a href="#">1号店新品</a>
+					<a href="#">开放平台</a>
+					<a href="#" class="last">沃尔玛</a>
+				</p>
+				<p class="end_secand">
+					<a href="#">沪ICP备14050023号</a>
+					<a href="#">合字B1.B2-20130004</a>
+					<a href="#">营业执照</a>
+					<a href="#">互联网药品信息服务资格证</a>
+					<a href="#" class="last">互联网药品交易服务资格证</a>
+				</p>
+				<p class="end_third">Copyright &copy; 1号店网上超市 2007-2016，All Rights Reserved</p>
+				<p class="end_four">
+					<a href="#"><img src="../img/HomePage/icon/CgMBmVDzwyaAaIMBAAAJZgSEr6I65200.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgMBmVLfYZGALWNHAAAOxFbda9472600.gif"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCr1Dzwj2AVUL0AAA-ic2BxNw39500.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCr1PQy1CAF7vaAABDexsiEYM24800.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCrlPYTqCASlHXAAAd82JE0eA31000.png"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCrlDzwnKAUkfSAAAIPrrML6M92400.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCsVDzw0GABUElAADHlvRfNUk94600.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/ChEi1FYXHcOAVk_WAAAL2r2-yfo10200.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/ChEi1VcfPl2AC1T8AAANFrEfJlw97300.jpg"/></a>
+				</p>
+			</div>
+		</div>
+		<div class="popup_enter" style="display: none;">
+			<div id="usernumber">
+				<div id="close_popup_enter">
+					<span>&times;</span>
+				</div>
+				<div class="popup_enter_left">
+					<p class="middle_inner_header"><span>1号店用户登录</span><a href="register.html">注册新账号</a></p>
+					<div class="username_div">
+						<b></b><input type="text" value="study" id="username"/>
+					</div>
+					<div class="password_div">
+						<b></b><input  type="password" placeholder="密码" id="password" value="a764790954"/>
+					</div>
+                    <p class="keepmsg"><a href="#" id="keepmsg_enter"><b id="keepmsg_one"></b>自动登录</a><span>请勿在公共电脑上使用</span><a href="#" id="forget">忘记密码?</a></p>
+                    <div id="enter_btn_div"><input type="button" id="enter_btn" value="登录"/></div>
+                </div>
+                    <div id="moreweb">
+                    	<h4>更多合作网站账号登录</h4>
+                    	<p class="moreweb_one">
+                    		<a href="#" class="qq"></a>
+                    		<a href="#" class="sina"></a>
+                    		<a href="#" class="zhifubao"></a>
+                    		<a href="#" class="weixin"></a>
+                    	</p>
+                    	<p class="moreweb_two">	
+                    		<a href="#" class="wangyi"></a>
+                    		<a href="#" class="baidu"></a>
+                    		<a href="#" class="yidong"></a>
+                    		<a href="#" class="renren"></a>
+                    		<a href="#" class="pinan"></a>
+                    		<a href="#" class="mogu"></a>
+                    	</p>
+                    </div>
+                  </div>
+		</div>
+	</body>
+</html>

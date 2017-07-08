@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>1号店商品详情</title>
+		<link href="//g.alicdn.com/mui/global/1.2.35/file/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="../css/commes.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/goodsdetains.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="../js/removeCookes.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/goodsdetains.js"></script>
+		<script type="text/javascript" src="../js/publicJs.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=mAg6Myd5fnt9rKh4cd8Q8kaO9K8t7h43"></script>
+	</head>
+	<body>
+		<!-----------------top---------------------->
+		<div class="top">
+			<div class="topinner">
+				<p class="top_left f12 fl"><span id="top_left_enter_state">Hi,请<a href="enter.html">登录</a>/<a href="register.html">注册</a></span><a href="#" id="city"><b>北京<span id="city_icon"></span></b><span id="icon_car"></span></a></p>
+				<ul class="top_right fr f12">
+					<li id="top_right_myshop">
+						<a href="#">我的1号店</a><span></span>
+						<div id="top_right_myshop_list">
+							<a href="#">我的订单</a>
+							<a href="#">我的积分</a>
+							<a href="#">我的红包</a>
+							<a href="#">我的抵用券</a>
+							<a href="#">我的评论</a>
+							<a href="#">会员专享</a>
+						</div>
+					</li>
+					<li id="top_right_collect">
+						<a href="#">收藏夹</a><span></span>
+						<div id="top_right_collect_list">
+							<a href="#">商品收藏</a>
+							<a href="#">店铺收藏</a>
+						</div>
+					</li>
+					<li id="top_right_phone">
+						<b></b><a href="#">掌上1号店</a><span></span>
+						<div id="top_right_phone_content">
+							<dl>
+								<dt class="fl"><img src="../img/HomePage/icon/ChEbu1dyRciANS1GAAAmHg10Abs90200.jpg"/></dt>
+							<dd>
+								<h4>掌上1号店</h4>
+								<a href="#">手机购物更优惠</a>
+							</dd>	
+							</dl>
+						</div>
+					</li>
+					<li id="top_right_business">
+						<a href="#">企业采购</a><span></span>
+					    <div id="top_right_business_list">
+					    	<a href="#">礼品卡</a>
+					    	<a href="#">分销平台</a>
+					    </div>
+					</li>
+					<li id="top_right_client">
+						<a href="#">客户服务</a><span></span>
+						<div id="top_right_client_list">
+					    	<a href="#">包裹跟踪</a>
+					    	<a href="#">常见问题</a>
+					    	<a href="#">在线退换货</a>
+					    	<a href="#">配送范围</a>
+					   </div>
+					</li>
+					<li id="top_right_nav">
+						<a href="#">网站导航</a><span></span>
+						<div id="top_right_nav_list">
+							<p><a href="#">1号商城</a></p>
+							<p><a href="#">1号社区</a><a href="#">0元试用</a><a href="#">平安金卡</a><a href="#">分销平台</a></p>
+							<p><a href="#">网站联盟</a><a href="#">招商通道</a><a href="#">企业采购</a></p>
+						</div>
+					</li>
+					<li id="top_right_our">关注我们:<span class="top_right_our_sina"></span><span class="top_right_our_wx"></span></li>
+				</ul>
+			
+			<div id="city_list">
+				<dl class="city_list_hotcity">
+					<dt>热门城市</dt>
+					<dd>上海</dd>
+					<dd>北京</dd>
+					<dd>广东</dd>
+					<dd>湖北</dd>
+					<dd>四川</dd>
+				</dl>
+				<dl>
+					<dt>华北：</dt>
+					<dd>北京</dd>
+					<dd>河北</dd>
+					<dd>天津</dd>
+					<dd>山西</dd>
+					<dd>内蒙古</dd>
+				</dl>
+				<dl>
+					<dt>华东：</dt>
+					<dd>上海</dd>
+					<dd>江苏</dd>
+					<dd>浙江</dd>
+					<dd>安徽</dd>
+					<dd>福建</dd>
+					<dd>山东</dd>
+				</dl>
+				<dl>
+					<dt>华南：</dt>
+					<dd>广东</dd>
+					<dd>广西</dd>
+					<dd>海南</dd>
+				</dl>
+				<dl>
+					<dt>华中：</dt>
+					<dd>江西</dd>
+					<dd>河南</dd>
+					<dd>湖北</dd>
+					<dd>湖南</dd>
+				</dl>
+				<dl>
+					<dt>西南：</dt>
+					<dd>重庆</dd>
+					<dd>四川</dd>
+					<dd>贵州</dd>
+					<dd>云南</dd>
+					<dd>西藏</dd>
+				</dl>
+				<dl>
+					<dt>西北：</dt>
+					<dd>陕西</dd>
+					<dd>甘肃</dd>
+					<dd>青海</dd>
+					<dd>宁夏</dd>
+					<dd>新疆</dd>
+				</dl>
+				<dl>
+					<dt>东北：</dt>
+					<dd>辽宁</dd>
+					<dd>吉林</dd>
+					<dd>黑龙江</dd>
+				</dl>
+				</div>
+			</div>
+		</div>
+		<!-----------------header---------------------->
+		<div class="header">
+			<div class="header_inner">
+				<a href="../HomePage.html"><img src="../img/icon.jpg" class="fl"/></a>
+				<div id="search"><span id="search_span">商品</span><input type="text" id="search_txt" placeholder="请输入你想搜索的商品"/><input type="button" value="搜索" id="search_btn"/>
+				   <div id="search_prompt">
+				   	  <div id="search_prompt_history">
+				   	  	<h4>历史记录<span id="search_delete_history">删除历史记录</span></h4>
+				   	  	<ul id="search_prompt_history_list">
+				   	  	</ul>
+				   	  </div>
+				   	  <div id="search_prompt_hot">
+				   	  	 <h4>正在热搜中...</h4>
+				   	  	 <p><a href="#">海购</a><a href="#">牛奶</a><a href="#">购物卡</a></p>
+				   	  	 <p><a href="#">羽绒服</a><a href="#">大米</a></p>
+				   	  	 <p><a href="#">iphone</a><a href="#">牙膏</a><a href="#">华为</a></p>
+				   	  	 <p><a href="#">三只松鼠</a><a href="#">洗衣液</a></p>
+				   	  	 <p><a href="#">卫生巾</a><a href="#">纸巾</a></p>
+				   	  </div>
+				   </div>
+				
+				</div>
+			    <p class="f12" id="search_p">
+			    	<a href="#">"价"比黑五低</a>
+			    	<a href="#">洗洁精</a>
+			    	<a href="#">毛衣</a>
+			    	<a href="#">米</a>
+			    	<a href="#">mate9</a>
+			    	<a href="#">黄油</a>
+			    	<a href="#">保鲜袋</a>
+			    	<a href="#">海飞丝</a>
+			    	<a href="#">外套</a>
+			    	<a href="#">巧克力</a>
+			    	<a href="#">坚果</a>
+			    </p>
+			   <div id="shopcar">
+			   	<b></b><span><a href="buyCar.html">购物车</a></span>
+			   	<div id="shopcar_content">
+			   		<span></span>
+			   		<p>你的购物车里还没有1号店的商品哦~~</p>
+			   	</div>
+			   </div>
+			</div>
+		</div>
+		<!-----------------nav---------------------->
+		<div class="nav">
+			<div id="nav_inner" class="f12">
+				<ul id="nav_inner_ul">
+					<li id="all_goods"><a href="#" class="colorw"/>所有商品分类</a></li>
+					<li><a href="../HomePage.html">首页</a></li> 
+					<li><a href="#">自营超市</a></li>
+					<li><a href="#">1号团</a></li>	
+				    <li><a href="#">1号商城</a></li>
+				    <li><a href="fastbuy.html">闪购</a></li>
+				    <li><a href="#">活色生鲜</a></li>
+				    <li><a href="#">医药</a></li>
+					<li><a href="choujiang.html">抽奖</a></li>	
+				    <li><a href="dianqicheng.html">电器城</a></li>	
+				    <span class="fr"><a href="#"><img src="../img/HomePage/icon/ChEiBVfGVIWANNwDAAAGY1qSOSA28600.png"/></a></span>
+				</ul>
+		    <div id="all_goodslist" style="display: none;">
+			    <ul id="all_goodslist_ul">
+	                <li><a href="#">进口食品、</a><a href="#">生鲜、</a><a href="#">海购</a></li>
+					<li><a href="#">食品、</a><a href="#">饮料、</a><a href="#">酒</a></li>
+					<li><a href="#">母婴、</a><a href="#">玩具、</a><a href="#">童装</a></li>
+					<li><a href="#">厨卫清洁、</a><a href="#">纸、</a><a href="#">清洁剂</a></li>
+					<li><a href="#">家居、</a><a href="#">家装、</a><a href="#">宠物</a></li>
+					<li><a href="#">美妆、</a><a href="#">个人护理、</a><a href="#">洗护</a></li>
+					<li><a href="#">女装内衣、</a><a href="#">男装、</a><a href="#">珠宝</a></li>
+					<li><a href="#">鞋靴、</a><a href="#">箱包、</a><a href="#">运动户外</a></li>
+					<li><a href="#">手机、</a><a href="#">数码、</a><a href="#">电脑办公</a></li>
+					<li><a href="#">大家电、</a><a href="#">小家电、</a><a href="#">汽车</a></li>
+					<li><a href="#">保健滋补、</a><a href="#">医药、</a><a href="#">成人</a></li>
+					<li><a href="#">礼品卡、</a><a href="#">旅游、</a><a href="#">图书</a></li>
+			    </ul>
+		    </div>
+			</div>
+		</div>
+		<!-----------------goods---------------------->
+		<div class="goods">
+			<div class="goods_inner">
+				<div class="goods_img fl">
+					<img src=""/>
+				</div>
+				<div class="goods_content fl">
+					<h3 class="goodsname"></h3>
+					<p class="goodscontent f12"></p>
+					
+					<div class="goods_price_content">
+						<p class="goodsprice_p f12">价格<span class="price_icon">￥</span><span class="goodsprice"></span></p>
+						<p class="goodsnote f12"></p>	
+						<span class="pay">支持 <a href="#">货到付款</a></span>
+					</div>
+					
+					<div class="add_reduce">
+						<div class="goodscount fl">
+							1
+						</div>
+						<div class="goodsright fr">
+							<span id="add">+</span>
+							<span id="reduce">-</span>
+						</div>
+					</div>
+					<div>
+					<div id="buy" class="fl">
+						立即购买
+					</div>
+					<div id="add_shopcar" class="fl">
+						加入购物车
+					</div>
+					</div>
+				</div>
+			    <div class="address">
+				    <span>送货至</span>
+				    <select id="parvS">
+		            </select>
+		            <select id="cityS">
+		            </select>
+		            <span>详细地址：</span><input type="text" />
+		            <span id="map">可以点击获取百度地图</span>
+			    </div>
+			</div>
+		</div>
+		
+		<div class="service">
+			<div class="service_inner">
+				<div class="service_top">
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">正品保障</a></h4>
+							<a href="">正品行货 放心选购</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/ChEbulWsk4iADa_aAAAM544hHN818600.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">满68包邮</a></h4>
+							<a href="">满68元 免运费</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/ChEi11WsyiyALBbiAAAN9lEEK5M33200.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">售后无忧</a></h4>
+							<a href="">7天无理由退货</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/HomePage/icon/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg"/></a></dt>
+						<dd>
+							<h4><a href="#">准时送达</a></h4>
+							<a href="">收货时间由你做主</a>
+						</dd>
+					</dl>
+					
+				</div>
+				<div class="service_content">
+					<dl>
+						<dt>新手入门</dt>
+						<dd><a href="#">购物流程</a></dd>
+						<dd><a href="#">会员制度</a></dd>
+						<dd><a href="#">订单查询</a></dd>
+						<dd><a href="#">发票制度</a></dd>
+						<dd><a href="#">常见问题</a></dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd><a href="#">货到付款</a></dd>
+						<dd><a href="#">网上支付</a></dd>
+						<dd><a href="#">银行转账</a></dd>
+						<dd><a href="#">礼品卡支付</a></dd>
+						<dd><a href="#">其他支付</a></dd>
+					</dl>
+					<dl>
+						<dt>配送服务</dt>
+						<dd><a href="#">配送范围及运费</a></dd>
+						<dd><a href="#">配送进度查询</a></dd>
+						<dd><a href="#">自提服务</a></dd>
+						<dd><a href="#">商品签收及验货</a></dd>
+					</dl>
+					<dl>
+						<dt>售后保障</dt>
+						<dd><a href="#">退换货政策</a></dd>
+						<dd><a href="#">退换货流程</a></dd>
+						<dd><a href="#">退款说明</a></dd>
+						<dd><a href="#">延保说明页面</a></dd>
+						<dd><a href="#">联系客服</a></dd>
+					</dl>
+					<dl>
+						<dt>商家合作</dt>
+						<dd><a href="#">商家入驻</a></dd>
+						<dd><a href="#">商必赢</a></dd>
+						<dd><a href="#">平台规则</a></dd>
+						<dd><a href="#">企业采购</a></dd>
+					</dl>
+					<div>
+						<div class="app">
+							<h4>APP更优惠</h4>
+							<img src="../img/HomePage/icon/10.jpg"/>
+						</div>
+						<div class="weix">
+							<h4>加微信查订单</h4>
+							<img src="../img/HomePage/icon/ChEbu1dyRciANS1GAAAmHg10Abs90200.jpg"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-----------------end---------------------->
+		<div class="end">
+			<div class="end_inner">
+				<p class="end_first">
+					<a href="#">关于1号店</a>
+					<a href="#">我们的团队</a>
+					<a href="#">网站联盟</a>
+					<a href="#">热门搜索</a>
+					<a href="#">友情链接</a>
+					<a href="#">1号店社区</a>
+					<a href="#">诚征英才</a>
+					<a href="#">商家登陆</a>
+					<a href="#">供应商登录</a>
+					<a href="#">放心搜</a>
+					<a href="#">1号店新品</a>
+					<a href="#">开放平台</a>
+					<a href="#" class="last">沃尔玛</a>
+				</p>
+				<p class="end_secand">
+					<a href="#">沪ICP备14050023号</a>
+					<a href="#">合字B1.B2-20130004</a>
+					<a href="#">营业执照</a>
+					<a href="#">互联网药品信息服务资格证</a>
+					<a href="#" class="last">互联网药品交易服务资格证</a>
+				</p>
+				<p class="end_third">Copyright &copy; 1号店网上超市 2007-2016，All Rights Reserved</p>
+				<p class="end_four">
+					<a href="#"><img src="../img/HomePage/icon/CgMBmVDzwyaAaIMBAAAJZgSEr6I65200.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgMBmVLfYZGALWNHAAAOxFbda9472600.gif"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCr1Dzwj2AVUL0AAA-ic2BxNw39500.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCr1PQy1CAF7vaAABDexsiEYM24800.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCrlPYTqCASlHXAAAd82JE0eA31000.png"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCrlDzwnKAUkfSAAAIPrrML6M92400.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/CgQCsVDzw0GABUElAADHlvRfNUk94600.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/ChEi1FYXHcOAVk_WAAAL2r2-yfo10200.jpg"/></a>
+					<a href="#"><img src="../img/HomePage/icon/ChEi1VcfPl2AC1T8AAANFrEfJlw97300.jpg"/></a>
+				</p>
+			</div>
+		</div>
+		<div id="big_box" style="display: none;">
+		</div>
+	     <div id="map_box" style="display: none;"> 
+	     	<div id="map_div"><input type="text" id="map_txt"/><input type="button" value="搜索" id="map_search"/><span id="map_close">&times;</span></div>
+	     	<div id="map_show">
+	     	</div>
+	     	<p></p>
+	     </div>
+		
+</body>
+</html>

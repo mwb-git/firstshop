@@ -1,0 +1,80 @@
+/*****************nav*********************/
+.nav{height: 36px; width: 100%;}
+#nav_inner{height:34px; width: 1200px; margin: 0 auto; border-bottom:2px solid #fd3f49;}
+#nav_inner ul{height:34px; line-height: 34px; width: 100%;}
+#nav_inner ul li{float:left; margin-right:32px;}
+#nav_inner ul li a{color:#ff3c3c; font-weight: bold;}
+#nav_inner ul #all_goods{width: 168px; background: #ff3c3c;padding-left:42px; color:#fff;margin-right:13px;}
+#nav_inner ul #all_goods a{color:#fff;}
+#nav_inner ul span{color:#968d8b;}
+
+#nav_inner #all_goodslist{height:398px; width:210px; background:#c23131;float:left;}
+#nav_inner #all_goodslist ul{border-top:3px solid #b01d1d;}
+#nav_inner #all_goodslist ul li{line-height: 31px; text-indent: 42px; cursor:pointer;}
+#nav_inner #all_goodslist ul li a{font-size:12px; color:#fff;}
+
+/*****************middle*********************/
+.middle{height: 460px; width: 100%; background: #a3002b; border-bottom:3px solid #6f001d ;}
+.middle .middle_inner{height: 460px; width: 980px; margin: 0 auto; position: relative;
+background: url(../img/choujiang/lottery_activity_main.jpg) no-repeat 37px ;}
+
+#middle_right{height: 400px; width: 530px; position: absolute; right: 64px; top: 30px;}
+#middle_right>div{height: 120px; width: 530px; margin-bottom: 10px;}
+#middle_right>div #btn{height: 80px; width: 250px; margin-left: 10px; float: left; text-align: center;padding-top: 40px; 
+ background: url(../img/choujiang/draw_btn.png) no-repeat; font-size: 25px; font-weight: 700; color: #fff; cursor: pointer;}
+
+#middle_right>div #btn i{display: block; font-style: normal; font-weight: normal; font-size: 12px;}
+
+#middle_right dl dt img{height: 120px; width: 120px;}
+#middle_right dl{float:left; margin-left: 10px; cursor: pointer; position: relative;}
+#middle_right dl dd{position: absolute; bottom: 0; left:0; font-size: 13px;text-align: center; width: 120px; 
+line-height:18px ; background: #ff9900; color: #fff; display: none;}
+#middle_right #shadow{height: 120px; width: 120px; background: #666; position: absolute; left: 10px; top: 0;
+ opacity: 0.9; z-index: 2; display: none;}
+ 
+ 
+.middle_left{height: 244px; width: 290px; overflow: hidden; position: absolute; left: 72px; top:135px;}
+.middle_left>span{color:#fff; line-height: 24px; padding-left: 20px;}
+.middle_left ul{position: absolute;}
+.middle_left ul li{color:#fff; text-indent: 20px; line-height: 24px;}
+.middle_left ul li span{color:#ff6600;}
+.middle_left .middle_left_inner{height: 210px; width: 280px; position: relative; overflow: hidden;} 
+ 
+ #myprize{height: 24px; width: 80px; text-align: center; line-height: 24px; background: #fb9f3e; position: absolute;
+ left:74px; bottom: 42px; color: #fff; font-size: 12px; cursor: pointer;}
+/*****************show*********************/
+.show{height: 570px; width: 100%; background: #a3002b; padding-bottom: 30px;padding-top: 20px;}
+.show .show_inner{height: 570px; width: 980px; margin: 0 auto;background: #fff;}
+.show .show_inner h3{height: 36px; font-size: 24px; font-weight: normal; line-height: 36px; padding-left: 20px;}
+
+.show .show_inner dl{float: left; height: 240px; width: 160px; margin-left: 20px; background: #f1da69;
+ margin-top: 20px; cursor: pointer; border: 3px solid #fff;}
+.show .show_inner dl dd{font-size: 13px; padding:20px 10px 20px 10px; color: #666;}
+
+#popup_happy{height: 160px; width: 360px; position: fixed; left: 50%; top: 50%; margin-left: -180px; 
+margin-top: -180px; background: #eee; border: 5px solid #ccc; display: none; z-index: 3;}
+#popup_happy h3{height: 36px; width: 360px; text-align: center;}
+#popup_happy h3 span{font-size: 24px; float: right;}
+#popup_happy .first{padding: 10px 20px 0 20px; text-align: center; height: 60px;}
+#popup_happy .first span{color:#FF0000}
+#popup_happy .secand{height:36px; margin: 10px; text-align: center; line-height: 36px;}
+#popup_happy .secand .happy_sure{display: inline-block; line-height: 36px; width: 60px; background: #ff9900; color: #fff;
+margin: 0 20px 0 0; cursor: pointer;}
+
+
+
+
+
+
+#popup_sad{height: 160px; width: 360px; position: fixed; left: 50%; top: 50%; margin-left: -180px; 
+margin-top: -180px; background: #fff;background: #eee; border: 5px solid #ccc;display: none;}
+#popup_sad h3{height: 36px; width: 360px; text-align: center;}
+#popup_sad h3 span{font-size: 24px; float: right;}
+#popup_sad .first{padding: 10px 20px 0 20px; text-align: center; height: 60px;}
+#popup_sad .secand{height:36px; margin: 10px; text-align: center; line-height: 36px;}
+#popup_sad .secand .sad_sure{display: inline-block; line-height: 36px; width: 60px; background: #ff9900; color: #fff;
+margin: 0 20px 0 0; cursor: pointer;}
+
+
+
+

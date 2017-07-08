@@ -1,0 +1,109 @@
+ 
+/*****************nav*********************/
+.nav{height: 36px; width: 100%;}
+#nav_inner{height:34px; width: 1200px; margin: 0 auto; border-bottom:2px solid #fd3f49;}
+#nav_inner ul{height:34px; line-height: 34px; width: 100%;}
+#nav_inner ul li{float:left; margin-right:32px;}
+#nav_inner ul li a{color:#ff3c3c; font-weight: bold;}
+#nav_inner ul #all_goods{width: 168px; background: #ff3c3c;padding-left:42px; color:#fff;margin-right:13px;}
+#nav_inner ul #all_goods a{color:#fff;}
+#nav_inner ul span{color:#968d8b;}
+
+
+/*****************banner*********************/
+.banner{height: 398px; width: 100%;}
+.banner .banner_inner{height: 398px; width: 1200px; margin: 0 auto; position: relative;}
+.banner #all_goodslist{height:398px; width:210px; background:#c23131;float:left;}
+.banner #all_goodslist ul{border-top:3px solid #b01d1d;}
+.banner #all_goodslist ul li{line-height: 31px; text-indent: 42px; cursor:pointer;}
+.banner #all_goodslist ul li a{font-size:12px; color:#fff;}
+
+
+.banner #banner_lunbo{height:398px; width:750px;float:left;position: relative;}
+.banner #banner_lunbo img{vertical-align: bottom;}
+.banner #banner_lunbo #banner_lunbo_btn{position: absolute; bottom: 30px; left: 45%;}
+.banner #banner_lunbo #banner_lunbo_btn span{display: inline-block; height: 16px; width: 16px;
+background: #cccccc; margin-left: 20px; cursor: pointer;}
+
+.banner #banner_right{height:398px; width:240px; background:#fff;float:left;}
+.banner #banner_right h3{line-height:35px; width: 215px; margin-left: 14px; border-bottom: 1px dashed #ccc;
+font-size: 14px; font-weight: 500;}
+.banner #banner_right #banner_right_news{margin-left:21px; margin-top:6px;}
+.banner #banner_right #banner_right_news li{line-height: 25px;}
+.banner #banner_right #banner_right_news li a{font-size: 12px; color: #666666;}
+.banner #banner_right #banner_right_news li a span{font-weight: bold;}
+.banner #banner_right #banner_right_news .first a{color:#f03a98;}
+
+/*****************title&&box*********************/
+.phone{height: 475px; width: 100%;}
+.title{height: 70px; width: 1200px; margin: 0 auto; border-bottom: 1px solid #000;}
+.title h3{padding-top: 40px; font-weight: normal; }
+.title h3 a{color: #000;}
+.title ul li{float: left;padding-top: 40px;   }
+.title ul li a{color:#666; font-size: 14px; padding-left: 16px;}
+
+.box_left{height: 400px; width: 238px; border: 1px solid #eeeeee; border-top: none; float: left;}
+.box_left>div{height: 81px; width: 100%; padding-top:38px ;}
+.box_left>div a{width: 79px; display: inline-block; color: #666; font-size: 14px; text-align: center; line-height: 24px;}
+
+.box_right dl{height: 200px; width: 239px; border-right: 1px solid #eee; border-bottom: 1px solid #eee; float: left;}
+.box_right dl dt{height: 130px; width: 239px; text-align: center; padding-top: 20px;}
+.box_right dl dt img{height: 130px; width: 130px;}
+.box_right dl dd{line-height: 24px; width: 239px; text-align: center; font-size: 14px;}
+
+
+
+.phone .phone_inner{height:405px; width: 1200px; margin: 0 auto; margin-bottom: 5px;}
+.compute .compute_inner{height:405px; width: 1200px; margin: 0 auto; margin-bottom: 5px;}
+.shuma .shuma_inner{height:405px; width: 1200px; margin: 0 auto;margin-bottom: 5px;}
+.small .small_inner{height:405px; width: 1200px; margin: 0 auto;margin-bottom: 5px;}
+.big .big_inner{height:405px; width: 1200px; margin: 0 auto;margin-bottom: 5px;}
+
+
+.popup_enter{height: 358px; width: 785px; border: 8px solid #aaaaaa; position: absolute;
+left: 50%; top: 0; border-top:none; background: #fff; margin-left: -400px;}
+
+.popup_enter #close_popup_enter{line-height: 24px; font-size: 24px; height: 24px; width: 100%;}
+.popup_enter #close_popup_enter span{float:right; padding-right: 20px; cursor: pointer;}
+
+
+.popup_enter b{background-image:url(../img/enter/icon/login_popup.png);}
+.popup_enter .middle_inner_header{line-height: 31px;}
+.popup_enter .middle_inner_header span{color:#666; font-size: 12px;}
+.popup_enter .middle_inner_header a{float: right; color: #6689e9; font-size: 12px; padding-right: 37px;}
+
+
+.popup_enter #usernumber{position: relative;}
+.popup_enter #usernumber .popup_enter_left{height: 100%; width: 355px; float: left; padding-left: 70px;
+padding-right: 20px; border-right:1px solid #e5e5e5 ;}
+.popup_enter #usernumber .username_div{height: 50px; width: 330px; border: 1px solid #dedede;}
+.popup_enter #usernumber .username_div #username{border: none; height: 50px; width: 270px;}
+.popup_enter #usernumber .username_div b{height: 50px; width: 56px; display: inline-block; 
+float: left; background-position: -38px 17px;}
+
+.popup_enter #usernumber .password_div{height: 50px; width: 330px; border: 1px solid #dedede; margin-top: 10px;}
+.popup_enter #usernumber .password_div #password{border: none; height: 50px; width: 270px;}
+.popup_enter #usernumber .password_div b{height: 50px; width: 56px; display: inline-block; 
+float: left; background-position: -138px 17px;}
+
+
+.popup_enter #usernumber .keepmsg{line-height: 44px;}
+.popup_enter #usernumber .keepmsg span{line-height: 44px; color: red; font-size: 12px;padding-left: 5px; display: none;}
+.popup_enter #usernumber .keepmsg #keepmsg_enter #keepmsg_one{height: 13px; width: 13px;display: inline-block;
+ margin-right:10px; background-position: -338px -270px;}
+.popup_enter #usernumber .keepmsg #keepmsg_enter{font-size: 12px; color: #aaa;}
+.popup_enter #usernumber .keepmsg #forget{float: right; font-size: 12px; padding-right: 38px; color: #aaa;}
+
+.popup_enter #usernumber  #enter_btn_div{height: 52px;  width: 330px;}
+.popup_enter #usernumber  #enter_btn_div #enter_btn{border: none; height: 52px;  width: 330px;
+border-radius: 5px; background: #ff3c3c; font-size: 16px; color: #fff; cursor: pointer;}
+
+.popup_enter #usernumber  #moreweb{height: 100%; width: 300px; float: right;}
+.popup_enter #usernumber  #moreweb h4{color: #666; font-size: 12px; padding-top: 16px; padding-bottom: 16px;}
+
+.popup_enter #usernumber  #moreweb a{background-image:url(../img/enter/icon/login_popup.png) ;}
+.popup_enter #usernumber  #moreweb .moreweb_one{height: 33px;}
+.popup_enter #usernumber  #moreweb .moreweb_one a{width: 33px; height: 33px; display: inline-block;
+float: left; margin-right: 20px;}
+
+

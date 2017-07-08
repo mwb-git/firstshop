@@ -1,0 +1,79 @@
+
+/*******************header**************************/
+
+.header{height:80px; width: 100%; border-bottom: 1px solid #e1e1e1;}
+.header .header_inner{height: 80px; width: 1200px; margin: 0 auto;}
+.header .header_inner p{padding-top:20px; padding-right: 10px;}
+.header .header_inner p>span{color:#999; padding-left: 14px;}
+.header .header_inner p a:hover{color:red;}
+.header .header_inner .header_inner_enter{color:#0066cc; padding-right: 24px;}
+.header .header_inner .header_inner_help{color: #333; width: 86px; display: inline-block;}
+body em{background-image:url(../img/register/icon/regist.png);}
+.header .header_inner .header_inner_help .help_one{display: inline-block; height: 16px; width: 16px;
+ margin-right: 5px; background-position:-344px 1px;}
+.header .header_inner .header_inner_help .help_two{display: inline-block; width: 12px; height: 12px;
+margin-left: 5px; background-position:-347px -30px;}
+
+
+/*******************middle**************************/
+.middle{height: 532px; width: 100%; border-bottom: 1px solid #f4f4f4;}
+.middle .middle_inner{height: 532px; width: 1200px; margin: 0 auto; background:url(../img/register/r_icon1.png) no-repeat;}
+.middle .middle_inner .form_div{height: 100%; width: 333px; margin: 0 auto;}
+.middle .middle_inner .form_div h3{text-align: center; padding: 40px 0 16px 0; font-size: 24px;}
+
+.middle .middle_inner .form_div>div{position: relative; margin-bottom: 10px;}
+.middle .middle_inner .form_div div span{position:absolute; left:5px; top: 10px;}
+.middle .middle_inner .form_div input{border: none; width: 330px; height: 43px; border: 1px solid #cfcfcf;
+ border-radius: 5px; text-indent: 20px;}
+ 
+ 
+ .middle .middle_inner .form_div .form_register_usernanme #username_layout{display: inline-block;
+ height: 53px; width: 150px; background: #eee; position: absolute; right: -170px; bottom: -5px; 
+ font-size: 12px; font-style: normal; line-height: 22px; padding-left:10px ;}
+.middle .middle_inner .form_div .form_register_usernanme #username_prompt{display: inline-block;
+ height: 40px; width: 150px; background: lightgoldenrodyellow; position: absolute; right: -170px; bottom: 5px; 
+ font-size: 16px; font-style: normal; line-height: 40px; padding-left:10px ; color: darkgoldenrod;}
+ 
+  .middle .middle_inner .form_div .form_register_phonenumber #phonenumber_layout{display: inline-block;
+ height: 53px; width: 150px; background: #eee; position: absolute; right: -170px; bottom: -5px; 
+ font-size: 12px; font-style: normal; line-height: 22px; padding-left:10px ;}
+.middle .middle_inner .form_div .form_register_phonenumber #phonenumber_prompt{display: inline-block;
+ height: 40px; width: 150px; background: lightgoldenrodyellow; position: absolute; right: -170px; bottom: 5px; 
+ font-size: 16px; font-style: normal; line-height: 40px; padding-left:10px ; color: darkgoldenrod;}
+ 
+.middle .middle_inner .form_div .form_register_password #setpassword_layout{display: inline-block;
+ height: 53px; width: 150px; background: #eee; position: absolute; right: -170px; bottom: -5px; 
+ font-size: 12px; font-style: normal; line-height: 22px; padding-left:10px ;}
+.middle .middle_inner .form_div .form_register_password #setpassword_prompt{display: inline-block;
+ height: 40px; width: 150px; background: lightgoldenrodyellow; position: absolute; right: -170px; bottom: 5px; 
+ font-size: 16px; font-style: normal; line-height: 40px; padding-left:10px ; color: darkgoldenro;}
+
+.middle .middle_inner .form_div .form_register_check #checkpassword_prompt{display: inline-block;
+ height: 40px; width: 150px; background: lightgoldenrodyellow; position: absolute; right: -170px; bottom: 5px; 
+ font-size: 16px; font-style: normal; line-height: 40px; padding-left:10px ; color: darkgoldenro;}
+
+.middle .middle_inner .form_div .form_register_mail #mail_layout{display: inline-block;
+ height: 53px; width: 150px; background: #eee; position: absolute; right: -170px; bottom: -5px; 
+ font-size: 12px; font-style: normal; line-height: 22px; padding-left:10px ;}
+.middle .middle_inner .form_div .form_register_mail #mail_prompt{display: inline-block;
+ height: 40px; width: 150px; background: lightgoldenrodyellow; position: absolute; right: -170px; bottom: 5px; 
+ font-size: 16px; font-style: normal; line-height: 40px; padding-left:10px ; color: darkgoldenro;}
+
+.middle .middle_inner .form_div .form_register_authcoder input{ width: 195px;}
+.middle .middle_inner .form_div .form_register_authcoder .gain_authcoder{display: inline-block;
+background:#57565f; color: #fff; text-align: center; height: 43px; width: 126px; position: absolute;
+right: 0px; top: 0;  line-height: 43px; border-radius: 5px; cursor: pointer; border: 1px solid #57565f;}
+
+.middle .middle_inner .form_div .deal{line-height: 43px;}
+.middle .middle_inner .form_div .deal b{color:#666; padding-left: 15px;}
+
+.middle .middle_inner .form_div .form_register_btn input{background:#ff3c3c; color: #fff; 
+font-size: 14px; cursor: pointer;}
+
+
+/*******************end**************************/
+.end{height:80px; width: 100%;}
+.end_inner{height:70px; width: 1200px; margin: 0 auto; padding-top: 10px;}
+.end .end_inner p{padding-top: 15px; color: #333; font-size: 12px; text-align: center;}
+.end .end_inner p a{color: #333; padding: 0 10px;}
+.end .end_inner p a:hover{color: red;}
